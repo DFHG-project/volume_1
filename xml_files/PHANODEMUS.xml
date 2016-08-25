@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1_PHANODEMUS">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Digital Fragmenta Historicorum Graecorum</title>
+            <editor>Karl Müller</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>Alexander von Humboldt Stiftung</funder>
+            <principal>Monica Berti</principal>
+            <respStmt>
+                <persName xml:id="MB">Monica Berti</persName>
+                <resp>Editor-in-chief</resp>
+            </respStmt>
+            <respStmt>
+                <persName xml:id="GRC">Gregory R. Crane</persName>
+                <resp>Associate editor</resp>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <authority/>
+            <idno type="filename">PHANODEMUS.xml</idno>
+            <availability>
+                <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</licence>
+            </availability>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <date>2016</date>
+        </publicationStmt>
+        <sourceDesc>
+            <listBibl xml:lang="la">
+                <biblStruct>
+                    <monogr>
+                        <title>Fragmenta Historicorum Graecorum</title>
+                        <editor>
+                            <persName>
+                                <name xml:lang="la">Carolus Mullerus</name>
+                                <addName xml:lang="de">Karl Müller</addName>
+                            </persName>
+                            <persName>
+                                <name xml:lang="la">Theodorus Müller</name>
+                                <name xml:lang="de">Theodor Mullerus</name>
+                            </persName>
+                        </editor>
+                        <author ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus">PHANODEMUS</author>
+                        <imprint>
+                            <publisher>Ambroise Firmin-Didot</publisher>
+                            <pubPlace>Paris, France</pubPlace>
+                            <date>1841</date>
+                        </imprint>
+                        <biblScope unit="volume">Volumen primum</biblScope>
+                    </monogr>
+                    <ref target="https://archive.org/details/fragmentahistori01mueluoft">Internet Archive</ref>
+                </biblStruct>
+            </listBibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="grc">Greek</language>
+        </langUsage>
+    </profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="edition" subtype="volume" n="1">
+	<div type="textpart" subtype="section">
+	<head>
+<title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta">PHANODEMI FRAGMENTA</title>
+</head>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.atthidis">ATTHIDIS</title></ab>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.atthidis.libri_secundi">LIBRI SECUNDI</title></ab>
+
+			<cit n="1">
+				<bibl>Athen. IX, 11, p. 392, D:</bibl>
+				<quote>Περὶ δὲ τῆς γενέσεως αὐτῶν (ὀρτύγων) Φανόδημος ἐν δευτέρῳ Ἀτθίδος φησὶν, ὡς κατεῖδεν Ἐρυσίχθων Δῆλον τὴν νῆσον, τὴν ὑπὸ τῶν ἀρχαίων καλουμένην Ὀρτυγίαν, παρὰ τὰς ἀγέλας τῶν ζῴων τούτων φερομένας ἐκ τοῦ πελάγους ἱζάνειν εἰς τὴν νῆσον, διὰ τὸ εὔορμον εἶναι.</quote>
+				<note type="translation">De earum (coturnicum) ortu Phanodemus secundo libro Rerum Atticarum sic scribit: «Conspexit [tenuit?] Erysichthon Delum insulam, quæ ab antiquis Ortygia nominata est ex eo, quod greges harum avium e mari huc delatarum in insula considunt, ut quæ ipsis commodam stationem præbeat.»</note>
+				<note type="commentary">Recipienda esse videtur Casauboni conjectura κατεῖχεν pro κατεῖδεν; cf. Paus. I, 18 et 31. In Phanodemi verbis deest haud dubie aliquid, quod ad coturnicum generationem spectet.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.atthidis.libri_quarti">LIBRI QUARTI</title></ab>
+
+			<cit n="2">
+				<bibl>Schol. Aristoph. Av. 873:</bibl>
+				<quote>Κολαινὶς ... φησὶ δὲ Ἑλλάνικος, Κόλαινον Ἕρμου ἀπόγονον ἐκ μαντείου ἱερὸν αὐτῆς ἱδρύσασθαι Κολαινίδος, Καὶ Φανόδημος ἐν τῇ τετάρτῃ.</quote>
+				<note type="translation">Colænis. Hellanicus tradit, Colænum, a Mercuno ortum, ex oraculo templum Dianæ Colænidis exstruxisse, et Phanodemus libro quarto.</note>
+				<note type="commentary"/>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.atthidis.libri_quinti">LIBRI QUINTI</title></ab>
+
+			<cit n="3">
+				<bibl>Suidas:</bibl>
+				<quote>Παρθένοι. Τὰς Ἐρεχθέως θυγατέρας οὕτως ἔλεγον καὶ ἐτίμων. Ἦσαν δὲ ἀριθμὸν ἕξ. Πρεσβυτάτη μὲν Πρωτογένεια· δευτέρα δὲ Πανδωρα· τρίτη Πρόκρις· τετάρτη Κρέουσα· πέμπτη Ὠρείθυια· ἕκτη Χθονία. Τούτων λέγεται Πρωτογένεια καὶ Πανδώρα δοῦναι ἑαυτὰς σφαφῆναι ὑπὲρ τῆς χώρας, στρατιᾶς ἐλθούσης ἐκ Βοιωτίς. Ἐσφαγιάσθησαν δὲ ἐν τῷ Ὑακίνθῳ καλουμένῳ πάγῳ ὑπὲρ τῶν Σφενδονίων. Διὸ καὶ οὕτως καλοῦνται παρθένοι Ὑακινθίδες, καθάπερ μαρτυρεῖ Φανόδημος ἐν τῇ πέμπτῃ Ἀτθίδι, μεμνημένος τῆς τιμῆς αὐτῶν.</quote>
+				<note type="translation">Virgines. Sic vocabant Erechthei filias, quas colebant hoc nomine. Erant numero sex. Earum natu maxima fuit Protogenia , secunda Pandora, tertia Procris, quarta Creusa, quinta Orithyia, sexta Chthonia. Ex his Protogenia et Pandora se ultro pro patria jugulandas præbuisse dicuntur, quum exercitus ex Bœotia irrupisset. Mactatæ autem fueruut in colle, qui vocatur Hyacinthus, supra Sphendonios (vel potius Sphendaleos) sito: unde etiam Hyacinthides vocantur, ut testatur Phanodemus libro quinto Rerum Atticarum, mentionem faciens honoris iis tributi.</note>
+				<note type="commentary">Eadem apud Apostolium XV, 84. Pearsonius bene scripsit ἐτίμων· ἦσαν κ, τ. λ. Pro vulg. καὶ ἐτιμώρησαν δὲ τὸν ἀρ. ἕξ. Commendat istam scripturam Hesychius: Παρθένοι, τὰς Ἐρεχθέως οὕτως ἔλεγον καὶ ἐτίμων. Pro Σφενδονίην Valcken. Et Hemsterh. Legendum censent Σφενδαλέων. Nam Σφενδάλη δῆμος Ἱπποθοωντίδος φυλῆς, Stephan. B.</note>
+			</cit>
+
+			<cit n="3a">
+				<bibl>Natal. Com. Mythol. IX, 10, p. 996:</bibl>
+				<quote>Quod autem Ægeus, Pandionis filius, patri in regno successerit, ita scriptum est a Phanodemo in libro quinto Rerum Atticarum: Αἰγεὺς ὁ Πανδίονος υἱὸς βασιλεύων Ἀθηνῶν γαμεῖ Μήταν πρώτον τὴν Ὁπλῆτος, δεύτερον Χαλκιόπην Ῥηξήνορος.</quote>
+				<note type="translation">Ægeus, Pandionis filius, Athenis imperans, primam uxorem duxit Metam, Hopletis, alteram Chalciopen, Rhexenoris.</note>
+				<note type="commentary">Num vero hæc Natalis ex Phanodemo petiverit, vel alio, qui Phanodemum ante oculos habuit, an fraudulenter sub auctoris nostri nomine vendiderit, in medio relinquendum.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.atthidis.libri_sexti">LIBRI SEXTI</title></ab>
+<pb n="366"/>
+
+			<cit n="4">
+				<bibl>Suidas V. Τριτοπάτορες.</bibl>
+				<quote>... Φανόδημος δὲ ἐν ἕκτῳ φησὶν, ὅτι μόνοι οἱ Ἀθηναῖοι θύουσί τε καὶ εὔχονται αὐτοῖς ὑπὲρ γενέσεως παίδων, ὅταν γαμεῖν μέλλωσιν· ἐν δὲ τῷ Ὀρφέως Φυσικῷ ὀνομάζεσθαι τοὺς Τριτοπάτορας Ἀμαλκείδην καὶ Πρωτοκλέα καὶ Πρωτοκρέοντα, θυρωροὺς καὶ φύλακας ὄντας τῶν ἀνέμων.</quote>
+				<note type="translation">Phanodemus libro sexto dicit, solos Athenienses iis sacrificare et vota facere pro liberorum generatione, quando uxores sint ducturi; in Orphei vero Physico Tritopatores vocari, Amalcidem, Protoclem et Protocreontem, qui ventorum janitores et custodes sint.</note>
+				<note type="commentary">Cf. Etym. M., Phot.et Phavor. v. Τριτοπάτορες, Tzetz. ad Lycophr. 738. Apud Etym. M. et Phavorinum legitur ἐν δὲ τοῖς Ὀρφέως φυσικοῖς. Pro Πρωτοκλέοντα, ut vulgo legitur in Suidæ loco, Phavorinus et Tzetzes exhibent Πρωτοκρέοντα, quod recepi; cf. Welcker de Æsch. Trilog. p. 152.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.atthidis.libri_septimi">LIBRI SEPTIMI</title></ab>
+
+			<cit n="5">
+				<bibl>Athen. III, 30, p. 144, C:</bibl>
+				<quote>Αἰγύπτιοι τὸν ὑποξίζοντα ἄρτον κυλλάστιν καλοῦσι. Μνημονεύει δ ̓ αὐτοῦ Ἀριστοφάνης ἐν Δαναίσι ... μνημονεύουσιν αὐτοῦ καὶ Ἑκαταῖος καὶ Ἡρόδοτος καὶ ὁ Φανόδημος ἐν ἑβδόμῃ Ἀτθίδος.</quote>
+				<note type="translation">Ægyptii subacidum panem cyllastin vocant, cujus meminit Aristophanes in Danaidibus. Ejusdem meminere etiam Hecatæus, Herodotus et Phanodemus libro septimo Atthidis.</note>
+				<note type="commentary">Cf. Herodot II, 77, Hesych. v. Κύλλαστις, Jablonskius Vocc. Ægypt. p. 17.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.atthidis.libri_noni">LIBRI NONI</title></ab>
+
+			<cit n="6">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Λεωκόρειον, Δημοσθένης ἐν τῷ κατὰ Κόνωνος. Τὸ δὲ Λεωκόρειον εἶναί φησι Φανόδημος ἐννάτῳ Ἀτθίδος ἐν μέσῳ τῷ Κεραμεικῷ.</quote>
+				<note type="translation">Leocorium. Demosthenes adversus Cononem. Leocorium Phanodemus in nono de Attica libro ait esse in medio Ceramico.</note>
+				<note type="commentary">Phavorin. h. v. eadem refert.</note>
+			</cit>
+		</div>
+			</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.phanodemus.phanodemi_fragmenta.fragmenta_incertae_sedis">FRAGMENTA INCERTAE SEDIS</title></ab>
+
+		<cit n="7">
+			<bibl>Proclus in Comment. ad Platon. Timæum, p. 30, ed. Basil.:</bibl>
+			<quote>Τοὺς δὲ Ἀθηναίους Καλλισθένης μὲν καὶ Φανόδημος πατέρας τῶν Σαϊτῶν ἱστοροῦσι γενέσθαι.</quote>
+			<note type="translation">Callisthenes et Phanodemus tradunt, Saitas ab Atheniensibus ortos esse.</note>
+			<note type="commentary">Platonis locus est in Timæo p. 11, E. Cf. Theopomp. fr. 172.</note>
+		</cit>
+
+		<cit n="8">
+			<bibl>Dionys. Halic. Ant. Rom. I, 61, p. 50 Sylb.:</bibl>
+			<quote>Τεῦκρον δὲ ἄλλοι τε πολλοὶ καὶ Φανόδημος, ὁ τὴν Ἀττικὴν γράψας ἀρχαιολογίαν, ἐκ τῆς Ἀττικῆς μετοικῆσαί φασιν εἰς τὴν Ἀσίαν, δήμου Ξυπεταίας ἄρχοντα· καὶ πολλὰ παρέχονται τοῦ λόγου τεκμήρια, κρατήσαντα δὴ χώρας συχνῆς τε καὶ ἀγαθῆς, καὶ οὐ πολὺ τὸ ἐπιχώριον γένος ἐχούσης, ἀσμένως τὸν Δάρδανον ἰδεῖν, καὶ τὸ σὺν αὐτῷ παραγενόμενον Ἑλληνικὸν, τῶν τε πρὸς τοὺς βαρβάρους πολέμων συμμαχίας ἕνεκα, καὶ ἵνα ἡ γῆ μὴ ᾖ ἔρημος.</quote>
+			<note type="translation">Teucrum quum alii multi, tum etiam Phanodemus, Atticarum antiquitatum scriptor, ex Attica in Asiam migrasse, et Xypetensis demi principem fuisse tradunt. Multis autem argumentis suorum verborum fidem faciunt. Quum igitur agrum amplum et bonum sibi quæsisset, qui parvum indigenarum numerum habebat, Dardanum aiunt eum lubenter vidisse, ceterosque Græcos qui cum eo venerant, tum ut in bellis contra barbaros gerendis eorum societate uteretur, tum etiam ne suus ager maneret desertus.</note>
+			<note type="commentary">Ξυπεταία pro vulg. Ἐξποταιέως est Meursii (in Popul. Att. s. V. Ξυπέτη) conjectura, quæ firmatur Strabonis loco lib. XIII, p. 604, ubi traditur, esse nonnullorum scriptt. sententiam, Teucrum ex illo Demo in Asiam migrasse.</note>
+		</cit>
+
+		<cit n="9">
+			<bibl>Schol. Aristoph. Vesp. 1238 (1190) de scolio quodam, cujus hoc initium Aristophanes attulit:</bibl>
+			<quote>Ἀδμήτου λόγον, ὦ ταῖρε, μαθὼν, τοὺς ἀγαθοὺς φίλει· quod pluribus explicans inter alia hoc tradit: Αἰτὸς δὲ (ὁ Ἀρτεμίδωρος) φησὶ, Φαινόδημον λέγειν, ὅτι φυγὰς ἐκ Φερῶν Ἄδμητος ἦλθε πρὸς Θησέα, τὸν Ἀλκήστιδος καὶ Ἱππάσου νεώτατον παῖδα, καὶ κατῳκίσθη παρ ̓ αὐτοῦ ἐν τῆ αὐτοῦ χώρᾳ, εἰς ὃν τὸ σκόλιον.</quote>
+			<note type="translation">«Admeti dictum, amice, si cognoveris, bonos ama.»  Ipse (Artemidorus) dicit, Phanodemum narrare, Admetum Pheris expulsum ad Theseum venisse, Alcestidis et Hippasi filium natu minimum, huncque in sua terra ei dedisse sedem, in quem scolium illud compositum sit.</note>
+			<note type="commentary">Fabricius in Bibl. gr. I, p. 695 ed. antiq. pro Φαινόδημον scripsit Φανόδημον, et sic cod. Venet.</note>
+		</cit>
+
+		<cit n="10">
+			<bibl>Etymolog. M. p. 747 ed. Sylb.:</bibl>
+			<quote>Ταυροπόλον, τὴν, τὴν Ἄρτεμιν· ... οἱ δὲ λέγουσιν, ὅτι τῶν Ἑλλήνων βουλομένων ἀνελεῖν τὴν Ἰφιγένειαν ἐν Αὐλίδι, ἡ Ἄρτεμις ἀντέδωκεν ἔλαφον· κατὰ δὲ Φανόδημον, ἄρκτον.</quote>
+			<note type="translation">Ταυροπόλος, Diana. Nonnulli dicunt, quum Græci Aulide mactare vellent Iphigeniam, Dianam substituisse (cervam, secundum Phanodemum vero ursam.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="367"/>
+
+		<cit n="11">
+			<bibl>Tzetzes ad Lycophr. 183:</bibl>
+			<quote>Ἡ δὲ Ἄρτεμις αὐτὴν (τὴν Ἰφιγένειαν) ἐλεήσασα, κατὰ Φανόδημον τὸν ἱστορικὸν, εἰς ἄρκτον μετέβαλε.</quote>
+			<note type="translation">Diana Iphigeniam, misericordia permota, secundum Phanodemum historicum, in ursam convertit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="12">
+			<bibl>Suidas:</bibl>
+			<quote>Ἐπὶ Παλλαδίῳ, δικαστήριον Ἀθήνησιν, ἐν ᾧ οἱ Ἐφέται ἀκουσίου φόνου ἐδίκαζον. Ἀργεῖοι γὰρ ἀπὸ. Ἰλίου πλέοντες, ἡνίκα προσέσχον Φαλήροις, ὑπὸ Ἀθηναίων ἀγνούμενοι ἀνῃρέθησαν. Ὕστερον δὲ Ἀκάμαντος γνωρίσαντος, καὶ τοῦ Παλλαδίου εὑρεθέντος, κατὰ χρησμὸν αὐτόθι τὸ δικαστήριον ἀπέδειξαν, ὡς Φανόδημος.</quote>
+			<note type="translation">Ad Palladium. Sic Athenis vocabatur Dicasterium, in quo Ephetæ de cæde, quam quis invitus vel imprudens commiserat, judicabant. Argivi enim ab Ilio redeuntes, quum ad Phalera appulissent, ab Atheniensibus, quinam essent ignorantibus, interfecti fuerunt. Postea vero, quum Acamas hoc ipsis indicasset, et Palladium inventum fuisset, ex oraculo Dicasterium Athenienses illic condiderunt, ut Phanodemus tradit.</note>
+			<note type="commentary">Eustathius ad Odyss. p. 1419 eadem iisdem  verbis ex Pausaniæ Lexico affert. Cf. Hesych., Harpocrat., Phavor. v. Ἐπὶ Παλλαδίῳ, qui cum Suida consentiunt. Apostolius VΙΙΙ, 42 habet ἑκουσίου pro ἀκουσίου. Perperam. Cf. Müller. in Æschyl. Eum. p. 155 et quos laudat Hermann. Antiquit. § 104.</note>
+		</cit>
+
+		<cit n="13">
+			<bibl>Athenæus X, 10, p. 437, C:</bibl>
+			<quote>Τὴν δὲ τῶν Χοῶν ἑορτὴν, τὴν Ἀθήνησιν ἐπιτελουμένην, Φανόδημός φησι Δημοφῶντα τὸν βασιλέα βουλόμενον ὑποδέξασθαι παραγενόμενον τὸν Ὀρέστην Ἀθήναζε· πρὸς δὲ τὰ ἱερὰ οὐ θέλων αὐτὸν προσιέναι, οὐδ ̓ ὁμόσπονδον γενέσθαι, μήπω δικασθέντα, ἐκέλευσε συγκλεισθῆναι τά τε ἱερά, καὶ χόα οἴνου ἑκάστῳ παρατεθῆναι, τῷ πρώτῳ ἐκπιόντι εἰπὼν ἆθλον δοθήσεσθαι πλακοῦντα. Παρήγγειλέ τε καὶ τοῦ πότου παυσαμένους τοὺς μὲν στεφάνους, οἷς ἐστεφανοῦντο, πρὸς τὰ ἱερὰ μὴ τιθέναι, διὰ τὸ ὁμωρόφους γενέσθαι τῷ Ὀρέστῃ, περὶ δὲ τὸν χόα τὸν ἑαυτοῦ ἕκαστον περιθεῖναι, καὶ τῇ ἱερείᾳ ἀποφέρειν τοὺς στεφάνους πρὸς τὸ ἐν Λίμναις τέμενος, ἔπειτα θύειν ἐν τῷ ἱερῷ τὰ ἐπίλοιπα· καὶ ἔκτοτε τὴν ἑορτὴν κληθῆναι χόας.</quote>
+			<note type="translation">Congiorum (Choarum) festum, quod Athenis celebratur, institutum esse scribit Phanodemus a Demophonte rege, quum Orestem hospitio excipere vellet, qui Athenas pervenerat. Quem quum ad sacra admittere nollet, nec libationum participem facere, ut qui nondum judicatus fuisset, claudi templa jussit, et unicuique congium apponi, primo qui ebibisset præmium se daturum pollicitus placentam. Simulque jussit, ut finita compotatione coronas, quibus cincti essent, non ad templa deponerent, quoniam cum Oreste sub eodem tecto una fuissent; sed suum quisque congium corona cingeret, utque ita coronas ad antistitam fani deferrent quod. In Paludibus est, deinde vero reliqua sacra in templo peragerent: indeque Choas (Congios) nominatum esse id festum.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="14">
+			<bibl>Athenæus XI, 3, p. 465, A:</bibl>
+			<quote>Φανόδημος δὲ πτὸς τῷ ἱερῷ φησι τοῦ ἐν Λίμναις Διονύσου τὸ γλεῦκος φέροντας τοὺς Ἀθηναίους ἐκ τῶν πίθων τῷ θεῷ κιρνάναι, εἶτ ̓ αὑτοῖς προσφέρεσθαι, ὅθεν καὶ Λιμναῖον κληθῆναι τὸν Διόνυσον, ὅτι μιχθὲν τὸ γλεῦκος τῷ ὕδατι τότε πρῶτον ἐπόθη κεκραμένον· διόπερ ὀνομασθῆναι τὰς πηγὰς νύμφας καὶ τιθήνας τοῦ Διονύσου, ὅτι τὸν οἶνον αὐξάνει τὸ ὕδωρ κιρνάμενον.</quote>
+			<note type="translation">Phanodemus ait «ad aedem Bacchi qui in Limnis (Paludibus) est, mustum ferentes Athenienses, e doliis deo misce. re, deinde ipsos bibere: unde etiam Limnæum nominatum Bacchum, quia mixtum aqua mustum tunc primum biberint temperatum: eademque ex causa fontes appellatos esse nymphas et nutrices Bacchi, quod aqua admixta augeat vinum.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="15">
+			<bibl>Athen. IV, 19, p. 168, A:</bibl>
+			<quote>Ὅτι τοὺς ἀσώτους καὶ τοὺς μὴ ἔκ τινος περιουσίας ζῶντας τὸ παλαιὸν ἀνεκαλοῦντό τε οἱ Ἀρεοπαγῖται καὶ ἐκολαζον, ἱστόρησαν Φανόδημος καὶ Φιλόχορος.</quote>
+			<note type="translation">Fuisse olim institutum, ut qui luxuriosi essent et qui non e propria re familiari viverent, eos Areopagitæ ad tribunal suum vocarent punirentque, docent Phanodemus et Philochorus.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="16">
+			<bibl>Plutarch. Themistocl. 13:</bibl>
+			<quote>Ἄμα δ ̓ ἡμέρᾳ Ξέρξης μὲν ἄνω καθῆτο τὸν στόλον ἐποπτεύων καὶ τὴν παράταξιν, ὡς μὲν Φανόδημός φησιν, ὑπὲρ τὸ Ἡράκλειον, ᾗ βραχεῖ πόρῳ διείργεται τῆς Ἀττικῆς ἡ νῆσος (Σαλαμίς), ὡς δ ̓ Ἀκεστόδωρος, ἐν μεθορίῳ τῆς Μεγαρίδος, ὑπὲρ τῶν καλουμένων κεράτων.</quote>
+			<note type="translation">Ubi diluxit, Xerxes in edito consedit, classem et aciem speculans, ut Phanodemus ait, supra fanum Herculis, qua angusto freto dirimitur ab Attica Salamis, ut Acestodorus, in Megaridis confraio super colles, quos Cerata appellant.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="17">
+			<bibl>Idem Cim. 12, narrat,</bibl>
+			<quote>Persarum præfectum ad Eurymedontem ταῖς ναυσὶ παρορμεῖν, οὐκ ὄντα μάχεσθαι τοῖς Ἕλλησι πρόθυμον, ἀλλὰ προσδεχόμενον ὀγδοήκοντα ναῦς Φοινίσσας ἀπὸ Κύπρου προσπλεούσας. Ταύτας φθῆναι βουλόμενος ὁ Κίμων ἀνήχθη, βιάζεσθαι παρεσκευασμένος, ἂν ἑκόντες μὴ ναυμαχῶσιν. Οἱ δὲ πρῶτον μὲν, ὡς μὴ βιασθεῖεν, εἰς τὸν ποταμὸν εἰσωρμίσαντο, προσφερομένων δὲ τῶν Ἀθηναίων, ἀντεξέπλευσαν, ὡς ἱστορεῖ Φανόδημος, ἑξακοσίαις ναυσὶν, ὡς δ ̓ Ἔφορος, πεντήκοντα καὶ τριακοσίαις.</quote>
+			<note type="translation">Persam classem ad Eurymedontem in statione habuisse, nec fuisse ad certandum cum Graecis promtum, sed octaginta naves Phœnissas ex Cypro adventantes præstolatum esse. Ad has prævertendas Cimon in altum pro vectus est, si detrectarent certamen, vi eos adacturus, Illi primo, ne cogi possent, amnem subierunt. Ceterum, ubi ingruerunt Athenienses, sexcentis navibus, ut scribit Phanodemus, ut Ephorus, trecentis quinquaginta occurrerunt ei.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="368"/>
+
+		<cit n="18">
+			<bibl>Plutarch. Cimon. c. 19, p. 491, A: Cimon decessit in obsidione Citii:</bibl>
+			<quote>Τελευτῶν τοὺς περὶ αὑτὸν ἐκέλευσεν εὐθὺς ἀποπλεῖν, ἀποκρυψαμένους τὸν θάνατον αὐτοῦ. Καὶ συνέβη, μήτε τῶν πολεμίων, μήτε τῶν συμμάχων αἰσθομένων, ἀσφαλῶς αὐτοὺς ἀνακομισθῆναι, στρατηγουμένους ὑπὸ Κίμωνος, ὥς φησι Φανόδημος, τεθνηκότος ἐφ ̓ ἡμέρας τριάκοντα.</quote>
+			<note type="translation">Cimon moriens monuit suos ut extemplo discederent, et mortem suam tegerent. Contigit autem, ut nemine sentiente neque hostium neque sociorum, illi reverterentur incolumes ductu auspiciisque Cimonis, ut Phanodemus ait, dies jam triginta defuncti.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="19">
+			<bibl>Athen. I, 17, p. 20, A, postquam plures θαυματοποιοὶ et γελωτοποιοὶ memorati sunt, hoc additur:</bibl>
+			<quote>Διοπείθης δὲ ὁ Λοκρὸς, ὥς φησι Φανόδημος, παραγενόμενος εἰς Θήβας, καὶ ὑποζωννύμενος οἴνου κύστεις μεστὰς καὶ γάλακτος, καὶ ταύτας ἀποθλίβων, ἀνιμᾷν ἔλεγεν ἐκ τοῦ στόματος.</quote>
+			<note type="translation">Diopithes Locrus, ut ait Phanodemus, Thebis Juum adesset, succinctus vesicas partim vino partim lacte repletas, his compressis, ex ore se liquorem haurire simulavit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="20">
+			<bibl>Schol. Hesiod. Ad Theog. 913, p. 303. de raptu proserpinæ:</bibl>
+			<quote>Ἡρπάσθαι δὲ αὐτήν φασιν οἱ μὲν ἐκ Σικελίας, Βακχυλίδης δὲ ἐκ Κρήτης, Ὀρφεὺς ἐκ τῶν περὶ τὸν ὠκεανὸν τόπων, Φανόδημος δὲ ἀπὸ τῆς Ἀττικῆς, Δημάδης δὲ ἐν νάπαις.</quote>
+			<note type="translation">Proserpinam alii dicunt raptam esse ex Sicilia, Bacchylides vero ex Creta, Orpheus ex loco prope Oceanum sito, Phanodemus ex Attica, Demades in saltibus.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="21">
+			<bibl>Eustath. ad Iliad. Z. p. 648, 38:</bibl>
+			<quote>Φαύλως οὖν ὁ Φανόδημος Ἀφροδίτην νομίζει τὴν Δάειραν καὶ τὴν αὐτὴν τῇ Δήμητρι λέγει.</quote>
+			<note type="translation">Male Phanodemus Dairam esse Venerem censet, eandemque non differre a Cerere.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="22">
+			<bibl>Harpocratio:</bibl>
+			<quote>Χαλκεῖα, Ὑπερίδης ἐν τῷ κατὰ Δημέου ξενίας. Τὰ Χαλκεῖα ἐορτὴ παρ ̓ Ἀθηναίοις ἀγομένη Πυανεψιῶνος ἔνῃ καὶ νέᾳ, χειρώναξι κοινὴ, μάλιστα δὲ χαλκεῦσιν, ὥς φησιν Ἀπολλώνιος ὁ Ἀχαρνεύς. Φανόδημος δὲ οὐκ Ἀθηνᾷ φησιν ἄγεσθαι τὴν ἑορτὴν, ἀλλὰ Ἡφαίστῳ.</quote>
+			<note type="translation">Χαλκεῖα, Hyperides in oratione contra Demeam de peregrinitate. Τὰ Χαλκεῖα, apud Athenienses festum, quod Minervæ celebrabatur trigesimo die mensis Pyanepsionis, a manuariis artificibus universis, maxime vero a fabris ærariis, ut ait Apollonius Acharnensis. Ceterum Phanodemus in honorem Vulcani, non Minervæ, id festum agitari testatur.</note>
+			<note type="commentary">Et Phavorin., ubi eadem  leguntur, Etym. M.,Pollux VII, 105. V. Welcker. de Æschyl. Trilog. p. 290.</note>
+		</cit>
+
+		<cit n="23">
+			<bibl>Hesych.:</bibl>
+			<quote>Γαλεοὶ, μάντεις· οὗτοι κατὰ τὴν Σικελίαν ᾤκησαν, καὶ γένος τὶ, ὥς φησι Φανόδημος καὶ Ῥίνθων Ταραντῖνοι.</quote>
+			<note type="translation">Galei, vates; hi in Sicilia habitabant, et quidem ut gens, auctoribus Phanodemo et Rhinthone Tarentino.</note>
+			<note type="commentary">Editores recte scripserunt Ταραντῖνος pro Ταραντῖνοι. Phavorinus hæc repetivit, nisi quod omisit καὶ Ῥίνθων Ταραντῖνοι. De vatibus istis cf. Cic. De divin. I, 20, Ælian. V. H. XII, 46, Steph. B. V, Γαλεῶται.</note>
+		</cit>
+
+		<cit n="24">
+			<bibl>Hesychius s. v. Ταῦρος:</bibl>
+			<quote>... Φανόδημος (φησὶ) ρὰς κριθὰς προσαγορεύεσθαι ταῦρον, ὅτι κέρας ἔχουσιν.</quote>
+			<note type="translation">Taurus. Phanodemus ait, hordeum appellari taurum, quod habeat cornu.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="25">
+			<bibl>Hesychius:</bibl>
+			<quote>Ἀχάνας τινὲς μὲν Περσικὰ μέτρα, Φανόδημος δὲ κίστας, εἰς ἃς κατετίθεντο τοὺς ἐπισιτισμοὺς οἱ ἐπὶ θεωρίας ἰόντες, οἱ εἰς θεοὺς στελλόμενοι (codex τιλλόμενοι).</quote>
+			<note type="translation">Achanas nonnulli esse putant mensuras Persicas, Phanodemus vero cistas, in quibus cibaria reponebant, qui legationes sacras obibant.</note>
+			<note type="commentary">Schol. ad Aristoph. Acharn. 109, Suidas, Phavorinus h. v. et Eustath. ad Homer., p. 1446 et 1854 Rom. eadem fere habent, sed Phanodemum non nominant. Verba οἱ εἰς θεοὺς στελλόμενοι glossema esse sponte intelligitur.</note>
+		</cit>
+<pb n="369"/>
+
+		<cit n="26">
+			<bibl>Harpocrat.:</bibl>
+			<quote>Ἑκάτης νῆσος, Λυκοῦργος κατὰ Μενεσαίχμου. Πρὸ τῆς Δήλου κεῖταί τι νησύδριον, ὅπερ ὑπ ̓ ἐνίων καλεῖται Ψαμμητίχη, ὡς Φανόδημος ἐν πρώτῃ Δηλιακῶν. Ψαμμητίχην δὲ κεκλῆσθαί φησιν ὁ Σημὸς ἐν τῇ πρώτῃ, διὰ τὸ τοῖς Ψαμμήτοις τιμᾶσθαι τὴν θεόν. Ψάμμητα δ ̓ ἐστὶ ψαιστῶν τις ἰδέα.</quote>
+			<note type="translation">Hocates insula. Lycurgus contra Menesæchmum. Parva ante Delum sita est insula, a nonnullis Psammetiche dicta, teste Phanodemo in primo Deliacorum: hujusque nominis rationem Semus libro primo tradit, quod Hecate Psammetis colatur; Psammeta enim sunt libi species.</note>
+			<note type="commentary">Phavorinus omisit ἐν πρώτῃ ante Δηλιακῶν et scripsit Ψαμμηδύχη; Suidas qui Phanodemum non nominat, Ψαμμίτη exhibet, pro Ψαμμηδίχη, et Ψάμμιτα pro Ψάμμητα.—Monuimus in dissert. de Phanodemi scriptis, non esse, cur Phanodicum pro Phanodemo in hoc loco substituamus autcum Siebeli scribamus: ... Ὡς Φανόδημος· ἐν δὲ πρώτῃ Δηλ. Ψαμμ. κεκλ. Φησὶν ὁ Σῆμος διὰ τὸ τοῖς Ψαμμήτοις τιμᾶσθαι τὴν θεόν.</note>
+		</cit>
+		</div>
+	</div>
+</div>
+<pb n="370"/>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1_ANTIOCHUS">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Digital Fragmenta Historicorum Graecorum</title>
+            <editor>Karl Müller</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>Alexander von Humboldt Stiftung</funder>
+            <principal>Monica Berti</principal>
+            <respStmt>
+                <persName xml:id="MB">Monica Berti</persName>
+                <resp>Editor-in-chief</resp>
+            </respStmt>
+            <respStmt>
+                <persName xml:id="GRC">Gregory R. Crane</persName>
+                <resp>Associate editor</resp>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <authority/>
+            <idno type="filename">ANTIOCHUS.xml</idno>
+            <availability>
+                <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</licence>
+            </availability>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <date>2016</date>
+        </publicationStmt>
+        <sourceDesc>
+            <listBibl xml:lang="la">
+                <biblStruct>
+                    <monogr>
+                        <title>Fragmenta Historicorum Graecorum</title>
+                        <editor>
+                            <persName>
+                                <name xml:lang="la">Carolus Mullerus</name>
+                                <addName xml:lang="de">Karl Müller</addName>
+                            </persName>
+                            <persName>
+                                <name xml:lang="la">Theodorus Müller</name>
+                                <name xml:lang="de">Theodor Mullerus</name>
+                            </persName>
+                        </editor>
+                        <author ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.antiochus">ANTIOCHUS</author>
+                        <imprint>
+                            <publisher>Ambroise Firmin-Didot</publisher>
+                            <pubPlace>Paris, France</pubPlace>
+                            <date>1841</date>
+                        </imprint>
+                        <biblScope unit="volume">Volumen primum</biblScope>
+                    </monogr>
+                    <ref target="https://archive.org/details/fragmentahistori01mueluoft">Internet Archive</ref>
+                </biblStruct>
+            </listBibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="grc">Greek</language>
+        </langUsage>
+    </profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="edition" subtype="volume" n="1">
+	<div type="textpart" subtype="section">
+	<head>
+<title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.antiochus.antiochi_fragmenta">ANTIOCHI FRAGMENTA</title>
+</head>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.antiochus.antiochi_fragmenta.e_siciliae_historia">ΠΕΡΙ ΣΙΚΕΛΙΑΣ</title></ab>
+
+		<cit n="1">
+			<bibl>Dionys. Halic. A. R. I, 22, enumeratis variorum sententiis de ætate, qua in Siciliam Siculi transierint, hæc addit:</bibl>
+			<quote>Ἀντίοχος δὲ ὁ Συρακούσιος χρόνον μὲν οὐ δηλοῖ τῆς διαβάσεως, Σικελοὺς δὲ τοὺς μεταναστάντας ἀποφαίνει, βιασθέντας ὑπό τε Οἰνωτρῶν καὶ Ὀπικῶν στρατῶν ἡγεμόνα τῆς ἀποικίας ποιησαμένους.</quote>
+			<note type="translation">At Antiochus Syracusanus nullum quidem tempus declarat, quo classis in insulam trajecerit, sed Siculos fuisse dicit qui coloniæ ducem sibi præfecerint, et sedibus mutalis eo migrarint, ab Œnotrorum et Opicorum copiis per vim exacti.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="2">
+			<bibl>Pausan. Phoc. X, II:</bibl>
+			<quote>Ἀνέθεσαν δὲ καὶ ἀνδριάντας Λιπαραῖοι, ναυμαχίᾳ κρατήσαντες Τυῤῥηνῶν. Οἱ δὲ Λιπαραῖοι οὗτοι Κνιδίων μὲν ἦσαν ἄποικοι, τῆς δὲ ἀποικίας ἡγεμόνα γενέσθαι φασὶν ἄνδρα Κνίδιον· ὄνομα δὲ εἶναι οἱ Πένταθλον Ἀντίοχος ὁ Ξενοφάνους Συρακούσιος ἀν τῇ Σικελιώτιδι συγγραφῇ φησι. Λέγει δὲ καὶ, ὡς ἐπὶ Παχύνῳ τῇ ἄκρᾳ τῇ Σικελίᾳ κτίσαντες πόλιν, αὐτοὶ μὲν ἐκπίπτουσιν ὑπὸ Ἐλύμων καὶ Φοινίκων πολέμῳ πεισθέντες· τὰς νήσους δὲ ἔσχον ἐρήμους ἔτι ἢ ἀναστήσαντες τοὺς ἐνοικοῦντας· ἃς καὶ κατὰ ἔπη ὀνομάζουσι. Τούτων Λιπάραν μὲν, κτίσαντες πόλιν ἐνταῦθα, οἰκοῦσιν· Ἱέραν δὲ καὶ Στρογγύλην καὶ Διδύμας (Διδύμην Strabo, Thucydides, Steph. Byz.) γεωργοῦσι, διαβαίνοντες ναυσὶν ἐς αὐτάς.</quote>
+			<note type="translation">Statuas etiam Liparæi, Tyrrhenis navali proelio victis, dedicarunt. Liparæi ipsi Cnidiorum colonia fuerunt, cujus ducem hominem Cnidium Pentathlum nomine fuisse, Antiochus Syracusanus Xenophanis filius in Siciliensi Historia scriptum reliquit. Addit, Cnidios ex ea urbe, quam ad Pachynum Siciliæ promontorium condiderant, ab Elymis et Phœnicibus bello pulsos insulas tenuisse desertas adhuc aut ejectis prioribus colonis, quæ ex Homericis versibus nostra etiamnum ætate Æolicæ nuncupantur. Earum unam, cui Lipara nomen, urbe condita incoluere: Hieram, Strongylen, et Didymas ad arationes reservarunt, et in eas navibus (agri colendi causa) transmittunt.</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.antiochus.antiochi_fragmenta.ex_italiae_historia">ΠΕΡΙ ΙΤΑΛΙΑΣ</title></ab>
+
+		<cit n="3">
+			<bibl>Dionys. Hal. A. R. I, 12:</bibl>
+			<quote>Ἀντίοχος δὲ ὁ Συρακούσιος, συγγραφεὺς πάνυ ἀρχαῖος, ἐν Ἰταλίας αἰκισμῷ τοὺς παλαιοτάτους οἰκήτορας διεξιὼν, ὡς ἕκαστοί τι μέρος αὐτῆς κατεῖχον, Οἰνωτροὺς λέγει πρώτους τῶν μνημονευομένων ἐν αὐτῇ κατοικῆσαι, εἰπὼν ὧδε· Ἀντίοχος Ξενοφάνεος τάδε συνέγραψε περὶ Ἰταλίας, ἐκ τῶν ἀρχαίων λόγων τὰ πιστότατα καὶ σαφέστατα. Τὴν γῆν ταύτην, ἥτις νῦν Ἰταλία καλεῖται, τὸ παλαιὸν εἶχον Οἰνωτροί. Ἔπειτα διεξελθὼν, ὃν τρόπον ἐπολιτεύοντο καὶ ὡς βασιλεὺς ἐν αὐτοῖς Ἰταλὸς ἀνὰ χρόνον ἐγένετο, ἀφ ̓ οὗ μετωνομάσθησαν Ἰταλοὶ, τούτου δὲ τὴν ἀρχὴν Μόργης διεδέξατο, ἀφ ̓ οὗ Μόργητες ἐκλήθησαν· καὶ ὡς Σικελὸς ἐπιξενωθεὶς Μόργητι, ἰδίαν πρόττων ἀρχὴν διέστησε τὸ ἔθνος, ἐπιφέρει ταυτί· Οὕτω δὲ Σικελοὶ καὶ Μόργητες ἐγένοντο καὶ Ἰταλίητες, ἐόντες Οἰνωτροί.</quote>
+			<note type="translation">Antiochus Syracusanus, antiquissimus historicus, ubi de Italia condita agit, veteres colonos recensens, et quam ejus partem singuli occuparint, Œnotros ait primos post hominum memoriam in ea habitasse: sic autem ille: Antiochus Xenophanis filius hæc de Italia scripsit, ex veterum monumentis ea quæ fide dignissima et certissima erant. Hanc regionem quæ nunc Italia vocatur, olim tenuerunt Œnotri. Deinde postquam commemoravit reipublicæ formam qua utebantur, et Italum ad tempus regem eorum fuisse, a quo, mutato nomine, dicti sunt Itali; huic autem Morgetem successisse, a quo Morgetes appellati; et Siculum a Morgete hospitio exceptum, dum proprium sibi imperium struit, gentem divisisse: hæc subjicit: Ita igitur Siculi, et Morgetes, et Itali fuerunt, qui erant Œnotri.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="4">
+			<bibl>Idem A. R. I, 35;</bibl>
+			<quote>Ἰταλία δὲ ἀνὰ χρόνον ὠνομάσθη ἐπ ̓ ἀνδρὸς δυνατοῦ, ὄνομα Ἰταλοῦ. Τοῦτον δέ φησιν Ἀντίοχος ὁ Συρακούσιος ἀγαθὸν καὶ σοφὸν γεγενημένον, καὶ τῶν πλησιοχώρων τοὺς μὲν λόγοις ἀναπείθοντα, τοὺς δὲ βίᾳ προσαγόμενον, ἅπασαν ὑφ ̓ ἑαυτῷ ποιήσασθαι τὴν γῆν, ὅση ἐντὸς ἦν τῶν κόλπων τοῦ τε Ναπητίνου (ν. Strab. VI, p. 391, B, ibig. Casaub.) καὶ τοῦ Σκυλητίνου· ἣν δὴ πρώτην κληθῆναι Ἰταλίαν ἐπὶ τοῦ Ἰταλοῦ· ἐπεὶ δὲ ταύτης ἐγκρατὴς ἐγένετο, καὶ ἀνθρώπους πολλοὺς εἶχεν ὑπηκόους, αὐτίκα τῶν ἐχομένων ἐπορέγεσθαι, καὶ πόλεις συνάγεσθαι πολλάς· εἶναι δ ̓ αὐτὸν Οἰνωτρὸν τὸ γένος.</quote>
+			<note type="translation">Postea tamen temporis progressu Italia vocata est, sub viro præpotente, cui nomen erat Italus. Antiochus autem Syracusanus ait hunc fuisse virum probum ac sapientem, qui populos vicinos partim verbis induxit, partim vi coegit, et sibi adjunxit: atque ita in suam potestatem redegit totam illam regionem quae est inter sinus Napetinum et Scyletinum: atque hanc primam, Itali temporibus, Italiam fuisse appellatam. Quum autem hujus imperio potitus fuisset, et multos populos subditos haberet, statim dominationem in gentes finitimas affectasse, et multas civitates in unum coactas suæ ditioni subjecisse dicit. Hunc autem genere Œnotrum fuisse.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="181"/>
+
+		<cit n="5">
+			<bibl>Steph. Byz.:</bibl>
+			<quote>Βρέττος πόλις Τυῤῥηνῶν, ἀπὸ Βρέττου τοῦ Ἡρακλέους, καὶ Βαλητίας τῆς Βαλήτου. Οἱ οἰκοῦντες Βρέττιοι, καὶ ἡ χώρα Βρεττία, καὶ ἡ γλῶσσα.— Ἀντίοχος δὲ τὴν Ἰταλίαν πρῶτόν φησι κληθῆναι Βρεττίαν, εἶτα Οἰνωτρίαν.</quote>
+			<note type="translation">Brettos, urbs Tyrrhenorum, quæ a Bretto Herculis filio et Baletia Baletæ filia nomen babet. Incolæ, Brettii. Atque Brettia dicitur regio et lingua. Antiochus vero perhibet, Italiam primum vocatam fuisse Brettiam, deinde Œnotriam.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="6">
+			<bibl>Strabo VI, § 4, p. 254 = p. 220 ed. Tzsch.:</bibl>
+			<quote>Φησὶ δ ̓ Ἀντίοχος, ἐν τῷ περὶ τῆς Ἰταλίας συγγράμματι, ταύτην Ἰταλίαν κληθῆναι, καὶ περὶ ταύτης συγγράφειν, πρότερον δ ̓ Οἰνωτρίαν προσαγορεύεσθαι. Ὅριον δ ̓ αὐτῆς ἀποφαίνει πρὸς μὲν τῷ Τυῤῥηνικῷ πελάγει, τὸ αὐτὸ ὅπερ καὶ τῆς Βρεττίας ἔφαμεν, τὸν Λᾶον ποταμόν· πρὸς δὲ τῷ Σικελικῷ, τὸ Μεταπόντιον. Τὴν δὲ Ταραντίνην, ἣ συνεχὴς τῷ Μεταποντίῳ ἐστὶν, ἐκτὸς τῆς Ἰταλίας ἀνομάζει, Ἰάπυγας καλῶν. Ἔτι δ ̓ ἀνώτερον, Οἰνωτρούς τε καὶ Ἰταλοὺς μόνους ἔφη καλεῖσθαι τοὺς ἐντὸς τοῦ ἰσθμοῦ πρὸς τὸν Σικελικὸν κεκλιμένους πορθμόν. Ἔστι δ ̓ αὐτὸς ὁ ἰσθμὸς ἑκατὸν καὶ ἑξήκοντα στάδιοι, μεταξὺ δυοῖν κόλπων, τοῦ τε Ἱππωνιάτου, ὃν Ἀντίοχος Ναπιτῖνον εἴρηκε, καὶ τοῦ Σκυλλητικοῦ. Περίπλους δ ̓ ἐστὶ τῆς ἀπολαμβανομένης χώρας πρὸς τὸν πορθμὸν ἐντὸς, στάδιοι δισχιλίοι. Μετὰ δὲ ταῦτα, ἐπεκτείνεται (φησὶ) τοὔνομα καὶ τὸ τῆς Ἰταλίας, καὶ τὸ τῶν Οἰνωτρῶν, μέχρι τῆς Μεταποντίνης καὶ τῆς Σειρίτιδος· οἰκῆσαι γὰρ τοὺς τόπους τούτους Χῶνας, Οἰνωτρικὸν ἔθνος κατακοσμούμενον, καὶ τὴν γῆν ὀνομάσαι Χώνην. Οὗτος μὲν οὗν ἁπλουστέρως εἴρηκε καὶ ἀρχαϊκῶς, οὐδὲν διορίσας περὶ τῶν Λευκανῶν καὶ τῶν Βρεττίων.</quote>
+			<note type="translation">Antiochus in opere, quod de Italia conscripsit, hanc regionem ait Italiam appellatam fuisse, ac de ea se scribere: prius autem dictam fuisse Œnotriam. Terminum autem ei constituit, ad mare quidem Tyrrhenum, quem et nos Bruttiis assignavimus, Laum flumen: ad Siculum autem fretum, Metapontium. Sed Tarentinam regionem, quæ continuo agrum Metapontinum subsequitur, extra Italiam sub Iapygiæ nomine censet. Apud vetustiores autem ait, eos tantum Œnotros ac Italos fuisse habitos, qui intra isthmum siti versus fretum vergerent Siculum. Is isthmus stadiorum centum et sexaginta inter duos jacet sinus, Hipponiatem (quem Napitinum nominavit Antiochus) atque Scylletium. Longitudo littoris, quod intra fretum et isthmum continetur est bis mille stadiorum. Successu autem temporis ait Italiæ et Œnotriæ nomen fuisse propagatum usque ad Metaponticam et Siritidem regionem: habitasse enim ea loca Chonas, gentem Œnotricani satis nobilem, territorioque nomen Choniæ fecisse. Atque hic quidem more antiquorum simplicius locutus est, nullo posito Lucanorum et Bruttiorum discrimine.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="6">
+			<bibl>Hesychius:</bibl>
+			<quote>Χώνην τὴν Ἰταλίαν ἔλεγον, ὥς φησιν Ἀντίοχος ὁ Ξενοφάνους ἐν τῷ περὶ Ἰταλίας.</quote>
+			<note type="translation"/>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="7">
+			<bibl>Dionys. Halic. Ant. Rom. I, 73, p. 185, 10, ed. Reick.:</bibl>
+			<quote>Εἰ δέ τις ἀπιδεῖν βουλήσεται τὰ προσώτερα, καὶ τρίτη τις ἀρχαιοτέρα τούτων εὑρεθήσεται Ῥώμη, γενομένη πρὶν Αἰνείαν καὶ Τρῶας ἐλθεῖν ἐν Ἰταλίᾳ. Ταῦτα δὲ οὐ τῶν ἐπιτυχόντων τις οὐδὲ νέων συγγραφεὺς ἱστόρηκεν, ἀλλ ̓ Ἀντίοχος ὁ Συρακούσιος, οὗ καὶ πρότερον ἐμνήσθην. Φησὶ δὲ Μόργητος ἐν Ἰταλίᾳ βασιλεύοντος· ἦν δὲ τότε Ἰταλία ἡ ἀπὸ Τάραντος ἔχρι Ποσειδωνίας παράλιος· ἐλθεῖν πρὸς αὐτὸν ἄνδρα φυγάδα ἐκ Ῥώμης. Λέγει δὲ ὧδε· Ἐπεὶ δὲ Ἰταλὸς κατεγήρα, Μόργης ἐβασίλευσε. Ἐπὶ τούτου δὲ ἀνὴρ ἀφίκετο ἐκ Ῥώμης φυγάς. Σίκελος ὄνομα αὐτῷ. Κατὰ μὲν δὴ τὸν Συρακούσιον συγγραφέα, παλαιά τις εὑρίσκεται προτεροῦσα τῶν Τρωϊκῶν χρόνων ἡ Ῥώμη. Πότερον δὲ περὶ τοὺς αὐτοὺς ἦν τόπους, ἐν οἷς ἡ νῦν οἰκουμένη πόλις ἐστὶν, ἢ χωρίον ἕτερον οὕτως ἐτύγχανεν ὀνομαζόμενον, ἀσαφὲς ἐκείνου καταλιπόντος, οὐδ ̓ ἐγὼ δύναμαι συμβαλεῖν.</quote>
+			<note type="translation">Quodsi quis ad remotiora respicere velit, et tertia quædam Roma his antiquior invenietur, quæ condita fuit antequam Æneas et Trojani in Italiam venirent. Hoc autem nec vulgaris aliquis, nec recens scriptor memoriæ prodidit, sed Antiochus Syracusanus, cujus et ante mentionem feci. Is enim ait, Morgete in Italia regnante (erat autem tunc Italia a Tarento Pæstum usque ora maritima) ad eum quendam Romanum exsulem venisse. Hæc autem sunt ipsius verba: Postquam Italus consenuit, Morges regnavit. Hujus tempore, vir quidam nomine Siculus, Roma profugus, ad eum venit. Atque ex hujus Syracusani scriptoris auctoritate quædam antiqua Roma belli Trojani temporibus prior invenitur. Sed utrum in eodem loco sita fuerit in quo nostri seculi urbs incolitur, an vero alius locus ita vocatus fuerit, quum ille rem istam incertam reliquerit, nec ego conjicere possum.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="8">
+			<bibl>Strabo V, p. 242 = p. 186 ed. Tzschuck.:</bibl>
+			<quote>Ὑπὲρ δὲ τούτων τῶν ἠϊόνων Καμπανία πᾶσα ἵδρυται, πεδίον εὐδαιμονέστατον τῶν ἁπάντων· περίκεινται δ ̓ αὐτῷ γεωλοφίαι τε εὔκαρποι, καὶ ὄρη τά τε τῶν Σαυνιτῶν καὶ τὰ τῶν Ὄσκων. Ἀντίοχος μὲν οὖν φησὶ τὴν χώραν ταύτην Ὀπικοὺς οἰκῆσαι, τούτους δὲ καὶ Αὔσονας καλεῖσθαι.</quote>
+			<note type="translation">Super hoc litus, universa sita est Campania, regio omnium felicissima: circum enim jacent cum tumuli terræ fertiles, tum Samnitum Oscorumque montes. Antiochus ab Opicis habitatam fuisse eam regionem narrat, qui iidem et Ausones appellarentur.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="182"/>
+
+		<cit n="9">
+			<bibl>Id. VI, p. 252 = VI, p. 214 ed. Tzschuck.:</bibl>
+			<quote>Φησὶ δ ̓ Ἀντίοχος, Φωκαίας Φωκαίας ἁλούσης ὑφ ̓ Ἁρπάγου τοῦ Κύρου στρατηγοῦ, τοὺς δυναμένους ἐμβάντας εἰς τὰ σκάφη πανοικίους, πλεῦσαι πρῶτον εἰς Κύρνον καὶ Μασσαλίαν μετὰ Κρεοντιάδου· ἀποκρουσθέντας δὲ τὴν Ἐλέαν κτίσαι.</quote>
+			<note type="translation">Tradit Antiochus, quo tempore Harpagus Cyri copiarum dux Phocæam cepit, cives, quibuscuuque facultatum tantum esset, totis cum familiis naves conscendisse, primumque cum Creontiade ad Cyrnum ac Massiliam appulisse, indeque repulsos Eleam condidisse.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="10">
+			<bibl>Strabo VI, p. 257=VI, 227 ed. Tzschuck.:</bibl>
+			<quote>Κτίσμα δ ̓ ἐστὶ τὸ Ῥήγιον Χαλκιδέων· οὕς κατὰ χρησμὸν δεκατευθέντας τῷ Ἀπόλλωνι δι ̓ ἀφορίαν, ὕστεραν ἐκ Δελφῶν ἀποικῆσαι δεῦρο φασὶ, παραλαβόντας καὶ ἄλλους τῶν οἴκοθεν· ὡς δ ̓ Ἀντίοχος φησὶ, Ζαγκλαῖοι μετεπέμψαντο τοὺς Χαλκιδέας, καὶ οἰκιστὴν Ἀντίμνηστον συνέστησαν ἐκείνων.</quote>
+			<note type="translation">Rhegium a Chalcidensibus conditum est, qui quum, decimatione oraculi jussu institula, Apollini propter agrorum sterilitatem consecrati essent, eo deinde a Delphis commigrasse feruntur, domo sibi etiam aliis adscitis. Antiochus autem scribit, Chalcidenses a Zanclæis evocatos, principemque coioniæ Antimnestumiis constitutum fuisse.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="11">
+			<bibl>Strabo VI, p. 262 = VI, p. 241 ed. Tzschuck.:</bibl>
+			<quote>Φησὶ δ ̓ Ἀντίοχος τοῦ θεοῦ φήσαντος Ἀχαιοῖς Κρότωνα κτίζειν, ἀπελθεῖν Μύσκελλον κατασκεψόμενον τὸν τόπον. Ἰδόντα δ ̓ ἐκτισμένην ἤδη Σύβαριν, ποταμῷ τῷ πλησίον ὁμώνυμον, κρῖναι ταύτην ἀμείνω· ἐπανερέσθαι δ ̓ οὖν ἀπιόντα τὸν θεὸν, εἰ δοτὸν εἴη (εἰ λῷον εἴη Coraes), ταύτην ἀντ ̓ ἐκείνης κτίζειν· τὸν δὲ ἀντειπεῖν (ἐτύγχανε δὲ ὑπόκυφος ὢς ὁ Μύσκελλος)· Μύσκελλε βραχύνωτε, πάρεκ θεὸν ἄλλο ματεύων, κλάσματα (κλαύματα Diodor. Exc. Vatic.) θηρεύεις· δῶρον δ ̓ ᾶ, τι δῷ τις ἐπαίνει. Ἐπανελθόντα δὲ κτίσαι τἠν Κρότωνα, συμπράξαντος καὶ τοῦ Ἀρχίου τοῦ τὰς Συρακούσας οἰκίσαντος, προσπλεύσαντος κατὰ τύχην, ἡνίκα ὥρμητο ἐπὶ τὸν τῶν Συρακουσῶν οἰκισμόν.</quote>
+			<note type="translation">Antiochus scriptum reliquit, quum Achæis deus mandasset, ut Crotonem conderent, Myscellum eo locum speculandi causa venisse; quumque jam conditam ibi videret Sybarin, vicino amni cognominem, eam poliorem judicasse, profectumque ad oraculum quæsivisse, concedereturne Sybarin loco Crotonis condere, responsumque sic fuisse: Gibbose Myscelle, contra dei voluntatem alia requjris, vanaque venaris; quæ dantur dona, probato. (Erat autem Myscellus nonnihil gibbosus.) Itaque reversum condidisse Crotonem, adjuvante etiam Archia Syracusarum conditore, qui forte eo appulit, quum ad Syracusas condendas tenderet cursum.</note>
+			<note type="commentary">Cf. Diodor. Exc. Vatic. p. 10 Dindorf.</note>
+		</cit>
+
+		<cit n="12">
+			<bibl>Strabo VI, p. 264 = VI, p. 247 ed. Tzschuck:</bibl>
+			<quote>Φησὶ δ ̓ Ἀντίοχος τοὺς Ταραντίνους, Θουρίοις καὶ Κλεανδρίᾳ τῷ στρατηγῷ φυγάδι ἐκ Λακεδαίμονος πολεμοῦντας περὶ τῆς Σειρίτιδος συμβῆναι, καὶ συνοικῆσαι μὲν κοινῇ, τὴν δ ̓ ἀποικίαν κριθῆναι Ταραντίνων· ὕστερον δ ̓ Ἡράκλειαν κληθῆναι, μεταβαλοῦσαν καὶ τοὔνομα, καὶ τὸν τόπον.</quote>
+			<note type="translation">Antiochus auctor est, Tarentinos contra Thurios et Cleandriam imperatorem, qui Sparta exulabat, ob Siritidem belligerautes, ita pacem coivisse, ut æquo utrinque Siritis jure incoleretur, Tarentinorum tamen judicaretur colonia: eam postea Heracleam appellatam, cum nomine locum quoque mutavisse.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="13">
+			<bibl>Id. VI, § 15, p. 264 = p. 248 ed. Tzschuck:</bibl>
+			<quote>Ἑξῆς δ ̓ ἐστὶ Μεταπόντιον, εἰς ἣν ἀπὸ τοῦ ἐπινείου τῆς Ἡρακλείας εἰσὶ στάδιοι μ' πρὸς τοῖς ἑκατόν. Πυλίων δὲ λέγεται κτίσμα τῶν ἐξ Ἰλίου πλευσάντων μετὰ Νέστορος· οὓς οὕτως εὐτυχῆσαι ἀπὸ γεωργίας φασὶν, ὥστε θέρος χρυσοῦν ἐν Δελφοῖς ἀναθεῖναι. Σημεῖον δὲ ποιοῦνται τῆς κτίσεως, τὸν τῶν Νηληίδων ἐναγισμόν· ἠφανίσθη δ ̓ ὑπὸ Σαυνιτῶν. Ἀντίοχος δὲ φησὶν ἐκλειφθέντα τὸν τόπον ἐποικῆσαι τῶν Ἀχαιῶν τινὰς μεταπεμφθέντας ὑπὸ τῶν ἐν Συβάρι Ἀχαιῶν. Μεταπεμφθῆναι δὲ κατὰ μῖσος τὸ πρὸς Ταραντίνους τῶν Ἀχαιῶν [τῶν ἐκπεσόντων ἐκ τῆς Λακωνικῆς], ἵνα μὴ Ταραντῖνοι γειτνιῶντες ἐπιπηδήσαιεν τῷ τόπῳ. Δυοῖν δ ̓ οὐσῶν τῶν πόλεων τῶν Μεταποντίων ἐγγυτέρω τοῦ Τάραντος, πεισθῆναι τοὺς ἀφιγμένους ὑπὸ Συβαριτῶν, τὸ Μεταπόντιον κατασχεῖν· τοῦτο μὲν γὰρ ἔχοντας, ἕξειν καὶ τὴν Σειρῖτιν· εἰ δ ̓ ἐπὶ τὴν Σειρῖριν τράποιντο, προσθήσειν τοῖς Ταραντίνοις τὸ Μεταπόντιον ἐν πλευραῖς οὖσι. Πολεμοῦντας δ ̓ ὕστερον πρὸς τοὺς Ταραντίνους καὶ τοὺς ὑπερκειμένους Οἰνωτροὺς, ἐπὶ μέρει διαλυθῆναι τῆς γῆς, ὅπερ γενέσθαι τῆς τότε Ἰταλίας ὅριον, καὶ τῆς Ἰαπυγίας.</quote>
+			<note type="translation">Subsequitur Metapontum, a navali Heracleæ dissifum stadiis centum et quadraginta. Conditum aiunt a Pyliis, qui cum Nestore ab Ilio navigaverunt; quos tanto successu terram coluisse aiunt, ut auream messem Delphis dedicarent. A Pyliis urbem esse conditam, ab exsequiis Neleidum ratiocinantur. Urbem eam Samnites deleverunt. Antiochus scribit, locum illum incolis destitutum Achæos quosdam occupasse evocatos ab Achæis Sybarin incolentibns. Arcessitos autem eos fuisse ob Achæorum qui Laconia pulsi fuerant] odium in Tarentinos, ut ne hi, qui vicini erant, locum illum occuparent. Quum autem duæ essent urbes Metapontiis viciniores Tarento, a Sybaritis persuasum fuisse iis, quos arcessiverant, ut Metapontum occoparent: quod eo potiti, Siritidem quoque essent habituri: sin ipsi se ad Siritin contulissent, fore ut Tarentini a latere imminentes Metapontum suam facerent. Successu temporis bello cum Tarentinis et qui supra adjacent Œnotris conflato, accepta agri parte, qui tunc fuerit Italiæ et lapygiæ terminus, pacem composuisse.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="183"/>
+
+		<cit n="14">
+			<bibl>Strabo VI, p. 278 = VI, p. 286 ed. Tzsch,:</bibl>
+			<quote>περὶ δὲ τῆς κτίσεως (Tarenti) λέγων Ἀντίοχος φησὶν, ὅτι τοῦ Μεσσηνιακοῦ πολέμου γενηθέντος, οἱ μὴ μετασχόντες Λακεδαιμονίων τῆς στρατείας, ἐκρίθησαν δοῦλοι, καὶ ὠνομάσθησαν Εἵλωτες ὅσοις δὲ κατὰ τὴν στρατείαν παῖδες ἐγένοντο, Παρθενίας ἐκά. Λουν, καὶ ἀτίμους ἔκριναν. Οἱ δ ̓ οὐκ ἀνασχόμενοι (πολλοὶ δ ̓ ἦσαν) ἐπεβούλευσαν τοῖς τοῦ δήμου. Αἰσθόμενοι δ ̓ ὑπέπεμψαν τινὰς, οἵ προσποιήσει φιλίας, ἔμελλον ἐξαγγέλλειν τὸν τρόπον τῆς ἐπιβουλῆς. Τούτων δ ̓ ἦν καὶ Φάλανθος, ὅσπερ δ ̓ ἁπλῶς τοῖς παρὰ τῆς βουλῆς ὀνομασθεῖσι. Συνέκειτο μὲν δὴ, τοῖς Ὑακινθίνοις ἐν τῷ Ἀμυκλαίῳ συντελουμένου τοῦ ἀγῶνος, ἡνίκα τὴν κυνῆν περιθῇ ὁ Φάλανθος, ποιεῖσθαι τὴν ἐπίθεσιν· γνώριμοι δ ̓ ἦσαν ἀπὸ τῆς κόμης οἱ τοῦ δήμου. Ἐξαγγειλάντων δὲ τινῶν λάθρα τὰ συγκείμενα τῶν περὶ Φάλανθον, καὶ τοῦ ἀγῶνος ἀνεστῶτος, προελθῶν ὁ κῆρυξ εἶπε, μὴ ἂν περιθεῖναι κυνῆν Φάλανθον. Οἱ δ ̓ αἰσθόμενοι, ὡς μεμηκύνασι τὴν ἐπιβουλὴν, οἱ μὲν διεδίδρασκον, οἰ δὲ ἱκέτευον. Κελεύσαντες δ ̓ αὐτοὺς θαῤῥεῖν, φυλακῇ παρέδοσαν· τὸν δὲ Φάλανθον ἔπεμψαν εἰς θεοῦ περὶ ἀποικίας· ὁ δ ̓ ἔχρησε· Σατύριόν σοι δῶκα, Τάραντά τε πίονα δῆμον οἰκῆσαι, καὶ πῆμα Ἰαπύγεσσι γενέσθαι.</quote>
+			<note type="translation">Originem Tarenti Antiochus referens ait, Messeniaco bello conflato, eos, qui Lacedæmoniorum castra non fuissent secuti, servos lata senteutia esse judicatos, Helotesque dictos; qui vero Spartanis nati essent durante bello liberi, eos Parthenias appellatos, et ignominia notatos fuisse. Hos, iniquissime rem ferentes, quum numero valerent, insidiates esse populo. Quod quum populus sensisset, sub misit quosdam, qui ficta cum illis amicitia, insidias patefacerent. Inter conspiratos fuit etiam Phalanthus, princeps reliquorum habitus, et qui omnino a senatu delectis invisus esset. Compositum fuit ut, ludis Hyacinthinis in Amyclæo commissis, quando galerum Phalanthus imponeret, impetus fieri deberet in populares, quos coma notos faciebat. Sed quum qujdam occulte detexissent institutum Phalantheæ factionis, certamine jam incepto, præco in medium progressus, edixit ne Phalanthus galerum capiti imponeret. Ita Partheniæ quum eo indicio delatam conspirationem sentirent, alii diffugerunt, alii supplices veniam petierunt. Quos cives bono animo jussos esse, in custodiam tradiderunt. Phalanthum autem misere Delphos, ut oraculum de colonia deducenda exquireret; estque ei tale datum: Satyrium tibi do, piugues pagosque Tarenti incolere, infestis et Iapygas opprimere armis.</note>
+			<note type="commentary">Cf. Diodor. Exc. Vatican. p. 12 ed. Dindorf.</note>
+		</cit>
+
+		<cit n="15">
+			<bibl>Clemens Al. Protrept. p. 29:</bibl>
+			<quote>Ἐν τῷ νεῷ τῆς Ἀθήνας ἐν Λαρίσσῃ, ἐν τῇ ἀκροπόλει, τάφος ἐστὶν Ἀκρισίου· Ἀθήνησι δὲ ἐν ἀκροπόλει, Κέκροπος, ὡς φησὶν Ἀντίοχος ἐν τῷ ἐννάτῳ τῶν ἱστοριῶν.</quote>
+			<note type="translation">Larissæ in templo Minervæ, in arce est sepulchrum Acrisii; Athenis autem in arce, Cecropis, ut ait Antiochus in nono Historiarum.</note>
+			<note type="commentary">Aliud Antiochi fragm. de Palladio v. in Pherecydis fr. 101.</note>
+		</cit>
+		</div>
+	</div>
+</div>
+<pb n="184"/>
+</body>
+</text>
+</TEI>

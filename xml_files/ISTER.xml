@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1_ISTER">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Digital Fragmenta Historicorum Graecorum</title>
+            <editor>Karl Müller</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>Alexander von Humboldt Stiftung</funder>
+            <principal>Monica Berti</principal>
+            <respStmt>
+                <persName xml:id="MB">Monica Berti</persName>
+                <resp>Editor-in-chief</resp>
+            </respStmt>
+            <respStmt>
+                <persName xml:id="GRC">Gregory R. Crane</persName>
+                <resp>Associate editor</resp>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <authority/>
+            <idno type="filename">ISTER.xml</idno>
+            <availability>
+                <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</licence>
+            </availability>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <date>2016</date>
+        </publicationStmt>
+        <sourceDesc>
+            <listBibl xml:lang="la">
+                <biblStruct>
+                    <monogr>
+                        <title>Fragmenta Historicorum Graecorum</title>
+                        <editor>
+                            <persName>
+                                <name xml:lang="la">Carolus Mullerus</name>
+                                <addName xml:lang="de">Karl Müller</addName>
+                            </persName>
+                            <persName>
+                                <name xml:lang="la">Theodorus Müller</name>
+                                <name xml:lang="de">Theodor Mullerus</name>
+                            </persName>
+                        </editor>
+                        <author ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister">ISTER</author>
+                        <imprint>
+                            <publisher>Ambroise Firmin-Didot</publisher>
+                            <pubPlace>Paris, France</pubPlace>
+                            <date>1841</date>
+                        </imprint>
+                        <biblScope unit="volume">Volumen primum</biblScope>
+                    </monogr>
+                    <ref target="https://archive.org/details/fragmentahistori01mueluoft">Internet Archive</ref>
+                </biblStruct>
+            </listBibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="grc">Greek</language>
+        </langUsage>
+    </profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="edition" subtype="volume" n="1">
+	<div type="textpart" subtype="section">
+	<head>
+<title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta">ISTRI FRAGMENTA</title>
+</head>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika">ΑΤΤΙΚΑ</title></ab>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.liber_i">LIBER I</title></ab>
+
+			<cit n="1">
+				<bibl>Suidas v. Τιτανίδα γῆν:</bibl>
+				<quote>... Ἴστρος ἐν α' Ἀττικῶν, Τιτᾶνας βοᾷν· ἐβοήθουν γὰρ τοῖς ἀνθρώποις ἐπακούνοτες, ὡς Νίκανδρος ἐν α Αἰτωλικῶν.</quote>
+				<note type="translation">Terram Titaniam. ... Ister libro primo Rerum Atticarum proverbiiim refert: Titanas invocare. Opem enim  hominibus ferebant, clamore eorum audito, ut NicancJer  libro primo Rerum Ætolicarum auctor est.</note>
+				<note type="commentary">Idem legitur in Photii Lexico.</note>
+			</cit>
+
+			<cit n="2">
+				<bibl>Apostolius XVIII, 77:</bibl>
+				<quote>Τιτανίδα παροικεῖς, ἐπὶ τῶν φιλοθέων. Οἱ μὲν τὴν πᾶσαν τῆν, οἱ δὲ τὴν Ἀττικὴν ἀπὸ Τιτηνίου, ἑνὸς τῶν Τιτάνων ἀρχαιοτέρου, οἰκήσαντος περὶ Μαραθῶνα, ὃς μόνος οὐκ ἐστράτευσεν ἐπὶ τοὺς θεοὺς, ὡς Φιλόχορος ἐν Τετραπόλει καὶ Ἴστρος ἐν πρώτῃ τῶν Ἀττικῶν.</quote>
+				<note type="translation">Titanidem accolis. De iis, qui (3eos amant. Titanidem  porro alii terram universam, aiii Atticam intelligunt, a  Titenio quodam uno ex senioribus Titanibus, qui apiid  Marathonem liabitabat, qui solus adversus deos non bel-  ligeravit, ut ait Philochorus in Tetrapoli, et Ister libro  primo Rerum Atticarum.</note>
+				<note type="commentary">Vide Pliavonn. s. Τιταν. γῆν, ubi eadem leguntur, paucis omissis et suppresso Istri nomine.</note>
+			</cit>
+
+			<cit n="3">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Λαμπάς. ... Τρεῖς ἄγουσιν Ἀθηναῖοι ἑορτὰς λαμπάδας (λαμπάδος cod. Angl.), Παναθηναίοις, καὶ Ἡφαιστείοις, καὶ Προμηθείοις, ὡς Πολέμων φησὶν ἐν τῷ περὶ τῶν ἐν τοῖς προπυλαίοις πινάκων. Ἴστρος δ ̓ ἐν πρώτῃ τῶν Ἀτθίδων, εἰπὼν ὡς ἐν τῇ τῶν Ἀπατουρίων ἑορτῇ Ἀθηναίων οἱ καλλίστας στολὰς ἐνδεδυκότες, λαβόντες ἡμμένας λαμπάδας ἀπὸ τῆς ἑστίας, ὑμνοῦσι τὸν Ἥφαιστον θύοντες (sic codd.; Valesius θέοντες), ὑπόμνημα τοῦ κατανοήσαντα τὴν χρείαν τοῦ πυρὸς διδάξαι τοὺς ἄλλους.</quote>
+				<note type="translation">Tria Lampadis festa agitant Athenienses: Panatlienaeis, Vulcanahbus, Prometheis, ut ait Polemo libro De tabulis quse in Propjiaeis posita; sunt. Ister vero in primo Attliidum tradit, die festo Apaturiortnn, eos ex Allieniensibus, qui pulclierrimis vestibus ornati sint, sumptis facibus accensis e foco, sacra facientes, Vulcanum laudnre, ad memoriam ilhus in mortales beneficii prodendam, puod ignis usum ceteros docuerit.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="4">
+				<bibl>Photius in Lex. et Suidas v. Λαμπάδος ita:</bibl>
+				<quote>Ἴστρος δέ φησι λαμπάδα νομίσαι ποιεῖν πρῶτον ἀθηναίους Ἡφαίστῳ θύοντας, ὑπόμνημα τοῦ καταν. χ.τ.λ.,</quote>
+				<note type="translation">Ister ait, cursum cum facibus primum mstituisse  Athenienses Vulcano sacra facientes, etc.</note>
+				<note type="commentary">ut apud Harpocrat.</note>
+			</cit>
+
+			<cit n="5">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Θεοίνια· Λυκοῦργος ἐν τῇ διαδικασίᾳ Κροκωνιδῶν πρὸς Κοιρωνίδας. Τὰ κατὰ δήμους Διονύσια Θεοίνια ἐλέγετο, ἐν οἷς οἱ γεννῆται ἐπέθυον. Τὸν γὰρ Διόνυσον Θέοινον ἔλεγον, ὡς δηλοῖ Αἰσχύλος καὶ Ἴστρος ἐν πρώτῳ Συναγωγῶν.</quote>
+				<note type="translation">Theania, Lycurgus in Controversia Croconidaruni  adversus Coeronidas. Bacchanalia, quae populi Atticae celebrabant, Theopnia dicebantur, in quibus gentiles sacrificabant: Bacciium quippe Θέοινον vocabant, ut Æschylus declarat, et Ister in primo Collectaneorum.</note>
+				<note type="commentary">Phavorinus rcpetit verba Θεοίνια ἐλέγ. usque  ad finem , scribens ἐν πρώτῃ τῶν Συναγ.</note>
+			</cit>
+
+			<cit n="6">
+				<bibl>Schol. Sophocl. OEd. Col. 1059:</bibl>
+				<quote>Τὸν ἐφεσπερον. Τὸν Αἰγάλεών φησι (Σοφοκλῆς). Καὶ γὰρ τοῦτο ἐπ ̓ ἐσχάτων ἐστὶ τοῦ δήμου τούτου. Καταλέγουσι δὲ χωρία, παρ ̓ ἃ μάλιστα εἰκάζουσι τὴν συμβολὴν γενέσθαι τοῖς περὶ τὸν περὶ τὸν Κρέοντα καὶ Θησέα. Πέτρας δὲ νιφάδος ἂν εἴη λέγων (ὁ Σοφοκλῆς) τὴν οὕτω λεγομένην λείαν πέτραν, ἢ τὸν Αἰγάλεων λόφον, ἃ δὴ περίχωριά φασιν εἲναι, καθάπερ Ἴστρος ἐν τῇ πρώτῃ τῶν Ἀτάκτων ἱστορεῖ, οὕτως· «Ἀπὸ δὲ τῆς παραλίας ἐπὶ μὲν λείαν πέτραν.» Καὶ μετ ̓ ὀλίγα· «Ἀπὸ τούτου δὲ ἕως Κολωνοῦ παρὰ τὸν Χαλκοῦν προσαγορευόμενον, ὅθεν πρὸς τὸν Κηφισὸν ἕως τῆς μυστικῆς εἰσόδου εἰς Ἐλευσῖνα· ἀπὸ ταύτης δὲ βαδιζόντων εἰς Ἐλευσῖνα τὰ ἐπαριστερὰ μέχρι τοῦ λόφου τοῦ πρὸς ἀνατολὴν τοῦ Αἰγάλεω.»</quote>
+				<note type="translation">Ægaleum montem dicit Sophocles ; hic enim in extrenia parte hujus pagi situs esl. Enumerant autem loca, ub maxime conflixisse Creontis et Thesei copias conjiciunt. Rupem nive candentem dicit fortasse Sophocles rupem lœvem vel Ægaleum collem. Hæc enim loca aiunt esse vicina, ut Ister tradit libro primo Misqellaneorum: «Ab ora maritima ad rupem lœvem,» et dein(Je, paucis interjectis:« Ab hoc usque ad Colonum juxta locum , qui  dicitur œneus, atque inde versus Cephisum usque ad  viam mysticam, quæ Eleusinem ducit; ab eo, unde hæc  via incipit, loco progredientibus ad sinistram prospectus  patet usque ad collem Ægaleum , qui orientem spectat.»</note>
+				<note type="commentary"/>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.liber_iii">LIBER III</title></ab>
+<pb n="418"/>
+
+			<cit n="7">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Παναθήναια. ... Ἤγαγε δὲ τὴν ἑορτὴν πρῶτος Ἐριχθόνιος ὁ Ἡφαίστου. ... Πρὸ τούτου Ἀθήναια ἐκαλεῖτο, ὡς δεδήλωκεν Ἴστρος ἐν τρίτῃ τῶν Ἀττικῶν.</quote>
+				<note type="translation">Panathenæa. Auctor festi Erichthonius Vulcani filius, sed ante Erichthonium Athenæa dicta fuisse, Ister docuit in tertio Rerum Atticarum.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="8">
+				<bibl>Suidas:</bibl>
+				<quote>Ταυροπόλον, τὴν Ἄρτεμιν, ὅτι ὡς ταῦρος περίεισι πάντα, ὡς Ἀπολλόδωρος· Ἴστρος δ ̓ ἐν τρίτῳ ἀτάκτων, ὅτι τὸν ὑπὸ Ποσειδῶνος ἐπιπεμφθέντα Ἱππολύτῳ ταῦρον ἐξῴστρησεν ἐπὶ πᾶσαν γῆν.</quote>
+				<note type="translation">Tauropolum vocant Dianam, quod tanquam taurus omnia  circumeat et lustret, ut Apollodorus ait; ut Ister vero libro tertio Miscellaneorum auctor est, quod taurum in Hippolytum a Neptuno immissum per omnes terras œstro percitum agitaverit.</note>
+				<note type="commentary">Eadem plane exhibet Phot. Lex. In Etym.  M. et apud Phavorinum nonnisi auctoris nomen prætermissum est. Apostolius auctorem quidem nominat, sed omittit ἐν τρ. Ἀτάκτ. et scribit ἔκτεινε pro ἐξ. ἐ. Πᾶσ. Γῆν.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.liber_iv">LIBER IV</title></ab>
+
+			<cit n="9">
+				<bibl>Schol. Sophocl. OEd. Col. 42:</bibl>
+				<quote>Ἴστρος ἐν τῇ τετάρτῃ μητέρα τῶν Εὐμενίδων Εὐωνύμην ἀναγράφει, ἣν νομίζεσθαι Γῆν.</quote>
+				<note type="translation">Ister libro quarto scribit, Eumenidum matrem esse Euonymam, quæ esse Terra putetur.</note>
+				<note type="commentary"/>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.liber_xii">LIBER XII</title></ab>
+
+			<cit n="10">
+				<bibl>Apostol. XIV, 40:</bibl>
+				<quote>Ὁμολώϊος Ζεύς. Ἴστρος ἐν τῇ δωδεκάτῃ τῆς Συναγωγῆς, διὰ τὸ παρ ̓ Αἰολεῦσι τὸ ὁμονοητικὸν καὶ εἰρηνικὸν ὅμολον λέγεσθαι. Ἔστι δὲ καὶ Δημήτηρ Ὁμολωἶα ἐν Θήβαις.</quote>
+				<note type="translation">Jupiter Homoloius. Ister libro duodecimo Collectionis hinc parœmiam duci ait, quod Æoles consensum concordiamque pacificam ὅμολον appellent. Est etiam Ceres Homoloia Thebis.</note>
+				<note type="commentary">Eadem apud Photium, Suidam et Phavorinum.</note>
+			</cit>
+
+			<cit n="11">
+				<bibl>Schol. Aristoph. Av. 1694:</bibl>
+				<quote>Κρήνη ἐν ἀκροπόλει ἡ Κλεψύδρα, ἧς Ἴστρος ἐν τῇ ιβ' μέμνηται, τὰ παρὰ τοῖς συγγραφεῦσιν ἀναλεγόμενος· οὕτως δὲ ὠνόμασται, ἐπειδὴ ἀρχομένων τῶν ἐτησίων πληροῦται, παυομένων δὲ λήγει, ὁμοίως τῷ Νείλῳ, ὥσπερ καὶ τὴν ἐν Δήλῳ κρήνην. Εἰς ταύτην δέ φησιν ᾑματωμένην φιάλην πεσοῦσαν ὀφθῆναι ἐν τῷ φαληρικῷ, ἀπέχοντι σταδίους εἴκοσι· φασὶ δὲ αὐτὴν ἀπέραντον βάθος ἔχειν, τὸ δὲ ὕδωρ ἁλμυρόν.</quote>
+				<note type="translation">Clepsydra est fons in arce, cujus Ister libro duodecimo facit mentionem, colligens quae scriptores de eo tradiderunt. Nomen habet inde, quod Etesiis exorientibus accrescit, cessantibus iis decrescit, similiter ac Nilus et  fons, qui in Delo insula est; phialam autem cruentatam,  quæ in eum incidisset, conspectam esse in Phalerico viginti stadia distante: immensam profunditatem enm habere aiunt, aquam vero ejus salsam esse.</note>
+				<note type="commentary">Cf. Hesych. et Phan. s.v. Κλεψύδρα et Κλεψίῤῥντον ὕδωρ.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.liber_xiii">LIBER XIII</title></ab>
+
+			<cit n="12">
+				<bibl>Plutarch. Thes. c. 34:</bibl>
+				<quote>Ἴδιον δέ τινα καὶ παρηλλαγμένον ὅλως λόγον ὁ Ἴστρος ἐν τῇ τρισκαιδεκάτῃ τῶν Ἀττικῶν ἀναφέρει περὶ Αἴθρας, ὡς ἐνίων λεγόντων Ἀλέξανδρον μὲν, τὸν ἐν Θεσσαλίᾳ Πάριν, ὑπ ̓ Ἀχιλλέως καὶ Πατρόκλου μάχῃ κρατηθῆναι παρὰ τὸν Σπερχειὸν, Ἕκτορα δὲ τὴν Τροιζηνίων πόλιν λαβόντα διαρπάσαι, καὶ τὴν Αἴθραν ἀπάγειν ἐκεῖ καταλειφθεῖσαν. Ἀλλὰ τοῦτο μὲν ἔχει πολλὴν ἀλογίαν.</quote>
+				<note type="translation">Novam et diversam plane historiam refert de Æthra  Ister, in tertio decimo libro Rerum Atticarum , prodi a  quibusdam, Alexandrum Parin in Thessalia ab Achille et  Patroclo pugna ad Sperchium amnem fusum fuisse, Hectorem Trœaeniorum oppidum, quum id expugnasset, diripuisse, et Æthram illic depositam abduxisse. Verrm id sane quam est absonum.</note>
+				<note type="commentary">Scribendum videtur Ἀλέξανδρον μὲν, τὸν Πάριν, ἐν Θεσσαλίᾳ ὑπ ̓ Ἀχ. χ. Π.χ. τ.λ.</note>
+			</cit>
+<pb n="419"/>
+
+			<cit n="13">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Ὀσχοφόροι. ... Ὁ δὲ Ἴστρος ἐν τῇ ιγ' περὶ Θησέως λέγων γράφει οὕτως· «Ἕνεκα τῆς κοινῆς σωτηρίας υομίσαι τοὺς καλουμένους ὀσχοφόρους καταλέγειν δύο τῶν γένει καὶ πλούτῳ προὐχόντων.»</quote>
+				<note type="translation">Oschophori. Ister autem in tertio decimo de Theseo disseiens, scribit in hunc modum: «Salutis publicae caussa instiluit, ut bini Oschophori, genere et opibus nobiles, deligerentur.</note>
+				<note type="commentary">Eadem habent Suidas et Phavor., sed suppresso Istri nomine.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.liber_xiv">LIBER XIV</title></ab>
+
+			<cit n="14">
+				<bibl>Athen. XIII, p. 557, A:</bibl>
+				<quote>Θησεὺς Ἑλένην ἁρπάσας, ἑξῆς καὶ Ἀριάδνην ἥρπασεν. Ἴστρος γοῦν ἐν τῇ τεσσαρεσκαιδεκάτῃ τῶν Ἀττικῶν καταλέγων τὰς τοῦ Θησέως γενομένας γυναικὰς, φησὶ τὰς δ ̓ ἐξ ἁρπαγῆς, ἄλλας δ ̓ ἐκ νομίμων γάμων· ἐξ ἀρπαγῆς μὲν Ἑλένην, Ἀριάδνην, Ἱππολύτην καὶ τὰς Κερκυόνος καὶ Σίνιδος θυγατέρας· νομίμως δ ̓ αὐτὸν γῆμαι Μελίβοιαν, τὴν Αἴαντος μητέρα.</quote>
+				<note type="translation">Theseus rapta Helena, deinde etiam Ariadnen rapuit. Isler libro decimo quarto Rerum Atticarum uxores  Thesei recensens ait, alias earum ex amore uxores ejus factas esse, alias raptu, alias vero legitimis nuptiis: ex raptu quidem Helenam, Ariadnen, Hippolytam, et Cercyonis et Sinidis filias: legitimo vero matrimonio eum habuisse Melibœam Ajacis matrem.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="15">
+				<bibl>Photii Lex.:</bibl>
+				<quote>Θεὸς ἡ Ἀναίδεια. Ἐτιμᾶτο δὲ καὶ Ἀθήνησιν ἡ Ἀναίδεια, καὶ ἱερὸν ἦν αὐτῆς, ὡς Ἴστρος ἐν ιδ'.</quote>
+				<note type="translation">Dea Impudentia. Colebatur etiam Athenis Impudentia et templum habebat, ut Ister libro quarto decimo refert.</note>
+				<note type="commentary">Suidas s. v. Θεός eadem exhibet.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.liber_xvi">LIBER XVI</title></ab>
+
+			<cit n="16">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Τραπεζοφόρος. Λυκοῦργος ἐν τῷ περὶ τῆς ἱερείας ὅτι ἱερωσύνης ὄνομά ἐστιν ἡ τραπεζοφόρος· ὅτι αὐτή τε καὶ ἡ κοσμὼ συνδιέπουσι πάντα τῇ τῆς Ἀθηνᾶς ἱερείᾳ, αὐτός τε ὁ ῥήτωρ ἐν τῷ αὐτῷ λόγῳ δεδήλωκε καὶ Ἴστρος ἐν ἕκτῃ καὶ δεκάτη (Bekk. Ιγ') τῶν Ἀττικῶν συναγωγῶν.</quote>
+				<note type="translation">Trapezophoros est nomen sacerdotis, ut ait Lycurgus  in oratione de sacerdote; hæc et cosmo administranl  omnia Minerva; sacra, ut idem orator in eadem oratione  declarat et Ister libro sexto decimo Collectaneorum Atlicorum.</note>
+				<note type="commentary">Videas etiam Etym. M. et Suidam; Hesychius et Phavorinus exhibent Τραπεζὼ pro Τραπεζοφόρος.</note>
+			</cit>
+			</div>
+			<div type="textpart" subtype="book">
+			<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.attika.fragmenta_incertae_sedis">FRAGMENTA INCERTAE SEDIS</title></ab>
+
+			<cit n="17">
+				<bibl>Scholiast. Aristoph. Lysistr. 642:</bibl>
+				<quote>Τῇ Ἔρσῃ πομπεύουσι, τῇ Κέκροπος θυγατρὶ, ὡς ἱστορεῖ Ἴστρος.</quote>
+				<note type="translation">Hersæ, Cecropis filiæ, pompam ducunt, ut narrat Ister.</note>
+				<note type="commentary">Hesychius, Phavorinus et Suidas s. v. Ἀρρηφορ. et Ἐρρηφορ. idem referunt, omisso Istri nomine.</note>
+			</cit>
+
+			<cit n="18">
+				<bibl>Hygin. Astron. II, 35, Canis:</bibl>
+				<quote>«Hic dicitur ab  Jove custos Europæ appositus esse, et ad Minoa pervenisse. Quem Procris Cephali uxor laborantem dicitur sanasse, et pro eo beneficio canem muneri accepisse, quod illa studiosa fuerit venationis, et quod cani fuerat datum, ne ulla fera praeterire eum posset. Post ejus obitum canis ad Cephalum pervenit, quod Procris ejus  fuerat uxor: quem ille ducens secum, Thebas  pervenit, ubi erat vulpes, cui datum dicebatur  omnes canes effugere posse. Itaque quum in  unum pervenissent, Jupiter, nescius quid faceret, ut Ister ait, utrumque in lapidem convertit.»</quote>
+				<note type="translation"/>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="19">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Ἐπενεγκεῖν δόρυ ἐπὶ τῆς ἐκφορᾶς καὶ προαγορεύειν ἐπὶ τῶν μνημάτων. Δημοσθένης κατ ̓ Εὐέργου καὶ Μνησιβούλου ταῦτα φησιν ἐπὶ τοῦ βιαίως ἀποθανόντος. Ἴστρος δὲ ἐν τῇ συναγωγῇ τῶν Ἀτθίδων περὶ Προκρίδος καὶ Κεφάλου εἰπὼν γράφει ταυτὶ· «Τινὲς δὲ ἐπὶ τοῦ τάφου δόρυ καταπεπηχότα τὸν Ἐρεχθέα φασὶ πεποιῆσθαι παρακαταθέμενόν τε καὶ τὸ πάθος σημαίνοντα, διὰ τὸ νόμιμον εἶναι τοῖς προσήκουσι τοῦτον τὸν τρόπον μετέρχεσθαι τοὺς φονέας.»</quote>
+				<note type="translation">In efferendo funere hastam adhibere, et ad sepulchrum  proclamare. Demosthenes adversus Euergum et Mnesibulum hæc de homine dicit, qui morte periit violenta. Ister vero in collectione rerum Atticarum, postquam de Procride et Cephalo locutus est, ista scribit: «Quidam aiunt,  Erechtheum in sepulchro hastam defixisse, ut csedem  indicaret. Legera enim esse consanguineis, ut hoc modo  interfectores persequantur.»</note>
+				<note type="commentary">Partem hujus fragmenti habent etiam Suidas,  Phavor. et Etym. M. h. v. Verba πεποιῆσθαι παρακ. sine dubio ex margine in textum irrepserunt. Genuinam lectionem conservasse videtur cod. Paris. qui, his verbis omissis, simpliciter habet: δόρυ καταπεπηχέναι, τὸ πάθος σημαίνοντα. In margine vero, nisi fallor, erat: τάφον ... πεποιῆσθαι δόρυ παρακαταθέμενον. Nam ἐπὶ τοῦ ante τάφου desunt in quatuor codd.</note>
+			</cit>
+<pb n="420"/>
+
+			<cit n="20">
+				<bibl>Tzetz. ad Lycophr. 1327:</bibl>
+				<quote>Εὔμολπος, οὐχ ὁ Θρᾲξ κατὰ τὸν Ἴστρον ἐν τῇ Συναγωγῇ, ἀλλ ̓ ὁ θεὶς τὰ μυστήρια, ἐκέλευσε ξένους μὴ μυεῖσθαι· ἐλθόντος δὲ τοῦ Ἡρακλέους ἐν Ἐλευσῖνι, καὶ θέλοντος μυεῖσθαι, τὸν μὲν τοῦ Εὐμόλπου νομον φυλάττοντες, θέλοντες δὲ καὶ τὸν κοινὸν εὐεργέτην Ἡρακλέα θε(??)απεῦσαι, οἱ Ἐλευσίνιοι ἐπ ̓ αὐτῷ τὰ μικρὰ ἐποιήσαντο μυστήρια· οἱ δὲ μυούμενοι μυρσίνῃ ἐστέφοντο.</quote>
+				<note type="translation">Eumolpas, non Thrax ille, sed, secundum Istrum in Collectione Atthidum, ille qui mysteria instituit, jussit perogrinos non initiari; quum vero Hercules venisset et initiari cuperet, Eleusinii, legem quidem Eumolpi servare,  sed tamen Heiculi, de omni genere humano optime merito,  gratificari volentes, in ejus usum constituerunt parva mysteria. Qui iis initiabantur, myrto coronabantur.</note>
+				<note type="commentary">Repetit hæc Phavorinus. Cf. Schol. ad Aristoph. Ran. 333. Verba ἐν τ. συναγωγῆ Siebelis ex cod. Ciz. et Viteb. I recepit.</note>
+			</cit>
+
+			<cit n="21">
+				<bibl>Scholiast. Soph. OEd. Col. 1046 (1108):</bibl>
+				<quote>Ζητεῖται, τί δήποτε οἱ Εὐμολπίδαι τῶν τελετῶν ἐξάρχουσι, ξένοι ὄντες. Εἴποι δ ̓ ἄν τις, ὅτι ἀξιοῦσιν ἔνιοι, πρῶτον Εὔμολπον ποιῆσαι τὸν Δηϊόπης τῆς Τριπτολέμου τὰ ἐν Ἐλευσῖνι μυστήρια, καὶ οὐ τὸν Θρᾷκα, καὶ τοῦτο ἱστορεῖν Ἴστρον ἐν τῷ περὶ (πέμπτῳ Elmsleius ex nestigiis codicis) τῶν ἀτάκτων.</quote>
+				<note type="translation">Quærilur, cur Eumolpidæ initiationi præsint, quamvis  peregrini. Dixeris, nonnullos contenclere, primuni Eu-  inolpiim, filium Deiopes, qua; erat Triptolemi filia, insli-  tuisse Eleusine mysteria, non Thracem ilUun, idque nar-  rare Islrum in Miscellaneis.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="22">
+				<bibl>Tzetz. ad Lycophr. 467:</bibl>
+				<quote>Μετὰ τὴν ὑφ ̓ Ἡρακλέους γενομένην τῆς Τροίας ἅλωσιν Τελαμὼν Θεάνειραν, τὴν καὶ Ἡσιόνην, γέρας ὡς ἐξαίρετον ἔλαβεν, ὡς Ἴστρος ἐν Συμμίκτοις φησίν.</quote>
+				<note type="translation">Postquam Troja ab Hercule capta erat, Telamon aocepit Theaniram, quam et Hesionam vocant, ut præemium eximium, auctore Istro in Miscellaneis.</note>
+				<note type="commentary">In nonnullis codicibus desunt verba ὡς ἐξαίρετον, ut Müller. monet.</note>
+			</cit>
+
+			<cit n="23">
+				<bibl>Schol. Pindar. Nem. 5, 89:</bibl>
+				<quote>Ἐν Ἀνθήναις φασὶν εὑρῆσθαι τὴν παλαιστρικὴν ὑπὸ Φόρβαντος τοῦ παιδοτρίβου Θησέως. Φερεκύδης δὲ ἡνίοχον τὸν Φόρβαντά φησι Θησέως, σὺν ᾧ καὶ τὴν Ἀμαζόνα ἁρπάζει. Καὶ Πολέμων δὲ ἱστορεῖ, πάλην εὑρηκέναι Φόρβαντα Ἀθηναῖον. Ὅτι δὲ Θησεὺς παρ ̓ Ἀθηνᾶς ἔμαθε τὴν πάλην, Ἴστρος ἱστορεῖ.</quote>
+				<note type="translation">Athenis aiunt inventam esse artem luctandi a Pliorbante, Thesei magistro. Pherecydes vero ait, Phorbantem Thesei aurigam fuisse, cum quo rapuerit Amazonem. Polemo quoque narrat , Phorbantem Atheniensem invenisse luctam; sed Ister tradit, Theseum esse a Minerva luctam edoctum.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="24">
+				<bibl>Diog. Laert. II, 59:</bibl>
+				<quote>Ἴστρος φησὶν αὐτὸν (τὸν Ξενοφῶντα) φυγεῖν κατὰ ψήφισμα Εὐβούλου, καὶ κατελθεῖν κατὰ ψήφισμα τοῦ αὐτοῦ.</quote>
+				<note type="translation">Ister asserit illum (Xenophontem) ex decreto Eubuli  exulasse, ejusdemque postea decreto rediisse.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="25">
+				<bibl>Schol. Sophocl. OEd. Col. 673 (683):</bibl>
+				<quote>Ὁ δ ̓ Ἴστρος τῆς Δήμητρος εἶναί (φησι) στέμμα τὴν μυῤῥίνην καὶ τὴν μίλακα, περὶ ἧς γίνεσθαι τὴν διαδικασίαν. Καὶ τὸν ἱεροφάντην δὲ καὶ τὰς ἱεροφάντιδας καὶ τὸν δᾳδοῦχον καὶ τὰς ἄλλας ἱερείας μυῤῥίνης ἔχειν στέφανον· δι ̓ ἃ καὶ τὴν Δήμητρα προσθέσθαι ταύτην φησί.</quote>
+				<note type="translation">Ister tradit, Cererem coronari myrto et smilace, de qua esset contentio; porro antistitem, antistitas, tædiferum ceterasque sacerdotes myrleam hahere coronam:  propterea etiam Cereri eam attribui dicit.</note>
+				<note type="commentary">Ad verba περὶ ἧς γίγνεσθαι τὴν διαδικασίαν Siebelis adnotat hæc: «Hoc quomodo intelligendum sit, videntur docere Hesychius et Phavorinus, qui hoc habent: Μίλιον, δένδρον ὅμοιον ἐλάτῃ, ᾧ τοὺς νέους στεφανοῦσιν ἐν ταῖς πομπαῖς· et s. v. Σμίλος, δένδρον ἐλάτῃ ὅμοιον· οἱ δὲ πρίνος, ἄλλοι σμίλακα, ᾗ στεφανοῦνται. Jam Meursius Panath. c. 22 illo priore Hesychii loco  usus suspicatur, pueros smilace coronatos esse in pompa Panathenæorum: hoc si verum est, hæc διαδικασία περὶ σμίλακος erit: certamen puerorum, qui ex ipsis hujus pompas honore digni sint. ... Quidni autem intelligamus pompas Bacchicas, qualis fuit vel Διονυσίων τῶν ἐν ἄστει πομπὴ apud Æschin. C. Timarch, p. 176 Wolf., vel illa, qua Bacchus Eleusina deducebatur, praesertim quum ex Euripid. Bacch. 107 sq. sciamus, coronas e smilace factas usitatas fuisse in Bacchi sacrls?... Quum vero Bacchus particeps factus esset mysteriorum Cereris, Cereri  quoque smilax videtur esse attributa.»</note>
+			</cit>
+<pb n="421"/>
+
+			<cit n="26">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Τριτομηνίς. ... Τὴν τρίτην τοῦ μηνὸς τριτομηνίδα ἐκάλουν. Δοκεῖ δὲ γενέλιος τῆς Ἀθηνᾶς. Ἴστρος δὲ καὶ Τριτογένειαν αὐτήν φησι διὰ τοῦτο λέγεσθαι, τὴν αὐτὴν Σελήνην νομιζομένην.</quote>
+				<note type="translation">Tertiam mensis diem τριτομηνίδα vocabant; videtur autem dies natalis esse Minervæ. Ac propterea Τριτογέειαν eam dici Ister tradit, et eandem cum Luna exislimari.</note>
+				<note type="commentary">Eadem fere exstant apud Photium et Suidam.</note>
+			</cit>
+
+			<cit n="27">
+				<bibl>Schol. Sophocl. OEd. Col. 697 (730):</bibl>
+				<quote>Ἴστρος καὶ τὸν ἀριθμὸν αὐτῶν (τῶν μορίων) δεδήλωκε, γράφων οὕτως· (??) Ἔνιοι κλάδον τὸν τῆς ἐν Ἀκαδημίᾳ ἐλαίας, ἀπὸ τῆς ἐν ἀκροπόλει φυτευθῆναί φασιν.</quote>
+				<note type="translation">Ister etiam numerum sacrarum olearum indicat, scribens .... Nonnulli autem ramum oleae, qua; est in Academia, ab illa in Acropoli plantatum esse dicunt.</note>
+				<note type="commentary">Apparet Istri verba excidisse. Suidas v. Μορία, quæ de numero sacrarum olearum tradit, habent fortasse Istrum auctorem: Ἦσαν δὲ πρῶτον ιβ' τὸν ἀριθμὸν αἱ μεταφυτευθεῖσαι ἐκ τῆς ἀκροπόλεως εἰς Ἀκαδημίαν.</note>
+			</cit>
+
+			<cit n="28">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Ἀνθεστηρών· ὄγδοος μὴν οὗτος παρ ̓ Ἀθηναίοις, ἱερὸς Διονύσου. Ἴστρος δὲ ἐν τοῖς τῆς Συναγωγῆς κεκλῆσθαί φησιν αὐτὸν διὰ τὸ πλεῖστα τῶν ἐκ τῆς γῆς ἀνθεῖν τότε.</quote>
+				<note type="translation">Anthesterion , mensis octavus apud Athenienses, Baccho sacer. Ister in libris Collectionis eum ita dictum fuisse testatur, quod plerique terræ fœtns tunc floreant.</note>
+				<note type="commentary">Eadem apud Phavorinum et Suidam, hic tamen Istrum non nominat. Cf. Etym. M. et Macrob. Sat. I, 12.</note>
+			</cit>
+
+			<cit n="29">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Κοιρωνίδαι. ... Ἔστι δὲ γένος οἱ Κοιρωνίδαι, περὶ ὧν Ἴστρος ἐν τῇ συναγωγῇ τῆς Ἀτθίδος φησίν. Ὠνομασμένον δ ̓ ἂν εἴη ἀπὸ Κοίρωνος, ὃν νόθον ἀδελφὸν εἶναί φασι τοῦ Κρόκωνος· παρ ̓ ὃ καὶ ἐντιμοτέρους εἶναι τοὺς Κροκωνίδας.</quote>
+				<note type="translation">Cœronidæ sunt gens, de quibus Ister in Collectione retum Atticarum; nomen habere videntur a Cœrone, quem nothum fratrem esse ferunt Croconis; inde Croconidas præ Cœronidis in honore haberi.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="30">
+				<bibl>Schol. Sophocl. OEd. Col. 58:</bibl>
+				<quote>Ἴστρος μνημονεύει τοῦ χαλκοῦ ὀδοῦ καὶ Ἀστυδάμας.</quote>
+				<note type="translation">Ister mentionem facit liminis ænei et Astydamas.</note>
+				<note type="commentary"/>
+			</cit>
+
+			<cit n="31">
+				<bibl>Harpocrat.:</bibl>
+				<quote>Παιανιεῖς καὶ Παιονίδα. ... Εἰσὶ δὲ διττοὶ δῆμοι Παιανιέων τῆς Πανδιονίδος φυλῆς. ... διαφέρουσι δὲ οὗτοι τῶν Παιονιδῶν, ὡς Ἴστρος ἐν Ἀτάκτῳ ὑποσημαίνει. Μνημονεύουσι δὲ καὶ τούτων οἱ ῥήτορες. ... Δῆμος δέ ἐστι καὶ οὗτος τῆς Λεοντίδος.</quote>
+				<note type="translation">Pæanienses et Pæonidæ; duo sunt Pæaniensium demi, Pandionidis tribus. Differunt vero hi a Pæonidis, ut Ister in Miscellaneis significat; rhetores quoque eorum meminere; etiam hic est demus Leontidis tribus.</note>
+				<note type="commentary">Eadem apud Suidam, qui Istri nomen omisit. Παιονιδῶν jam a Vindingio in Hell. p. 239, in  Gronov, thes. vol. 11, mutatum est in Παιονιδῶν. Παιανίδας legitur etiam in Biblioth. Coislin. p. 238. Suidas exhibet Παιονίδαι, sed paulo post Παιανιδῶν.</note>
+			</cit>
+
+			<cit n="32">
+				<bibl>Suidas:</bibl>
+				<quote>Περιστίαρχος, ὁ περικαθαίρων τὴν ἑστίαν καὶ τὴν ἐκκλησίαν καὶ τὴν πόλιν· ἀπὸ τῆς ἑστίας, ἢ τοῦ περιστείχειν. Ἴστρος δὲ ἐν τοῖς Ἀττικοῖς, «Περίστια, φησὶ, προσαγορεύεται τὰ καθάρσια· καὶ οἱ τὰ ἱερὰ καθαίροντες περιστίαρχοι· ἔξωθεν γὰρ περιέρχονται, μαχαιροφοροῦντος ἑκάστου τῶν ἱερῶν, οἰκίαις περιειλημμένοι δημοσίαις, καὶ περίδρομον ἔχοντες.»</quote>
+				<note type="translation">Περιστίαρχος. Sic vocatur qui domum, concionem et urbem lustrat, ab ἑστία, i. e. focus, domus, vel a περιστείχειν, i. e. a circumeundo. Ister vero in Atticis dicit, «victimas lustrales appellai περίστια; et eos, qui templa lustrabant, περιστιάρχους. Extrinsecus enim circumibant,  unoquoque sacerdotum porcellum ferente, a;des publicas circumcurrentes et ambitum agentes.»</note>
+				<note type="commentary">Repetiverunt hæc Photius, Phavorinus h. v. et Apostolius XVI, 1. Περιέρχονται a Kustero restitutum est ex Photio et Apostolio pro περιέχονται. Ut idem Kusterus monet, pro μαχαιροφοροῦντος ex Photio revocandum est χοιροφοροῦντος et ex Apostolio ἱερέων οἰκίας περιειλ. Δημοσίας pro οἰκίαις περιειλ. Δημοσίαις.</note>
+			</cit>
+		</div>
+			</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.apollinis_apparitiones">ΑΙ ΑΠΟΛΛΟΝΩΣ ΕΠΙΦΑΝΕΙΑΙ</title></ab>
+
+		<cit n="33">
+			<bibl>Harpocrat.:</bibl>
+			<quote>Φαρμακός. ... Δύο ἄνδρας Ἀθήνησιν ἐξῆγον, καθάρσια ἐσομένους τῆς πόλεως ἐν τοῖς Θαργηλίοις, ἕνα μὲν ὑπὲρ τῶν ἀνδρῶν, ἕνα δὲ ὑπὲρ τῶν γυναικῶν. Ὅτι δὲ ὄνομα κύριόν ἐστιν ὁ Φαρμακός, ἱερὰς δὲ φιάλας τοῦ Ἀπόλλωνος κλέψας ἁλοὺς ὑπὸ τῶν περὶ τὸν Ἀχιλλέα κατελεύσθη, καὶ τὰ τοῖς Θαργηλίοις ἀγόμενα τούτων ἀπομιμήματά ἐστιν, Ἴστρος ἐν πρώτῳ τῶν Ἀπόλλωνος ἐπιφανειῶν εἴρηκεν.</quote>
+			<note type="translation">Pharmacus. Duos viros Athenis , lustrandæ civitatis caussa, in festo Thargeliorum educebant; quorum alter viros, alter feminas expiaret. Pharmacum autem nomine proprio appellari eum, qui quum sacras phialas furatns et ab Achille deprehensus esset, lapidibus sit obrutus, hujusque rei esse imitamenta , quae in Thargeliis agantur, Ister tradit libro primo Apparitionum Apollinis.</note>
+			<note type="commentary">Fere eadem apud Phot., in Etym. M. et apud Suidam. In quattuor codd. Harpocrat. legitur ἱερεύς pro ἱεράς: sed Phot., Etym. M. et Suidas uno consensu exhibent ἱεράς.</note>
+		</cit>
+<pb n="422"/>
+
+		<cit n="34">
+			<bibl>Photii Lex.:</bibl>
+			<quote>Τριττύαν θυσίαν· ... Ἴστρος δὲ ἐν μὲν Ἀπόλλωνος ἐπιφανείαις ἐκ βοῶν, αἰγῶν, ὑῶν ἀῤῥένων, πάντων τριετῶν.</quote>
+			<note type="translation">Sacrificium trifarium. Ister in Apollinis apparitionibus  id constare dicit ex bobus, capris et suibus masculis,  trimis omnibus.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="35">
+			<bibl>Plutarch. De musica t. III, p. 2081 Stephan., 1136 Francof.: Soterichus, qui contendit, Apollinem esse inventorem artis tibia et cithara caendi, ad suam sententiam probandam etiam  hoc affert:</bibl>
+			<quote>Καὶ ἡ ἐν Δήλῳ δὲ τοῦ ἀγάλματος αὐτοῦ (τοῦ Ἀπόλλωνος) ἀφίδρυσις ἔχει ἐν μὲν τῇ δεξιᾷ τόξον, ἐν δὲ τῇ ἀριστερᾷ Χάριτας, τῶν τῆς μουσικῆς ὀργάνων ἑκάστην τι ἔχουσαν· ἡ μὲν γὰρ λύραν κρατεῖ, ἡ δὲ αὐλοὺς, ἡ δὲ ἐν μέσῳ προκειμένην ἔχει τῷ στόματι σύριγγα. Ὅτι δ ̓ οὗτος οὐκ ἐμὸς ὁ λόγος, Ἀντικλῆς καὶ Ἴστρος ἐν ταῖς Ἐπιφανείαις περὶ τούτων ἀφηγήσαντο.</quote>
+			<note type="translation">Simulacrum Apollinis in Delo positum in dextra manu arcum, Iæva Gratias habet, quarum quævis aliquod musicum instrumentum tenet; lyram una, alia  tibias, media fistulam ori admotam. Neque meus est hic  sermo; sed Anticles et Ister in libris quos de Apparitionibus deorum scripserunt, bæc retulerunt.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="35">
+			<bibl>Athen. III, 74, E:</bibl>
+			<quote>Ἴστρος δ ̓ ἐν τοῖς Ἀττικοῖς οὐδ ̓ ἐξάγεσθαί φησι τῆς Ἀττικῆς τὰς ἀπ ̓ αὐτῶν γινομένας ἰσχάδας, ἵνα μόνοι ἀπολαύοιεν οἱ κατοικοῦντες· καὶ ἐπεὶ πολλοὶ ἐνεφανίζοντο διακλέπτοντες, οἱ τούτους μηνύοντες τοῖς δικασταῖς ἐκλήθησαν τότε πρῶτον συκοφάνται.</quote>
+			<note type="translation">Ister in Atticis ait vetitum fuisse Atticas exportare caricas, ut soli indigena; iis vescerentur: quum vero multi furtim evehentes deprehenderentur, qui horum nomina apud judices deferebant, tura primum sycophantas (ficuum indices) esse nominatos.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="36">
+			<bibl>Hygin. Astron. II, 40:</bibl>
+			<quote>«Ister et complures dixerunt, Coronida Phlegyæ filiam fuisse: hanc autem ex Apolline Æsculapium procreasse, sed postea Ischyn, Elati filium, cum ea concubuisse.»</quote>
+			<note type="translation"/>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="37">
+			<bibl>Idem II, 34:</bibl>
+			<quote>«Ister dicit Oriona a Diana esse dilectum, et paene factum, ut ei nupsisse existimaretur. Quod quum Apollo aegre ferret, et sæpe eam objurgans nihil egisset, natantis Orionis  longe caput solum videri conspicatus, contendit cura Diana, eam non posse sagittam mittere  ad id, quod nigrum in mari videretur. Quae  quum se vellet in eo studio maxime artificem  dici, sagitta missa caput Orionis trajecit. Itaque  eum quum fluctus interfectum ad litus ejecisset, et se eum Diana percussisse plurimum doleret,  raultisejus obitum prosecuta lacrimis inter sidera statuisse existimatur.»</quote>
+			<note type="translation"/>
+			<note type="commentary"/>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.ptolemais">ΠΤΟΛΕΜΑΙΣ</title></ab>
+
+		<cit n="38">
+			<bibl>Athen. X, p. 478, B:</bibl>
+			<quote>Ἴστρος ὁ Καλλιμάχειος ἐν πρώτῳ Πτολεμαΐδος, τῆς ἐν Αἰγύπτῳ πόλεως, γράφει οὕτως «Κυλίκων Κονωνίων ζεῦγος, καὶ θηρικλείων χρυσοκλύστων ζεῦγος.»</quote>
+			<note type="translation">Ister Callimachius, primo libro de Ptolemaide, Ægypti oppido, ita scribit: «Calicum Cononiorum par, et Thericleorum par aureis operculis clausorum.»</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.aegyptiorum_coloniae">ΑΙΓΥΠΤΙΩΝ ΑΠΟΙΚΙΑΙ</title></ab>
+
+		<cit n="39">
+			<bibl>Constantin. Porphyrog. De themat. lib.I,p. 13 Scriptor. Byzant. tom. V, ed. Ven.:</bibl>
+			<quote>Κύπρος ἐκλήθηἀπὸ Κύπρου τῆς θυγατρὸς Κινύρου, ἢ τῆς Βίβλου καὶ Ἀφροδίτης, ὡς Φιλοστέφανος ἐν τῷ περὶ νήσων καὶ Ἴστρος ἐν ἀποικίαις Αἰγυπτίων ἱστόρησαν.</quote>
+			<note type="translation">Cyprus nomen accepit a Cypro filia Cinyræ vel Bibli et Veneris, ut Philoslephanus in libro de lnsulis et Ister in libro de Ægyptiorum coloniis narrant.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="40">
+			<bibl>Clemens Alex. Strom. I, p. 322, C, de Iside,  quæ et Io dicta sit, addit:</bibl>
+			<quote>Ταύτην δὲ Ἴστρος ἐν τῷ περὶ τῆς Αἰγυπτίων ἀποικίας Προμηθέως θυγατέρα φησίν.</quote>
+			<note type="translation">Ister in libro De colonia Æyptiorum, dicil Io vel Isidem fuisse filiam Promethei.</note>
+			<note type="commentary">Eadem in African. Exc. in Scalig. Thes. tempp. p. 359 leguntur, nisi quod ἐν τοῖς περὶ Ἀἰγ. Ἀποικίας pro ἐν τῷ περὶ Αἰγ. ibi scriptum est. Operis  titulus in utroque loco corrupte exhibetur: neque pars hujus operis illo modo significari poterat.</note>
+		</cit>
+<pb n="423"/>
+
+		<cit n="41">
+			<bibl>Stephan. Byz.:</bibl>
+			<quote>Ὤλενος. ... Κέκληται δ ̓ ἀπ ̓ Ὠλένου τοῦ Διὸς, ὡς Ἴστρος ἐν Αἰγυπτίων ἀποικίαις· «Τῶν δὲ Δαναϊδῶν Ἀναξιθέας καὶ Διὸς Ὤλενον γενέσθαι τὸν ἄρξαντα τῶν Ὠλενίων.»</quote>
+			<note type="translation">Olenus. ... Vocata vero fuit ab oleno, Jovis filio, ut Ister in Ægyptiorum coloniis: «Sed ex Anaxithea Danaidum una et Jove, Olenum, qui Oleniis imperavit, natum fuisse.»</note>
+			<note type="commentary">Cf. Eustath. ad Homer. p. 883 Rom. et Phavor. v. Ὠλεν. Πέτρα.</note>
+		</cit>
+
+		<cit n="42">
+			<bibl>Stephan. Byz.:</bibl>
+			<quote>Αἰγιαλὸς, μεταξὺ Σικυῶνος καὶ τοῦ Βουπρασίου καλούμενος τόπος, ἀπὸ Αἰγιαλέως τοῦ Ἰνάχου, ὡς Ἴστρος ἐν ἀποικίαις τῆς Αἰγύπτου.</quote>
+			<note type="translation">Ægialus, locus est inter Sicyonem et Buprasium, ita dictus ab Ægialeo Inachi filio, uti refert Ister in Ægyptiacis coloniis.</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.argolica">ΑΡΓΟΛΙΚΑ</title></ab>
+
+		<cit n="43">
+			<bibl>Athen. XIV, p. 650, B:</bibl>
+			<quote>Ἀπ ̓ ἀπίων καὶ ἡ Πελοπόννησος Ἀπία ἐκλήθη, διὰ τὸ ἐπιδαψιλεύειν ἐν αὐτῇ τὸ φυτὸν, φησὶν Ἴστρος ἐν τοῖς Ἀργολικοῖς.</quote>
+			<note type="translation">Ab illorum pirorum Græco nomine (ἄπια) etiam Peloponnesus Apia nominata est, quod hoc fructu abundabat, ut ait Ister in Argolicis.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="44">
+			<bibl>Stephan. Byz.:</bibl>
+			<quote>Ἀπία, οὕτως οἱ νεώτεροι τὸ Ἄργος  ... Φησὶ δὲ καὶ τὰς ἀχράδας τὰς ἐν αὐτῇ τῇ χώρᾳ γιγνομένας Ἴστρος ἀπίους ἀπὸ ταύτης ὑπὸ τῶν ἔξωθεν λεχθῆναι.</quote>
+			<note type="translation">Apia. ... Ister pyrastrum in Apia regione nascentem, apium ab eadem apud exteros nominari tradit.</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.eliaca">ΗΛΙΑΚΑ</title></ab>
+
+		<cit n="45">
+			<bibl>Steph. Byz.:</bibl>
+			<quote>Φύτειον, πόλις Ἤλιδος τῆς κοίλης· ἀπὸ Φυτέως λέγων αὐτὴν ὠνομάσθαι Ἴστρος τετάρτῳ Ἠλιακῶν.</quote>
+			<note type="translation">Plyteum, urbs Elidis cavæ: a Plyteo dicit eam nominari Ister quarto Eliacorum.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="46">
+			<bibl>Schol. in Platon. p. 380 Bekk.:</bibl>
+			<quote>Πρὸς δύο οὐδ ̓ ὁ Ἡρακλῆς] Ἐχεφυλλίδας δὲ, αὐτὸν (τὸν Ἡρακλέα) ὑπὸ Κτεάτου καὶ Εὐρύτου τῶν Μολιονιδῶν ἡττηθῆναι κατὰ τὴν ἐπ ̓ Αὐγέαν στρατείαν· διωχθέντα δὲ ἄχρι τῆς Βουπράσιδος, καὶ περιβλεψάμενον, ὡς οὐδεὶς ἐξίκετο τῶν πολεμίων, ἀναψῦξαί τε, καὶ ἐκ τοῦ παραῤῥέοντος ποταμοῦ πιόντα προσαγορεῦσαι· Τοῦτο ἡδὺ ὕδωρ. Ὃ νῦν δείκνυται ἰόντων ἐκ Δύμης εἰς Ἦλιν, καλούμενον ὑπὸ τῶν ἐγχωρίων βαδὺ ὕδωρ. Τὰ δὲ αὐτὰ καὶ Φερεκύδης καὶ Κώμαρχος καὶ Ἴστρος ἐν τοῖς Ἠλιακοῖς ἱστοροῦσι. Καὶ διὰ τοῦτο θεωροὺς τοὺς Μολιονίδας ἰ(??)ντας εἰς Κόρινθον λοχήσαντα τὸν Ἡρακλέα περὶ Κλεωνὰς ἀποκτεῖναι. Ὅθεν Ἠλείοις ἀπώμοτον εἶναι τὰ Ἴσθμια ἀγωνίζεσθαι, ὅτι θεωροὺς πεμφθέντας εἰς τὸν Ἰσθμὸν τοὺς Μολιονίδας ἑλὼν Ἡρακλῆς ὑπὸ Κορινθίων ἐδέχθη.</quote>
+			<note type="translation">Contra duos ne Herculesquidem. ... Tradit Echephyllidas, Herculem a Cteato et Euryto Molionidis, in expeditione, quam contra Augeam fecit, devictum esse; quum vero usque ad Bupraslam fugisset neminemque hostium animadvertisset, se refecisse et flunium præterfluentem, ex quo potum hauserit, ita alloquutum esse: dulcis hæe aqua. Hæc demonstratur iis qui Dyma proficiscuntor Elin, appellata ab incolis Dulcis Aqua. Eadem referunt Pherecydes, Comarchus et Ister in Eliacis. Atque hanc ob rem Herculem, structis insidiis, occidisse Molionidas prope Cleonaw, quum sacram legationem obeuntew Corinthum proficiscerentur. Ea ex caussa Eleis interdictum esse, ne ludos Isthmios frequentarent, quod Hercules quum Molionidas sacræ legationis obeundæ caussa ad Isthmum missos occidisset, a Corinthiis esset exceptus.</note>
+			<note type="commentary">Cf. Philoch. fr. 36.</note>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.collectio_sacrificiorum_creticorum">Η ΣΥΝΑΓΩΓΗ ΤΩΝ ΚΡΗΤΙΚΩΝ ΘΥΣΙΩΝ</title></ab>
+
+		<cit n="47">
+			<bibl>Eusebius præpar. Evang. IV, 16 p. 156 ed. Colon. 1688:</bibl>
+			<quote>Ἴστρος ἐν τῇ Συναγωγῇ τῶν Κρητικῶν θυσιῶν φησὶ, τσὺς Κούρητας τὸ παλαιὸν τῷ Κρόνῳ θύειν παῖδας.</quote>
+			<note type="translation">Ister etiam auctor est, in eo quod de Cretensium sa crificiis edidit volumine, pueros olim Saturno immolari a Curetibus solitow fuisse.</note>
+			<note type="commentary">Eadem sunt ap. Porphyr. De abstin. II.</note>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.de_proprietate_certaminum">ΠΕΡΙ ΙΔΙΟΤΗΤΟΣ ΑΘΛΩΝ</title></ab>
+
+		<cit n="48">
+			<bibl>Clemens Alex. Strom. III, p. 447, c, de athletis agens, qui a Venere abstinuerunt, etiam hoc affert:</bibl>
+			<quote>Ὅ τε Κυρηναῖος Ἀριστοτέλης Λαΐδα ἐρῶσαν ὑπερεώρα μόνος. Ὀμωμοκὼς οὖν τῇ ἑταίρᾳ, ἦ μὴν ἀπάξειν αὐτὴν εἰς τὴν πατρίδα, εἰ συμπράξειεν αὐτῷ τινα πρὸς τοὺς ἀνταγωνιστὰς, ἐπειδὴ διεπράξατο, χαριέντως ἐκτελῶν τὸν ὅρκον, γραψάμενος αὐτῆς ὡς ὅτι μάλιστα ὁμοιοτάτην εἰκόνα, ἀνέστησεν εἰς Κυρήνην, ὡς ἱστορεῖ Ἴστρος ἐν τῷ περὶ ἰδιότητος ἄθλων.</quote>
+			<note type="translation">Aristoteles Cyrenaeus amantem Laidem solus despexit. Quum meretrici itaque jurasset, se eam esse in patriam  abducturum, si ei adversus decertantes adversarios aliquam opem tulisset, postquam id perfecit, lepide jusjurandum exsequens, ejus quam simillimam pinxit imaginem eamque Cyrenas transvexit, ut scribit Ister in  libro de Proprietate certaminum.</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.melopoei">ΜΕΛΟΠΟΙΟΙ</title></ab>
+<pb n="424"/>
+
+		<cit n="49">
+			<bibl>Schol. Aristoph. Nub. 971:</bibl>
+			<quote>Ὁ Φρῦνις κιθαρῳδὸς Μυτιληναῖος. Οὗτος δὲ δοκεῖ πρῶτος παρὰ Ἀθηναίοις κιθαρῳδικῇ νικῆσαι Παναθηναίοις ἐπὶ Καλλίου ἄρχοντος. Ἦν δὲ Ἀριστοκλείδου μαθητής. Ὁ δὲ Ἀριστοκλείδης κιθαρῳδὸς ἦν ἄριστος· τὸ γένος ἦν ἀπὸ Τερπάνδρου. Ἤκμασε δ ̓ ἐν τῇ Ἑλλάδι κατὰ τὰ Μηδικά. Παραλαβὼν δὲ τὸν Φρῦνιν αὐλῳδοῦντα, καθαρίζειν ἐδίδαξεν. Ὁ δὲ Ἴστρος Ἱέρωνος αὐτόν φησι μάγειρον ὄντα σὺν ἄλλοις δοθῆναι τῷ Ἀριστοκλείδῃ. Ταῦτα δὲ σχεδιάσαι ἔοικεν. Εἰ γὰρ ἦν γεγονὼς δοῦλος καὶ μάγειρος Ἱέρωνος, οὐκ ἂν ἀπέκρυψαν οἱ κωμικοὶ, πολλάκις αὐτοῦ μεμνημένοι ἐφ ̓ οἷς ἐκαινούρηησε κλάσας τὴν ᾠδὴν παρὰ τὸ ἀρχαῖον ἔθος.</quote>
+			<note type="translation">Phrynis citharoedus Mytilenæus. Hic fertur primus apud Athenienses arte citharœdica vicisse in Panathenæis, Callia archonte. Erat Aristoclidæ discipulus. Aristoclides, præstantissimus citharædus, qui genus duxit a Terpandro, floruit in Græcia belli Persici tempore. Is Phrynin, quem ad se recepit, callentem tibiis canendi artem, cithara canere docuit. Ister vero ait, eum Hieronis coquum fuisse  et ab hoc cum aliis Aristoclidæ traditum esse: hæc tamen negligenter scripsisse videtur; si enim servus et coquus  Hieronis fuisset, id non celassenl comici, qui sæpe ejus faciunt mentionem propter ea, quæ novavit; fregit enim  vim cantus, relicto more antiquo.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="50">
+			<bibl>Suidas V. Φρῦνις eadem hæc habet, sed post voc. ἐδίδαξεν hoc peculiare:</bibl>
+			<quote>Ἴστρος δ ̓ ἐν τοῖς ἐπιγραφομένοις Μελοποιοῖς τὸν Φρῦνιν Λέσβιόν φησι, Κάνωπος υἱόν. Τοῦτον δὲ Ἱέρωνος τοῦ τυράννου μάγειρον κ.τ.λ.</quote>
+			<note type="translation">Ister in eo opere, quod Melopœi inscribitur, Phrynin Lesbium fuisse dicit, Canopis filium; qui, quum esset Hieronis tyranni coquus, etc.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="51">
+			<bibl>Græca Sophoclis Vita:</bibl>
+			<quote>Σοφοκλῆς τὸ μὲν γένος ἦν Ἀθηναῖος, υἱὸς δὲ Σοφίλου, ὃς οὔτε, ὡς Ἀριστόξενός φησι, τέκτων ἢ χαλκεὺς ἢν· οὔτε, ὡς Ἴστρος, μαχαιροποιὸς τὴν ἐργασίαν· τυχὸν δὲ ἐκέκτητο δούλους χαλκεῖς καὶ τέκτονας· οὐ γὰρ εἰκὸς τὸν ἐκ τοῦ τοιούτου γενόμενον στρατηγίας ἀξιωθῆναι σὺν Περικλεῖ καὶ Θουκυδίδῃ, τοῖς πρώτοις τῆς πόλεως· ἀλλ ̓ οὐδ ̓ ἂν ὑπὸ τῶν κωμῳδῶν ἄδηκτος ἀφείθη, τῶν οὐδὲ Θεμιστοκλέους ἀπεσχημένων. Ἀπιστητέον δὲ καὶ τῷ Ἴστρῳ, φάσκοντι αὐτὸν οὐκ Ἀπιστητέον δὲ καὶ τῷ Ἴστρῳ, φάσκοντι αὐτὸν οὐκ Ἀθηναῖον, ἀλλὰ Φλιάσιον εἶναι. Εἰ δὲ καὶ τὸ ἀνέκαθεν Φλιάσιος ἦν, ἀλλὰ πλῆν Ἴστρου, παρ ̓ οὐδενὶ ἑτέρῳ τοῦτό ἐστιν εὑρεῖν. ... Διεπονήθη δὲ ἐν παισὶ καὶ περὶ παλαῖστραν καὶ μουσικὴν, ἐξ ὧν ἀμφοτέρων ἐστερανώθη, ὥς φησιν Ἴστρος. ... Φησὶ δὲ καὶ Ἴστρος, τὰς λευκὰς κρηπῖδας αὐτὸν ἐξευρηκέναι, ἃς ὑποδοῦνται οἵ τε ὑποκριταὶ καὶ οἱ χορευταί· καὶ πρὸς τὰς φύσεις αὐτῶν γράψαι τὰ δράματα· ταῖς δὲ Μούσαις θίασον ἐκ τῶν πεπαιδευμένων συναγαγεῖν. ... Τελευτῆσαι δὲ αὐτὸν Ἴστρος καὶ Νεάνθης φασὶ τοῦτον τὸν τρόπον· Καλλιππίδην ὑποκριτὴν ἀπὸ ἐργασίας ἐξ Ὀποῦντος ἥκοντα παρὰ τοὺς Χόας, πέμψαι αὐτῷ σταφυλήν· τὸν δὲ Σοφοκλέα λαβόντα, [καὶ βαλόντα] εἰς τὸ στόμα ῥᾶγα ἔτι ὀμφακίζουσαν, ὑπὸ τοῦ ἄγαν γήρως ἀποπνιγέντα τελευτῆσαι. ... Ἴστρος δέ φησιν, Ἀθηναίους διὰ τὴν τοῦ ἀνδρὸς ἀρετὴν καὶ ψήφισμα πεποιηκέναι, κατ ̓ ἔτος [ἕκαστον] αὐτῷ θύειν.</quote>
+			<note type="translation">Sophocles genere erat Atheniensis, filius Sophili, qui neque faber, ut ait Aristoxenus, lignarius neque ærarius erat, neque cultrorum opifex, ut statuit Ister: sed  fortasse possidebat servos, qui fabri aerarii erant et  lignarii; vix enim credibile est, talis hominis filium dignum habitum esse, qui cum Pericle et Thucydide, civium nobilissimis, exercitui præificeretur. Neque comici eum reliquissent intactum, qui ipso Themistocle non abstinuerunt; neque credere licet Istro, si dicit,  eum non esse Atheniensem, sed Phliasium. Possis statuere ejus genus antiquitus esse Phliasium: sed nemo,  excepto Istro , hoc memorat. ... Inter pueros operam  dabat palaestricae et musicæ, atque in utraque arte coronam adeptus est, ut Ister tradit. Idem dicit, eum invenisse albos cothurnos, quos actores et choreutæ subligant, atque fabulas accommodasse actorum indoli, ex hisque arte bene institutis Musarum collegisse sodalitium. ... Obiisse eum Ister et Neanthes tradunt hoc modo: Callipidem quum venisset Opunte ad Choes celebrandos, misisse ei uvam, cujus acinum adhuc immaturum in os injicientem Sophoclem, propter summam senectutem  suffocatum esse ideoque vitam finiisse. ... Ister ait, Athenienses hujus viri virtute commotos decrevisse, quotannis ei sacrum facere.</note>
+			<note type="commentary">De Sophocle Ister exposuerat forsan in opere  Μελοποιοὶ inscripto, quod confirmari videtur et  aliis in hac Sophoclis Vita narratis.</note>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.commentarii">ΥΠΟΜΝΗΜΑΤΑ</title></ab>
+
+		<cit n="52">
+			<bibl>Plutarch. Quaest. Græc, p. 301 Francof. s. t. 7, p. 203 Reisk.:</bibl>
+			<quote>Πόθεν ἡ τῶν Ἰθακησίων πόλις Ἀλαλκομεναὶ προσηγορεύθη; ... Ἴστορς ὁ Ἀλεξανδρεὺς ἐν ὑπομνήμασι προσιστόρηκεν, ὅτι τῷ Λαέρτῃ δοθεῖσα πρὸς γάμον (Ἀντίκλεια) καὶ ἀναγομένη περὶ τὸ Ἀλαλκομένειον ἐν τῇ Βοιωτίᾳ τὸν Ὀδυσσέα τέκοι, καὶ διὰ τοῦτο ἐκεῖνος ὥσπερ μητροπόλεως ἀναφέρων τοὔνομα τὴν ἐν Ἰθάκῃ πόλιν οὕτω φησὶ προσαγορεύεσθαι.</quote>
+			<note type="translation">Unde urbs Ithacensium Alalcomenæ appellatur? ... IsTer Alexandrinus in suis Commentariis retulit, nuptam  Anticleam Laertæ, et adductam in Alalcomenium, quod  est in Bœotia, Ulyssem peperisse: indeque eum quasi  urbis nomen commendantem posteris, in qua esset natus, Ithacæ urbem eo nomine donasse.</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.dictiones_atticae">ΑΤΤΙΚΑΙ ΛΕΞΕΙΣ</title></ab>
+<pb n="425"/>
+
+		<cit n="53">
+			<bibl>Eustath. ad Odyss. I, p. 1627:</bibl>
+			<quote>Φασὶ γοῦν οἱ παλαιοὶ, ὅτι οὐ μόνον τερῖς ἡλικίαι, ἀρὴν, ἀμνὸς, ἀρνειός· καὶ ὅτι τοῦ ἀμνοῦ καὶ θηλυκὸν ἡ ἀμνὴ, πρόβατον αὐτὸ μέσον τῇ ἡλικίᾳ· καὶ ὅτι ἀμνὴ ἐνιαύσιον ἄρνα δηλοῖ· ἀλλὰ καὶ ὅτι Ἴστρος ἐν ἀττικαῖς λέξεσιν, ἄρνα φησὶν, εἶτα ἀμνὸν, εἶτα ἀρνειὸν, εἶτα λειπογνώμονα.</quote>
+			<note type="translation">Veteres quidem dicunt, non modo tres distingui aetates, ἀρήν, ἀμνός, ἀρνειός, et ἀμνοῦ feminam esse ἀμνὴν ovem mediæ ætatis, eamque ἀμνὴν denotare agnam annuam, sed etiam, Istrum in Dictionibus Atticis hunc ordinem statuere: ἄρην, deinde ἀμνός, demde ἀρνειός, deinde λειπογνώμων.</note>
+			<note type="commentary">Hæc Suidas quoque v. Ἀμνόν et Phavorinus v. Ἀρνειός exhibent: apud Suidam tamen post ἐν ταῖς Ἀττικαῖς perperam omissum est λέξεσιν.</note>
+		</cit>
+
+		<cit n="54">
+			<bibl>Hesych.:</bibl>
+			<quote>Ἀμάλλαι, δράγματα, δέσμαι τῶν ἀσταχύων. Σοφοκλῆς Τριπτολέμῳ. Ἀγκάλη, δράγματα δύο, ὥς φησιν Ἴστρος, Φιλήτας δὲ ἱστορεῖ ἐκ διακοσίων· καὶ Ὅμηρος χρῆται τῇ λέξει.</quote>
+			<note type="translation">Ἀμάλλαι, manipuli, fasciculi spicarum, Sophocles in Triptolemo; ἀγκαλίδες constant e centum manipulis, si Istrum sequamur, Phileta vero auctore ex ducentis. Etiam Homerus hac voce utitur.</note>
+			<note type="commentary">Siebelis hunc locum ita restituit: Τριπτολέμῳ· ἀγκαλίδες ἐκ δραγμάτων ἑκατὸν, ὥς φησιν Ἴστρος κ. τ. λ. Et codex Hesychii δράγματα ρ, non β. Schol. enim, ad Theocrit. X, 44 hæc tradit: ἀμάλλη δὲ συνέστηκεν ἐκ δραγμάτων ἑκατὸν ἢ καὶ διακοσίων. Cf. Eustath. ad Hom. p.1162, et Phavor. v. Ἀμάλλη.</note>
+		</cit>
+
+		<cit n="55">
+			<bibl>Schol. Villois. Iliad. K, 439:</bibl>
+			<quote>Τεύχεα εἰρῆσθαι Ἴστρος φησὶ παρὰ τὸ ἐν Τευχίῳ τῷ Εὐβοῖκῷ κατεσκευάσθαι πρῶτον ὑπὸ Κυκλώπων.</quote>
+			<note type="translation">Ister dicit, τεύχεα (armaturam) inde nomen accepisse, quod Cyclopes primum fecerint in Teuchio, loco Euboœæ.</note>
+			<note type="commentary">Verba παρὰ τὸ ἐν Τευχίῳ a Siebeli reposita sunt pro vulgata: παρὰ το Εὐτευχίῳ. Cf. Eustath. ad Il. p. 817 R.</note>
+		</cit>
+		</div>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.ister.istri_fragmenta.fragmenta_incertorum_operum">FRAGMENTA INCERTORUM OPERUM</title></ab>
+
+		<cit n="56">
+			<bibl>Eustath. ad Dionys. v. 513, p. 207 Oxon. 1697:</bibl>
+			<quote>Ἴστρον δέ τινά φασιν ἱστορεῖν, τέσσαρας γενέσθαι μεγάλους κατακλυσμοὺς, ὧν ἐφ ̓ ἑνὶ διαῤῥαγέντα τὸν Ἑλλήσποντον ἀφορίσαι τῆς Ἀσίας τὴν Εὐρώπην.</quote>
+			<note type="translation">Istrum quendam aiunt narrare, quatuor fuisse magna  diluvia, quorum uno Hellespontus diruptus Asiaque ab  Europa per eum separata sit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="57">
+			<bibl>Stephan. Byz.:</bibl>
+			<quote>Ἀρκάς. ... Ἴστρος δέ φησιν, ὅτι Θεμιστοῦς καὶ Διὸς ὁ Ἀρκὰς ἐγένετο· διὰ δὲ τὴν τῆς μητρὸς ἀποθηρίωσιν, ἄρκτῳ γὰρ ὑφ ̓ Ἥρας αὐτὴν ὀνομασθῆναι, ταύτης τυχεῖν τῆς προσηγορίας.</quote>
+			<note type="translation">Ister tradit, Arcadem Themistûs et Jovis filium fuisse; hoc nomen eum sortitum esse, quod mater in feram mutata sit; a Junone enim eam in ursam (ἄρκτον) conversam esse.</note>
+			<note type="commentary">Berkel. pro Θεμιστοῦς scribi vult Μεγίστους. Sed idem nomen, quod apud Steph. Byz. est, legitur apud Eust. ad Il. II, p. 300 R., qui illum sequutus esse videtur: Ἄρκτος γὰρ ὑπὸ Ἤρας, φασὶν, ἡ Θεμιστὼ ἐγένετο. ... Pro ἄρκτῳ ... ὀνομασθῆναι Holstenius, Politus ad Eustath. II, p. 636, et Heyn. ad Apollodor. III, 8, 2, scribendum statuunt ἄρκτῳ ... ὁμοιωθῆναι, quod præferendum est Siebelis conjecturæ: Εἰς ἄρκτον ... μεταμορφωθῆναι.</note>
+		</cit>
+
+		<cit n="58">
+			<bibl>Steph. Byz.:</bibl>
+			<quote>Κάρνη, πόλις Φοινίκης, ἄπὸ Κάρνου τοῦ Φοίνικος, ὡς Ἴστρος φησίν.</quote>
+			<note type="translation">Carne, urbs Phœniciæ, a Carno Phœnicis filio nomen habens, ut Isler auctor est.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="59">
+			<bibl>Schol. Pindar. Ol. I, 37:</bibl>
+			<quote>Πίνδαρος τὸν Πέλοπα Λυδόν φησιν εἶναι, Ἴστρος δὲ Παφλαγόνα.</quote>
+			<note type="translation">Pindarus Pelopem Lydum, Ister vero eum Paphlagonem dicit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="60a">
+			<bibl>Schol. Apollon. II, 207:</bibl>
+			<quote>Ἴστρος φησὶ, τὸν Αἰήτην, γνόντα ὅτι τοὺς Φρίξου υἱοὺς εἴη σεσωκὼς (Φινεὺς) ταῖς μαντείαις, καταράσασθαι αὐτοῦ, τὸν δὲ Ἦλιον ἐπακούσαντα πηρῶσαι.</quote>
+			<note type="translation">Ister tradit, Æelam, quum cognovissel Phineum Phrixi filios vaticiniis servasse, eum exsecratum esse, Solem autem, quum hoc audivisset, privasse eum oculis.</note>
+			<note type="commentary">Idem narratur apud Apollod. I, 9, 21, nisi quod ibi Neptunus dicitur Phinea privasse oculis.</note>
+		</cit>
+<pb n="426"/>
+
+		<cit n="60b">
+			<bibl>Schol. Pind. Ol. VII, 146:</bibl>
+			<quote>Κρίσις ἀμφ ̓ ἀέθλοις] κρίσιν εἶπε τὸν ἀγῶνα τῶν Ἡλιείων, ὃν διατιθέασιν οἱ Ῥόδιοι, ἐψεύσατο δὲ ὁ Πίνδαρος· οὐ γὰρ Τληπολέμῳ ὁ ἀγὼν ἐπιτελεῖται, τῷ δὲ Ἡλίῳ τιθέασι τὸν ἀγῶνα, ὡς Ἴστρος φησὶν ἐν τῇ περὶ τῶν Ἡλίου ἀγώνων. «Ῥόδιοι τιθέασιν Ἡλίου ἐν Ῥόδῳ γυμνικὸν στεφανίτην ἀγῶνα.»</quote>
+			<note type="translation">Κρίσιν Pindarus dicit ludum Helieorum, quem Rhodii instituunt; sed falsa tradit: non enim Tlepolemo ludus celebralur, sed Soli; ut Ister tradit in libro de Solis ludis: «Rhodii instituunt Rhodi ludum gymnicnm Solis, in quo corona pro praemio est.»</note>
+			<note type="commentary">Bœckhius adnotat hæc: Ex Vrat. A. Verba, quae Istri esse videntur, in codice sunt hæc: P. τ. Ἡ ἐν P. Γυμνικόν τε στεφανίτην, omisso ἀγῶνα. Cetera religiosa fide consarcinavi ex ternis codicis notis miserum in modum confusis et luxatis.</note>
+		</cit>
+
+		<cit n="61">
+			<bibl>Schol. Villois. ad Hom. Iliad. B, 110:</bibl>
+			<quote>Ὅτι πρὸς πάντας ἀποτεινόμενος τὸν λόγον ἥρωας λέγει. Ἡ δὲ ἀναφορὰ πρὸς Ἴστρον λέγοντα, μόνους τοὺς βασιλεῖς Ἥρωας λέγεσθαι.</quote>
+			<note type="translation">Heroes dicit, ad omnes orationem convertens: hoc Istri causa adnotatur qui dicit, reges solos dici heroes.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="62">
+			<bibl>Idem ad T, 34:</bibl>
+			<quote>Ἡ διπλῆ, ὅτι πάντες ἥρωες ἐλέγοντο, οὐχ οἱ βασιλεῖς, ὡς Ἴστρος. Quod repetitur ad XIII, 629 et XV, 230.</quote>
+			<note type="translation">Omnes heroes dicebantur, non vero soli reges, ut Ister opinatur.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="63">
+			<bibl>Hesych.:</bibl>
+			<quote>Σίκεον, ὡς Ἴστρος.</quote>
+			<note type="translation">Siceum, ut Ister.</note>
+			<note type="commentary">Toupius in Ep. crit. p. 131 hæc ita cum iis quae praecedunt coujunxit: Σικελὸς, στρατιώτης παροιμιῶδες, ἐπεὶ ξένοις ἐχρῶντο στρατιώταις ὡς ἐπιτοπολὺ οἱ περὶ Ἱέρωνα τὸν τύραννον, ὡς διωθουμένων αὐτῶν τὸν μισθὸν, καὶ μηδενὶ ἀποδιδόντων τῶν Σικελῶν. Ὡς Ἴστρος. Sed verba καὶ μηδενὶ ... Σικελῶν, ait Siebelis, non ita bene concinere cum præcedenlibus, quisque facile sentiet; itaque praestat cum Albertio in fine praecedentis loci ap. Hesychium ita scribere: ὡς διωθουμένων αὐτῶν τὸν μισθὸν, μηδενὸς ἀποδιδόντος, et vulnus in verbis Σίκεον ὡς Ἴστρος, utpote sine codd. insanabile, intactum relinquere. Forsan autem hic discriminis inter Σικελοὶ et Σικελιῶται mentio injecta, et ita fere scriptum fuit: διαφορὰν δέ φασί τινες Σικελιωτῶν καὶ Σικελῶν, ὡς Ἴστρος.</note>
+		</cit>
+
+		<cit n="64">
+			<bibl>Plutarch. Alexand. p.691 Frf., 1267 ed. Steph. seu cap. 46:</bibl>
+			<quote>Alexander, transmisso Orexarte amne, quem arbitrabatur esse Tanaim, fusos Scythas ad 100 stadia est insectatus: Ἐνταῦθα δὲ πρὸς αὐτὸν ἀφικέσθαι τὴν Ἀμαζόνα οἱ πολλοὶ λέγουσιν, ὧν καὶ Κλείταρχός ἐστι καὶ Πολύκριτος, καὶ Ὀνησίκριτος, καὶ Ἀντιγένης, καὶ Ἴστρος.</quote>
+			<note type="translation">Eo venisse ad Alexandrum Amazonem perhibent multi, inter quos Clitarchus, Polycritus, Onesicritus, Antigenes, Ister.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="65">
+			<bibl>Ælian. H. A. V, 27:</bibl>
+			<quote>Τὰς ἐν Λέρῳ Μελεαγρίδας ὑπὸ μηδενὸς ἀδικεῖσθαι τῶν γαμψωνύχων ὀρνέων, λέγει Ἴστρος.</quote>
+			<note type="translation">Ister tradit, Meleagrides aves in Lero a nulla avium curvis unguibus armatarum læedi.</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+	</div>
+</div>
+<pb n="427"/>
+</body>
+</text>
+</TEI>

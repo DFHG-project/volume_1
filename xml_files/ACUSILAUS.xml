@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1_ACUSILAUS">
+<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title>Digital Fragmenta Historicorum Graecorum</title>
+            <editor>Karl Müller</editor>
+            <sponsor>University of Leipzig</sponsor>
+            <funder>Alexander von Humboldt Stiftung</funder>
+            <principal>Monica Berti</principal>
+            <respStmt>
+                <persName xml:id="MB">Monica Berti</persName>
+                <resp>Editor-in-chief</resp>
+            </respStmt>
+            <respStmt>
+                <persName xml:id="GRC">Gregory R. Crane</persName>
+                <resp>Associate editor</resp>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <authority/>
+            <idno type="filename">ACUSILAUS.xml</idno>
+            <availability>
+                <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Available under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</licence>
+            </availability>
+            <publisher>University of Leipzig</publisher>
+            <pubPlace>Germany</pubPlace>
+            <date>2016</date>
+        </publicationStmt>
+        <sourceDesc>
+            <listBibl xml:lang="la">
+                <biblStruct>
+                    <monogr>
+                        <title>Fragmenta Historicorum Graecorum</title>
+                        <editor>
+                            <persName>
+                                <name xml:lang="la">Carolus Mullerus</name>
+                                <addName xml:lang="de">Karl Müller</addName>
+                            </persName>
+                            <persName>
+                                <name xml:lang="la">Theodorus Müller</name>
+                                <name xml:lang="de">Theodor Mullerus</name>
+                            </persName>
+                        </editor>
+                        <author ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.acusilaus">ACUSILAUS</author>
+                        <imprint>
+                            <publisher>Ambroise Firmin-Didot</publisher>
+                            <pubPlace>Paris, France</pubPlace>
+                            <date>1841</date>
+                        </imprint>
+                        <biblScope unit="volume">Volumen primum</biblScope>
+                    </monogr>
+                    <ref target="https://archive.org/details/fragmentahistori01mueluoft">Internet Archive</ref>
+                </biblStruct>
+            </listBibl>
+        </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+        <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="la">Latin</language>
+            <language ident="grc">Greek</language>
+        </langUsage>
+    </profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="edition" subtype="volume" n="1">
+	<div type="textpart" subtype="section">
+	<head>
+<title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.acusilaus.acusilai_fragmenta">ACUSILAI FRAGMENTA</title>
+</head>
+		<div type="textpart" subtype="work">
+		<ab><title ref="http://www.dfhg-project.org/DFHG/tools/#urn:cite:lofts:fhg.acusilaus.acusilai_fragmenta.genealogiae">ΓΕΝΕΑΛΟΓΙΑΙ</title></ab>
+
+		<cit n="1">
+			<bibl>Plato Sympos. p. 178. B (quem locum Stobæus excerpsit in Eclog. phys. 1, p. 22):</bibl>
+			<quote>Ἡσίοδος πρῶτον μὲν Χάος γενέσθαι φησὶν (Stob. Φησὶ γίγνεσθαι) ... μετὰ τὸ Χάος δύο τούτω γενέσθαι, Γῆν τε καὶ Ἔρωτα. ... Ἡσιόδῳ δὲ καὶ Ἀκουσίλαως ὁμολογεῖ. Οὕτω πολλαχόθεν ὁμολογεῖται ὁ Ἔρως ἐν τοῖς πρεσβυτάτοις εἶναι (Stob. Ἀκουσ. ξύμφησιν, ἐν τοῖς πρεσβ. εἶναι), πρεσβύτατος δὲ (Stob. τε) ὢν, μεγίστων ἀγαθῶν ἡμῖν αἴτοις ἐστί.</quote>
+			<note type="translation">Hesiodus principio Chaos exstitisse dicit ... post Chaos hæc duo exstitisse, Terram atque Amorem. ... Acusilaus quoque cum Hesiodo consentit. Atque ita passim, Amorem ex antiquissimis esse, conceditur. Quum vero talis sit, maximorum bonorum nobis est causa.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="1">
+			<bibl>Scholiastes Theocriti iin argumento Idyllii XIII:</bibl>
+			<quote>Ἡσίοδος Χάους καὶ Γῆς (Ἔρωτα υἱὸν λέγει) ... Ἀκουσίλαος Νυκτὸς καὶ Αἰθέρος.</quote>
+			<note type="translation">Hesiodus Amorem Chai et Terræ, Acusilaus Noctis et Ætheris filium esse dicit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="1">
+			<bibl>Damascius περὶ αῤχῶν c. 14, p. 257. in Wolfii Anecdot. Græc. t. III:</bibl>
+			<quote>Ἀκουσίλαος Χάος μὲν ὑποτίθεσθαί μοι δοκεῖ τὴν πρώτην ἀρχὴν, ὡς πάντη ἄγνωστον· τὰς δὲ δύο μετὰ τὴν μίαν· Ἔρεβος μὲν, τὴν ἄῤῥενα, τὴν δὲ θήλειαν, Νύκτα· ταύτην μὲν ἀντὶ ἀπειρίας, ἐκείνην δὲ ἀντὶ πέρατος, Ἐκ δὲ τούτων φημὶ μιχθέντων Αἰθέρα γενέσθαι, καὶ Ἔρωτα, καὶ Μῆτιν, τὰς τρεῖς ταύτας νοητὰς ὑποστάσεις.</quote>
+			<note type="translation">Acusilaus Chaos statuere mihi videtur primum rerum principium, ut prorsus ignotum. Post hoc unum hæc duo; Erebum, principium masculinum, et Noctem, principium femininum, hoc pro infinito, illud pro finito. Ex horum commixtione ortos esse dico Ætherem, Amorem, Intelligentiam, tres illas, quæ mente percipiuntur, substantias.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="2">
+			<bibl>Etymol. M.:</bibl>
+			<quote>Κοῖος· ὁ πατὴρ Λητοῦς· παρὰ τὸ κοεῖν, ὅ ἐστι νοεῖν καὶ συνιέναι, ὅ ἐστι συνετός. Κοῖόν θ ̓ Ὑπερίονά τ ̓ Ἰαπετόν τε (ex Hesiodi Theog. 134). Οἱ Αἰολεῖς τῷ κ ἀντὶ τοῦ ν κέχρηνται. Οὗτοι δὲ Τιτᾶνες καὶ Τιτανίδες καλοῦνται, ὡς Ἀκουσίλαος.</quote>
+			<note type="translation">Cœus, pater Latonæ, sic nominatus a κοεῖν, quod idem est ac νοεῖν et συνιέναι (scire, intelligere), ita ut κοῖος sit quasi νοῖος prudens, intelligens. Nam Æoles litera κ pro ν utuntur. Hesiodus: Cœum et Hyperiona et Iapetum. Hi vero Titanes et Titanides vocantur, ut ait Acusilaus.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="3">
+			<bibl>Schol. Hesiod. Theog. 870, p. 169 a:</bibl>
+			<quote>Ἀκουσίλαος τρεῖς ἀνέμους εἶναι φησὶ κατὰ Ἡσίοδον, βορᾶν, ζέφυρον, καὶ νότον. Τοῦ γὰρ ζεφύρου ἐπίθετον τὸ ἀργέστην φησίν.</quote>
+			<note type="translation">Acusilaus tres ventos esse dicit secundum Hesiodum: boream, zephyrum, notum. Nam ἀργέστην (velocem, vel album, i. e. albas nubes in cœlo congerentem) ait zephyri epitheton esse.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="4">
+			<bibl>Schol. Nicandri Theriac. v. 11, p. 6:</bibl>
+			<quote>Περὶ τῆς τῶν δακνόντων θηρίων γενέσεως, ὅτι ἐστὶν ἐκ τῶν Τιτάνων τοῦ αἵματος, παρὰ μὲν τῷ Ἡσιόδῳ οὐκ ἔστιν εὑτεῖν· Ἀκουσίλαος δέ φησιν ἐκ τοῦ αἵματος τοῦ Τυφῶνος πάντα τὰ δάκνοντα γενέσθαι.</quote>
+			<note type="translation">Animalia, quæ morsu venenato lædunt, ex Titanum sanguine orta esse non legitur apud Hesiodum; Acusilaus vero ex Typhonis sanguine omnia animalia, quæ morsu vulnerant, nata esse dicit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="5">
+			<bibl>Schol. Apollon. IV, 828:</bibl>
+			<quote>Ἀκουσίλαος Φόρκυνος καὶ Ἑκάτης τὴν Σκύλλαν λέγει. ... Ἐν δὲ ταῖς μεγάλαις Ἠοίαις Φόρβαντος καὶ Ἑκάτης ἡ Σκύλλα.</quote>
+			<note type="translation">Acusilaus Scyllam Phorcynis et Hecatæ filiam esse tradit; verum in Eœis magnis Scylla Phorbantis est ex Hecate.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="6">
+			<bibl>Strabo X, p. 472, D:</bibl>
+			<quote>Ἀκουσίλαος ὁ Ἀργεῖος ἐκ Καβείρης καὶ Ἡφαίστου Κάμιλον λέγει. Τοῦ δὲ, τρεῖς Καβείρους, ὧν Νύμφας Καβειράδας.</quote>
+			<note type="translation">Acusilaus Argivus ex Cabira et Vulcano natum ait Cadmilum, ex hoc tres Cabiros, ex his Nymphas Cabiridas.</note>
+			<note type="commentary">V. Welcker. Tril. Æschyl. p. 219.</note>
+		</cit>
+
+		<cit n="7">
+			<bibl>Scholia Homer. ad Odyss. K, 2, a Buttmanno ex Codd. Mss. edita:</bibl>
+			<quote>Δευκαλίων, ἐφ ̓ οὗ ὁ κατακλυσμὸς γέγονε, Προμηθέως μὲν ἦν υἱὸς, μητρὸς δὲ ὡς πλεῖστοι λέγουσι Κλυμένης, ὡς δὲ Ἡσίοδος Πρυνείης, ὡς δὲ Ἀκουσίλαος Ἡσιόνης τῆς Ὠκεανοῦ καὶ τοῦ Προμηθέως.</quote>
+			<note type="translation">Deucalio, sub quo diluvium, filius erat Promethei et, ut plurimi dicunt, Clymenæ, secundum Hesiodum vero Pandoræ; secundum Acusilaum natus est ex Hesione, Oceani filia, et ex Prometheo.</note>
+			<note type="commentary">Sturz. pro Ἡσιόνης, quæ h. l. Oceani filia dicitur, legendum putat Ἀσίας et pro corrupto illo Πρυνείης reponi vult Πανδώρας.</note>
+		</cit>
+
+		<cit n="7">
+			<bibl>Schol. Pind. Ol. 9, 70:</bibl>
+			<quote>Κοινὰ τὰ περὶ Δευκαλίωνα καὶ Πύῤῥαν, καὶ ὅτι τοὺς λίθους κατόπιν ῥίπτοντες ἀνθρώπους ἐποίουν, μαρτυρεῖ Ἀκουσίλαος.</quote>
+			<note type="translation">Tralaticia sunt illa de Deucalione et de Pyrrha, eosque lapides post tergum jacientes fecisse homines testatur Acusilaus.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="100"/>
+
+		<cit n="8">
+			<bibl>Schol. Apollon. III, 1123:</bibl>
+			<quote>Ἀκουσίλαος καὶ Ἡσίοδος ἐν ταῖς μεγάλαις Ἠοίαις φασὶν ἐξ Ἰοφώσσης τῆς Αἰήτου</quote>
+			<note type="translation">Acusilaus et Hesiodus in Eœis magnis dicunt ex Iophossa, Æetæ filia, Phrixum genuisse Argum.</note>
+			<note type="commentary">(Phrixum genuisse Argum).</note>
+		</cit>
+
+		<cit n="9">
+			<bibl>Schol. Apoll. Rh. IV, 1147:</bibl>
+			<quote>Περὶ δὲ τοῦ δέρους, ὅτι ἦν χρυσοῦν, οἱ πλεῖστοι ἱστοροῦσιν. Ἀκουσίλαος δὲ ἐν τῷ περὶ γενεαλογιῶν πορφυρευθῆναι φησὶν ἀπὸ τῆς θαλάσσης.</quote>
+			<note type="translation">Plurimi narrant vellus illud aureum fuisse; Acusilaus vero in libro de Genealogiis dicit ex mari purpura tinctum esse.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="10">
+			<bibl>Schol. Apollon. IV, 57:</bibl>
+			<quote>Τὸν Ἐνδυμίωνα Ἡσίοδος μὲν Ἀεθλίου τοῦ Διὸς καὶ Καλύκης παῖδα λέγει, παρὰ Διὸς εἰληφότα δῶρον, αὐτὸν ταμίαν εἶναι θανάτου, ὅτε μέλλοι ὀλέσθαι. Καὶ Πείσανδρος δὲ τὰ αὐτά φησι, καὶ Ἀκουσίλαος, καὶ Φερεκύδης.</quote>
+			<note type="translation">Endymionem Hesiodus dicit Aethlio, Jovis filio, ex Calyce natum, cui a Jove dono datum esset, se moriturum mortis arbitrum esse. Eadem narrant Pisander, Acusilaus, Pherecydes.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="11">
+			<bibl>Tzetzes ad Lycophr. 177:</bibl>
+			<quote>Ὠκεανοῦ καὶ Τηθύος, Ἴναχος· Ἰνάχου καὶ Μελίας τῆς Ὠκεανοῦ, Φορωνεὺς, καὶ Αἰγιαλεὺς Ἄπαις, ἀφ ̓ οὗ Αἰγιάλεια ἡ χώρα. Φορωνεὺς δυναστεύων Πελοποννήσου, ἐκ Τηλοδίκης νύμφης γεννᾷ Ἄπιν καὶ Νιόβην. Ἄπις οὖν τυραννικῶς ζῶν, ἀναιρεῖται ὑπὸ Θελξίονος καὶ Τελχῖνος, ἀφ ̓ οὗ καὶ ἡ χώρα Ἀπία, ἡ τῆς Πελοποννήσου. Νιόβης, τῆς Ἄπιδος ἀδελφῆς, καὶ Διὸς Ἄργος, ἀφ ̓ οὗ ἡ χώρα. Κατὰ δὲ Ἀκουσίλαον, καὶ Πελασγὸς σὺν Ἄργῳ, ἀφ ̓ οὗ ἡ Πελοποννήσου χώρα, ἡ καὶ Ἀπία λεγομένη, μέχρι Φαρσαλίας καὶ Λαρίσσης, Πελασγία ἐκλήθη.</quote>
+			<note type="translation">Oceaniet Tethyos Inachus, Inachi et Meliæ, Oceani filiæ, Phoroneus et Ægialeus liberis carens, a quo Ægialea nomen habet. Phoroneus, Peloponnesi princeps, e Telodice nympha Apin genuit et Nioben. Apis, a quo regio Peloponnesiaca Apia nominata est, quum tyrannice viveret, a Thelxione et Telchine interficitur. Niobes, Apidis sororis, ex Jove filius est Argus, a quo terra nominata est, et præter Argum, ut Acusilaus dicit, Pelasgus, a quo Peloponnesus, quæ et Apia audit, usque ad Pharsaliam et Larissam, appellata est Pelasgia.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="11a">
+			<bibl>Didymus apud Macrob. Saturn. V, 18 (p. 130 Bip.):</bibl>
+			<quote>Ὁ γοῦν Ἀγησίλαος (leg. Ἀκουσίλαος) διὰ τῆς πρώτης ἱστορίας δεδήλωκεν, ὅτι Ἀχελῷος πάντων τῶν ποταμῶν πρεσβύτατος· ἔφη γὰρ Ὠκεανὸς δὲ γαμεῖ Τηθὺν ἑαυτοῦ ἀδελφήν· τῶν δὲ γίνονται τρισχίλιοι ποταμοί· Ἀχελῷος δὲ αὐτῶν πρεσβύτατος καὶ τετίμηται μάλιστα.</quote>
+			<note type="translation">Acusilaus in primo libro passim ostendit Acheloum omnium fluviorum esse antiquissimum. Dicit enim: «Oceanus vero uxorem ducit Tethyn ipsius sororem, Ex his nascuntur ter mille fluvii, quorum Achelous natu maximus est, et præ ceteris habetur in honore.»</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="12">
+			<bibl>Apollod. Il, 1, 1:</bibl>
+			<quote>Νιόβης καὶ Διὸς ... παῖς Ἄργος ἐγένετο· ὡς δὲ Ἀκουσίλαός φησι, καὶ Πελασγὸς, ἀφ ̓ οὗ κληθῆναι τοὺς τὴν Πελοπόννησον οἰκοῦντας Πελασγούς. Ἡσίοδος δὲ τὸν Πελασγὸς αὐτόχθονά φησιν εἶναι.</quote>
+			<note type="translation">Jovis ex Niobe, filius erat Argus et Acusilao auctore, Pelasgus, a quo Peloponnesi incolæ Pelasgi nominati sunt. Hesiodus vero Pelasgum autochthonem esse dicit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="12">
+			<bibl>Idem III, 8, 1:</bibl>
+			<quote>Τὸν Πελασγὸν Ἀκουσίλαος Διὸς λέγει καὶ Νιόβης, ... Ἡσίοδος δὲ αὐτόχθονα.</quote>
+			<note type="translation"/>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="13">
+			<bibl>Ge. Syncellus Chronograph. p. 64, B, C.:</bibl>
+			<quote>Οὐδὲν ἀξιομνημόνευτον Ἕλλησιν ἱστορεῖται πρὸ Ὠγύγου, πλὴν τοῦ Φορωνέως τοῦ συγχρονίσαντος αὐτῷ, καὶ Ἰνάχου τοῦ Φορωνέως πατρὸς, ὃς πρῶτος Ἄργους ἐβασίλευσεν, ὡς Ἀκουσίλαος ἱστορεῖ.</quote>
+			<note type="translation">Ante Ogygen nihil apud Græcos narratur dignum quod memoretur, excepto Phoroneo, illius æquali, atque Inacho, Phoronei patre, qui primus Argolidis rex erat, ut narrat Acusilaus.</note>
+			<note type="commentary">Conf. Pausan. II. 15, p. 144 sq.</note>
+		</cit>
+
+		<cit n="14">
+			<bibl>Clemens Alexandr. Strom. I, p, 321, A, et ex eo Euseb. Præp. evang. X, 12, p. 497, D:</bibl>
+			<quote>Ἀκουσίλαος Φορωνέα πρῶτον ἄνθρωπον (Euseb. ἀνθρώπων) γενέσθαι λέγει. ... Ἐντεῦθεν ὁ Πλάτων ἐν Τιμαίῳ (p. 22, A) κατακολουήσας Ἀκoυσιλάῳ γράφει. Καί ποτε προαγαγεῖν βουληθεὶς αὐτοὺς περὶ τῶν ἀρχαίων εἰς λόγους τῶν τῇδε, τὰ ἀρχαιότατα λέγειν ἐπιχειρεῖ, περὶ Φορωνέως τε τοῦ πρώτου λεχθέντος καὶ Νιόβης.</quote>
+			<note type="translation">Acusilaus dicit Phoroneum fuisse primum hominum. ... Hinc Plato in Timæo secutus Acusilaum, scribit: Et quum vellet eos aliquando inducere ut dicerent de rebus antiquis ejus civitatis, aggreditur dicere quæ sunt antiquissima, de Phoroneo, qui dictus est primus hominum, et de Niobe.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="14">
+			<bibl>Euseb. Præp. ev. X, I0, p. 480, A (ex Julio Africano):</bibl>
+			<quote>Ἀπὸ Ὠγύγου τοῦ παρ ̓ ἐκείνοις (τοῖς Ἀττικοῖς) αὐτόχθονος πιστευθέντος, ἐφ ̓ οῦ γέγονεν ὁ μέγας καὶ πρῶτος ἐν τῇ Ἀττκῇ κατακλυμὸς, Φορωνέως Ἀργείων βασιλεύοντος, ὡς Ἀκουσίλαος ἱστορεῖ, μέχρι πρώτης Ὀλυμπιάδος . . . . ἔτη συνάγεται χίλια εἴκοσιν.</quote>
+			<note type="translation">Ab Ogyge, quem indidem satum esse credunt, sub quodammodo ingens illud primumque diluvium, regnante Argis Phoroneo, Atticam invasisse Acusilaus anctor est, ad primam usque olympiadem . . . anni colliguntur viginti supra mille.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="101"/>
+
+		<cit n="15">
+			<bibl>Joseph. Archæol. I, 4, extr.:</bibl>
+			<quote>Ἡσίοδός τε καὶ . . . Ἀχουσίλαος. . . ἱστοροῦσι τοὺς ἀρχαίους ζήσαωτας ἔτη χιλια.</quote>
+			<note type="translation">Hesiodus et Acusilaus narrant antiquissimorum temporum homines ad mille annos vixisse.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="16">
+			<bibl>Pausan. II, 16, 3, p. 146, de Mycene:</bibl>
+			<quote>Ταύτην εἶναι θυγατέρα Ἰνάχου, γυναῖκα δὲ Ἀρέστοπος, τὰ ἔπη λέγει, ἃ δὴ Ἕλληνες καλῦσιν Ἠοίας μεγάλας ἀπὸ ταύτης οὖν γεγονέναι καὶ τὸ ὄνομα τῇ πόλει. Ὅν δὲ φασὶ προσποιούμενοι ἀκοῦσαι λογον (leg. cum Porsono τῇ πόλει φασίν. ὅν δὲ προσποιοῦσιν Ἀκουσιλάῳ λόγον), Μυκηνέα υἱὸν εἶναι Σπάρτωνος, Σπάρτωνος, Σπάρτωνα δὲ Φορωνέως, οὐκ ἄν ἔγωγε ἀποδεξαίμην, διότι μηδὲ αὐτοὶ Λακεδαιμόνιοι.</quote>
+			<note type="translation">Mycenen Inachi filiam, Acestoris uxorem fuisse illo carmine narratur, quas Eæas magnas Græci dicunt, eamque urbi nomen dedisse ajunt. Quem vero Acusilao attribuunt sermonem, Myceneum Spartonis fuisse filium, spartonem Phoronei, mihi utique non probant, siquidem neque Lacedæmoniis.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="17">
+			<bibl>Apollod. II, 3:</bibl>
+			<quote>Ἅργον τὸν πανόπτην. . . Ἀκουσίλαος γηγενῆ λέγετ.</quote>
+			<note type="translation">Argum Panopten (omnia oculis cernentem) Acusilaus ex terra ortum dicit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="18">
+			<bibl>Apollod. II, I, 3:</bibl>
+			<quote>Ἡσίοδος καὶ Ἀκουσίλαος Πειρῆνος τὴν Ἰώ φασιν εἶναι.</quote>
+			<note type="translation">Hesiodus et Acusilaus Pirenis filiam Io esse dicunt.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="19">
+			<bibl>Apollod. II, 2, 2,</bibl>
+			<quote>Proæti filiæ ἐμάνησαν· ὡς μὲν Ἡσίοδός φησιν, ὅτι τὰς Διονύσου τελετὰς οὐ κατεδέχοντο· ὡς δὲ Ἀκουσίλαος λέγει, διότι τὸ τῆς Ἥρας ξόανον ἐξηυτέλισαν.</quote>
+			<note type="translation">Proæti filiæ...in insaniam inciderunt, quod, ut Hesiodus inquit, Dionysi ferias minime receperant; ut Acusilaus, quod Junonis simulacrum nihili fecerant.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="20">
+			<bibl>Apollod. II, 5, 7,</bibl>
+			<quote>taurum Cretensem Ἀκουσίλαος εἶναι φησὶ τὸν διαπορθμεύσαντα Εὐρώπην Διί.</quote>
+			<note type="translation">Taurum Cretensem Acusilaus ait Europam Jovi per  mare portasse.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="21">
+			<bibl>Apollod. III, 4, 4:</bibl>
+			<quote>Ἀκταίων τοῦτον ἐτελεύτησε τὸν τρόπον, ὡς Ἀκουσίλαος λέγει, μηνίσαντος τοῦ Διὸς, ὅτι ἐμνηστεύσατο Σεμέλην.</quote>
+			<note type="translation">Talis vitæ finis Actæoni (a canibus lacerato) fuit Jove irascente, ut Acusilaus narrat, quod Semeles nuptias ambiisset.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="21a">
+			<bibl>Probus ad Virgil. Bucol. II, 48:</bibl>
+			<quote>Narcissus flos, ut Acusilaus refert, a Narcisso Amaranthi, qui fuit Erechtheis, ex insula Euboea, interemptus ab Epope. Ex cruore ejus flores, qui nomen ejus acceperunt, procreati.</quote>
+			<note type="translation"/>
+			<note type="commentary">Pro Amaranthi scribendum est Amarynthi (v. Steph. Byz. s, v., Strabop. 448). In Erechtheis latere videtur Eretriensis. Nam Strabo p. 404 Narcissi Eretriensis monumentum memorat ad Oropum.</note>
+		</cit>
+
+		<cit n="22">
+			<bibl>Apollod. III, 12, 6:</bibl>
+			<quote>Ὁ Ἀσωπὸς ποταμὸς . . . ὡς Ἀκουσίλαος λέγει, Πηροῦς καὶ Ποσειδῶνος.</quote>
+			<note type="translation">Asopus fluvius, ut Acusilaus dicit, Perus et Neptuni  filius est.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="23">
+			<bibl>Schol. Homer. Odyss. Ξ, 533:</bibl>
+			<quote>Ἐπεχθεὺς ὁ τῶν Ἀθηναίων βασιλεὺς ἴσχει θυγατέρα τοὐνομα Ὠρείθυιαν κάλλει διαπρεπεστάτην. Κοσμήσας ταύτην ποτὲ, πέμπει κανηφόρον θύσουσαν εἰς τὴν ἀκρόπολιν τῇ Πολιάδι Ἀθηνᾷ. Ταύτης δὲ ὁ Βορέας ἄνεμος ἐρασθεὶς, λαθών τοὺς βλέποντας καὶ φυλάσσοντας τὴν κόρην ἥρπασεν. Καὶ διακομίσας εἰς Θράκην, ποιεῖται γυναῖκα. Γίνονται δὲ αὐτῷ παῖδες ἐξ αὐτῆς Ζήτης καὶ Κάλαΐς. Τὸ νάκος ἔπλευσαν ἐν τῇ Ἀργοῖ. Ἡ ἱστορία παρὰ Ἀκουσιλάῳ.</quote>
+			<note type="translation">Erechtheus, rex Atheniensium, filiam habuit Orithyiam summa excellentem venustate. Quam quum Canephoram, ut sacrificia offerret Minervæ Poliadi, in Acropolin misisset, tanto Boreas ventus puellæ amore exarsit, ut non animadversus a præsentibus puellamque servantibus furtim eam subriperet et in Thessaliam translatam sibi jungeret connubio. Filios ex ea habuit Zeten et Calain, qui propter virtutem suam cum semideis Argo nave vecti sunt in Colchidem, unde vellus illud reportarent.</note>
+			<note type="commentary"/>
+		</cit>
+<pb n="102"/>
+
+		<cit n="24">
+			<bibl>Apollod. III, I5,2, de Zete et Calai:</bibl>
+			<quote>Ὡς Ἀκουσίλαος λέγει, περὶ Τῆνον ὑφ' Ἡρακλέους ἀπώλοντο.</quote>
+			<note type="translation">Zetes et Calais, ut Acusilaus dicit, ad Tenum ab Hercule interfecti sunt.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="25">
+			<bibl>Schol. Pindar. Pyth. III, 25:</bibl>
+			<quote>Διὰ τί δὲ προὐτίμησε (Coronis) τὸν Ἴσχυν τοῦ Ἀπόλλωνος, Ἀγησίλαός (leg. Ἀχουσίλαός) φησιν, ὡς κατὰ δέος ὑπερψίας θνητῷ βουληθεῖσα συνεῖναι.</quote>
+			<note type="translation">Causam, cur Coronis Ischyn Apollini præferendum duxerit, Acusilaus affert, quippe quæ verita ne a deo contemtui haberetur, cum mortali homine esse maluisset.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="26">
+			<bibl>Schol. Homer. II. r, 307:</bibl>
+			<quote>Ἀφροδίτη χρησμοῦ ἐκπεσόντος, ὅτι τῆς τῶν Πριαμιδῶν ἀρχῆς καταλυθείσης, οἱ ἀπ ̓ Ἀγχίσου Τρώων βασιλεύσουσιν, Ἀγχίσῃ ἤδη παπηκμακότι συνῆλθεν. Τέκουσα δ ̓ Αἰνείαν, καὶ βουλομένη πρόφασιν κατασκευάσαι τῆς τῶν Πριαμιδῶν καταλύσεως, Ἀλεξάνδρῳ πόθον Ἑλένης ἐνέδαλε, καὶ μετὰ τὴν ἁρπαγὴν τῷ μὲν δοκεῖν δυνεμάχει τοῖς Τρωσί· ταῖς δὲ ἀληθείαις παρηγόπει τὴν ἡτταν αὐτῶν, ἵνα μὴ παντελῶς ἀπελπίσαντες ἀποδῶσι τῆν Ἑλένην. Ἱστορεὶ Ἀκουσίλαος.</quote>
+			<note type="translation">Edito oraculo post dissolutam Priamidarum dominationem prosapiam Anchisæ regnum Trojanorum habituram esse, Venus cum Anchise vegetam ætatem jam egresso concubuit. Ex quo quum Æneani peperisset, ut Priamidarum potestatem subvertendi occasionem nancisceretur, Alexandro Helenæ amorem injecit, et post illius raptum a Trojanorum partibus stare visa est; re vera autem hac auxilii specie solabatur cladem eorum, ne prorsus desperantes Helenam redderent.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="27">
+			<bibl>Schol. Hom. Odyss. Λ, 519:</bibl>
+			<quote>Εὐρύπυλος ὁ Ἀστυόχης καὶ Τηλέφου τοῦ Ἡρακλέους παῖς, λαχὼν τὴν πατρῷαν ἀρχὴν, τῆς Μυσίας ἀρχῆς προίσταται. Πυθόμενος δὲ Πρίαμος τῆς περὶ τούτου δυνάμεως, ἔπεμψεν ὡς αὐτὸν, ἵνα παραγένηται σύμμαχος. Εἰπόντος δὲ αὐτοῦ ὡς οὐκ ἐξὸν (Buttmann. ἐξῆν) αὐτῷ διὰ τὴν μητέρα, ἔπεμψεν ὁ Πρίαμος τῇ μητρὶ αὐτοῦ Ἀστυόχη δῶρον χρυσῆν ἄμπελον. Ἡ δὲ λαδοῦσα τὴν ἄμπελον, ἔπεμψε τὸν υἱὸν ἐπὶ στρατείαν. Νεοπτόλεμος δὲ ὁ Ἀχιλλέως παῖς τοῦτον ἀναιρεῖ (Buttmannus edidit ὁ Πρίαμος τῇ μητέρι αὐτοῦ δῶρα. Ἡ δὲ λαδοῦσα τὸν υἱὸν ἔπεμψιν ἐπὶ στρατείαν. Ὅν Νεοπτόλεμος ὁ τοῦ Ἀχιλλέως υἱὸς ἀναιρεῖ). Ἡ δὲ ἱστορία παρὰ Ἀκουσιλάῳ.</quote>
+			<note type="translation">Eurypylus, filius Astyochæ et Telephi, Herculis filii, in Mysiæ regno patri successit. Cujus de polentia quum Priamus audivisset, misit qui ad belli societatem eum permovereut, et, respondente illo non licere sibi propter matrem, Astyochæ dono misit vitem auream. Qua accepta, misit illa filium in expeditionem. Hunc vero Neoptolemus, Achillis filius, occidit.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="27">
+			<bibl>Schol. Pind. Ol. VII, 42:</bibl>
+			<quote>Ἔοικε δὲ ὁ Πίνδαρος ἐντετυχήκέναι τῷ Ἀχαιῷ ἱστοριογράφῳ· ἐκεῖνος γὰρ οὕτω γενεαλογεῖ· «Υπερόχου Εὐρύπυλος· οῦ Ἀστυδάμεια ἡ Τληπολέμου μήτηρ· καὶ αὐτὸς δὲ Ἀμύντωρ εἰς Δία τὸ γένος ἀνάγει·»</quote>
+			<note type="translation">Hyperochi Eurypylus, cujus Ormenus, cujus Pheres,  cujus Amyntor, cujus Astydamia, Tlepolemi mater; et ipse Amyntor ad Jovem genus refert.</note>
+			<note type="commentary">Pro τῷ Ἀχαιῷ ἱστορ. Bæckhius emendandum statuit Ἀκουσιλάῳ τῷ ἀρχαίῳ ἱστορ.</note>
+		</cit>
+
+		<cit n="28">
+			<bibl>Apollod. III, II. I:</bibl>
+			<quote>Μενέλαος ἐγέννησεν . . . ἐκ δούλης Πιερίδος, γένος Αἰτωλίδος, ἢ, καθάπερ Ἀκουσίλαός φησι, Τηριδάης, Μεγαπένθη.</quote>
+			<note type="translation">Menelaus genuit—ex serva Pieride ab Ætolia oriunda, sive, ut Acusilaus ait, e Teridae Megapentliem.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="29">
+			<bibl>Schol. Apollon. 4, 992:</bibl>
+			<quote>Ἀκουσίλαος ἐν τῇ τρίτῃ φησὶν, ὅτι ἐκ τῆς ἐκτομῆς τοῦ Οὐρανοῦ ῥανίδας ἐνεχθῆναι συνέπεσεν, τουτέστι σταγόνας, κατὰ τῆς γῆς. Ἐξ ὧν γεννηθῆναι τοὺς Φαίακας. Οἱ δὲ, τοὺς γίγαντας. Καὶ Ἀλκαῖος δὲ κατὰ τὰ αὐτὰ Ἀκουσιλάῳ λέγει τοὺς Φαίακας ἔχειν τὸ γένος ἐκ τῶν σταγόνων τοῦ Οὐρανοῦ.</quote>
+			<note type="translation">Acusilaus libro tertio dicit, quum Uranus exsecaretur, accidisse ut guttæ in terram deciderent; ex his ortos esse Phæaces; alii dicunt, Gigantes. Etiam Alcæus eodem modo quo Acusilaus Phæaces dicit ex Urani guttis genus ducere.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="30">
+			<bibl>Schol. Homer. Odyss. P, 207:</bibl>
+			<quote>Περελάου παῖδες Ἴθακος καὶ Νήριτος, ἀπὸ Διὸς ἔχοντες τὸ γένος, ᾤκουν τὴν Κεφαληνίαν. Ἀρέσαν δὲ αὐτοῖς τοῦτο, καταλιπόντες τὰ αφέτερα ἤθη, παραγίνονται εἰς τὴν Ἰθάκην. Καὶ τόπον ἰδόντες εὖ πεποιημένον εἰς συνοικασμὸν, διὰ τὸ τῶν παρατεθειμένων ὑψηλότερον εἴναι, [καὶ] κατοικήσαντες δεῦρο τὴν Ἰθάκην ἔκτισαν. Καὶ ἐκ μὲν τοῦ Ἰθάκου ἡ νῆσος ἐπωνομάσθη Ἰθάκη· τὸ δὲ παρακείμενον ὄρος ἐκ τοῦ Νηρίτου Νήριτον. Ἡ δὲ ἱστορία παρὰ Ἀκουσιλάῳ.</quote>
+			<note type="translation">Perelai filii, Ithacus et Neritus, a Jove oriundi, incolebant Cephaleniam. Placuit his consuetas sedes relinquentes in Ithacam transmigrare. Ubi quum locum viderent peraptum habitationibus propterea quod circumjacentem regionem superabat, colonia huc deducta, Ithacam condiderunt. Et Ithaca quidem insula ab Ithaco nomen accepit, Neritus vero, mons vicinus, a Nerito.</note>
+			<note type="commentary"/>
+		</cit>
+
+		<cit n="31">
+			<bibl>Harpocratio:</bibl>
+			<quote>Ὁμηρίδαι· γένος ἐν Χίῳ, ὥσπερ Ἀκουσίλαος ἐν τρίτῃ.</quote>
+			<note type="translation">Homeridae, familia in Chio insula, ut Acusilaus ait libro tertio.</note>
+			<note type="commentary"/>
+		</cit>
+		</div>
+	</div>
+</div>
+<pb n="103"/>
+</body>
+</text>
+</TEI>
