@@ -10,22 +10,22 @@ This repository contains data exported from the [DFHG project](http://www.dfhg-p
 
 FHG vol. 1 collects the following authors:
 * [Hecataeus of Miletus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.hecataeus)
-* Charon of Lampsacus
-* Xanthus of Lydia
-* Hellanicus of Lesbos
-* Pherecydes of Athens
-* Acusilaus of Argos
-* Apollodorus of Athens (with fragments of the Bibliotheca)
-* Antiochus of Syracuse
-* Philistus of Syracuse
-* Timaeus of Tauromenius
-* Ephorus of Cuma
-* Theopompus of Chius
-* Phylarchus
-* Clidemus
-* Phanodemus
-* Androtio
-* Demo
-* Philochorus
-* Ister
-* Apollodorus
+* [Charon of Lampsacus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.charon)
+* [Xanthus of Lydia](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.xanthus)
+* [Hellanicus of Lesbos](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.hellanicus)
+* [Pherecydes of Athens](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.pherecydes)
+* [Acusilaus of Argos](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.acusilaus)
+* [Apollodorus of Athens](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.apollodorus_atheniensis)
+* [Antiochus of Syracuse](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.antiochus)
+* [Philistus of Syracuse](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.philistus)
+* [Timaeus of Tauromenius](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.timaeus)
+* [Ephorus of Cuma](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.ephorus)
+* [Theopompus of Chius](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.theopompus)
+* [Phylarchus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.phylarchus)
+* [Clidemus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus)
+* [Phanodemus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.phanodemus)
+* [Androtio](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.androtio)
+* [Demo](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.demo)
+* [Philochorus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.philochorus)
+* [Ister](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.ister)
+* [Apollodorus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.apollodorus)
