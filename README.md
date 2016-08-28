@@ -8,7 +8,7 @@ This repository contains data exported from the [DFHG project](http://www.dfhg-p
 
 `csv` and `xml` files have been automatically generated from data stored in the DFHG database. `xml` files are encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.
 
-FHG vol. 1 collects the following authors:
+FHG vol. 1 includes the following authors:
 * [Hecataeus of Miletus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.hecataeus)
 * [Charon of Lampsacus](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.charon)
 * [Xanthus of Lydia](http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.xanthus)
