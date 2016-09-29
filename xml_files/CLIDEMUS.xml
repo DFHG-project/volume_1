@@ -39,7 +39,7 @@
                                 <addName xml:lang="de">Karl Müller</addName>
                             </persName>
                         </editor>
-                        <author ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus">CLIDEMUS</author>
+                        <author> <ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus">CLIDEMUS</ref></author>
                         <imprint>
                             <publisher>Ambroise Firmin-Didot</publisher>
                             <pubPlace>Paris, France</pubPlace>
@@ -68,262 +68,324 @@
 <div type="edition" subtype="volume" n="1">
 	<div type="textpart" subtype="section">
 	<head>
-<title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta">CLITODEMI FRAGMENTA</title>
+<title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta">CLITODEMI FRAGMENTA</ref></title>
 </head>
 		<div type="textpart" subtype="work">
-		<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis">ΑΤΘΙΣ</title></ab>
+		<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis">ΑΤΘΙΣ</ref></title></ab>
 			<div type="textpart" subtype="book">
-			<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus">LIBER PRIMUS</title></ab>
+			<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus">LIBER PRIMUS</ref></title></ab>
 
 			<cit n="1">
-				<bibl>Vetus Grammaticus Pausanias, ut Ruhnk. vidit collato Eustath. ad II. B, p. 361, in Biblioth. Coisliniana p. 603 (et ap. Bekkerum Anecdot. p. 326 sq.):</bibl>
-				<quote>Ἄγραι, χωρίον ἔξω τῆς πόλεως Ἀθηνῶν, οὗ τὰ μικρὰ τῆς Δήμητρος ἄγεται μυστήρια, ἃλέγεται τὰ ἐν Ἄγρας, ὡς τὰ ἐν Ἀσκληπιοῦ. Φερεκράτης Γραυσίν· Εὐθὺς ὡς ἐκαθίζομεν ἐν Ἄγρας. Καὶ Ἀρτέμιδος τῆς Ἀγραίας αὐτόθι τὸ ἱερόν. Πλάτων Φαίδρῳ· ᾟ πρὸς τὸ τῆς Ἀγραίας διαβαίνομεν. Καὶ Δῆμος ἐν α' Ἀτθίδος· «Τὰ μὲν οὖν ἄνω τὰ τοῦ Ἰλισοῦ πρὸς αγορὰν Εἰληθυῖα· τῷ δ ̓ ὄχθῳ πάλαι ὄνομα τοῦτο, ὃ νῦν Ἄγρα καλεῖται, Ἑλικὼν, καὶ ἡ ἐσχάρα τοῦ Ποσειδῶνος τοῦ Ἑλικωνίου ἐπ ̓ ἄχρου.» Καὶ ἐν τῷ δ'· «Εἰς τὸ ἱερὸν τὸ τὸ μητρῷον τὸ ἐν Ἄγραις.»</quote>
-				<note type="translation">Agræ, locus extra Athenarum urbem situs, ubi parva Cereris mysteria agu ntur, quæ vocantur mysteria ἐν Ἄγρας (in Agræ æde) eodem modo ac dicitur ἐν Ἀσκληπιοῦ (in Æsculapii æde). Pherecrates in Vetulis: «Simul atque consedimus in Agræ æde.» Dianæ quoque Agrææ ibi est templum. Plato in Phædro: «Ubi ad Agrææ templum transimus.» Et Clidemus libro primo: «Superiorem «Ilissi partem ad Agram si transieris, ad ripam offendes «montem illum, qui nunc dicitur Agra, olim Helicon, «et aram Neptuni Heliconii in vertice;» et libro quarto: «In templum Cereris matris, in Agris situm.»</note>
-				<note type="commentary">Ruhnken. ad Timæum p. 223 restituit Κλείδημος pro Δῆμος; sed omittendum καί ante Κλειδ., quod in multis locis ex Κλει. in Κλείδημος ortum esse videtur. Sequentia Lenz. ita corrigere voluit: Τὰ μὲν οὖν ἄων τοῦ Ἰλισοῦ προσαγορεύουσιν Ἄγραν Εἰληθυίας. Siebelis hanc proponit emendationem (quam in versione sequuti sumus): Τὰ μὲν οὖν ἄνω τοῦ Ἰλισοῦ πρὸς Ἄγραν εἰ διήλυθας, ἐν τῇ ὄχθῃ ὄρος (sic apographum Ruhn.) τοῦτο, ὃ νῦν Ἄγρα καλεῖται,πάλαι Ἑλικὼν, καὶ ἡ ἐσχ. ... ἄκρου.—Sed in Εἰλήθυια latere videtur Ἑλικώνια, quare fortasse ita scribendum est: Τὰ μὲν οὖν ἀνώτερα τοῦ Ἰλισοῦ προσηγορεύετο Ἑλικώνια, τῷ δ ̓ ὄχθῳ πάλαι ὄνομα τούτῳ, ὃς (sic Bekker.) νῦν etc.</note>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus:1">
+					<bibl>Vetus Grammaticus Pausanias, ut Ruhnk. vidit collato Eustath. ad II. B, p. 361, in Biblioth. Coisliniana p. 603 (et ap. Bekkerum Anecdot. p. 326 sq.):</bibl>
+					<quote>Ἄγραι, χωρίον ἔξω τῆς πόλεως Ἀθηνῶν, οὗ τὰ μικρὰ τῆς Δήμητρος ἄγεται μυστήρια, ἃλέγεται τὰ ἐν Ἄγρας, ὡς τὰ ἐν Ἀσκληπιοῦ. Φερεκράτης Γραυσίν· Εὐθὺς ὡς ἐκαθίζομεν ἐν Ἄγρας. Καὶ Ἀρτέμιδος τῆς Ἀγραίας αὐτόθι τὸ ἱερόν. Πλάτων Φαίδρῳ· ᾟ πρὸς τὸ τῆς Ἀγραίας διαβαίνομεν. Καὶ Δῆμος ἐν α' Ἀτθίδος· «Τὰ μὲν οὖν ἄνω τὰ τοῦ Ἰλισοῦ πρὸς αγορὰν Εἰληθυῖα· τῷ δ ̓ ὄχθῳ πάλαι ὄνομα τοῦτο, ὃ νῦν Ἄγρα καλεῖται, Ἑλικὼν, καὶ ἡ ἐσχάρα τοῦ Ποσειδῶνος τοῦ Ἑλικωνίου ἐπ ̓ ἄχρου.» Καὶ ἐν τῷ δ'· «Εἰς τὸ ἱερὸν τὸ τὸ μητρῷον τὸ ἐν Ἄγραις.»</quote>
+					<note type="translation">Agræ, locus extra Athenarum urbem situs, ubi parva Cereris mysteria agu ntur, quæ vocantur mysteria ἐν Ἄγρας (in Agræ æde) eodem modo ac dicitur ἐν Ἀσκληπιοῦ (in Æsculapii æde). Pherecrates in Vetulis: «Simul atque consedimus in Agræ æde.» Dianæ quoque Agrææ ibi est templum. Plato in Phædro: «Ubi ad Agrææ templum transimus.» Et Clidemus libro primo: «Superiorem «Ilissi partem ad Agram si transieris, ad ripam offendes «montem illum, qui nunc dicitur Agra, olim Helicon, «et aram Neptuni Heliconii in vertice;» et libro quarto: «In templum Cereris matris, in Agris situm.»</note>
+					<note type="commentary">Ruhnken. ad Timæum p. 223 restituit Κλείδημος pro Δῆμος; sed omittendum καί ante Κλειδ., quod in multis locis ex Κλει. in Κλείδημος ortum esse videtur. Sequentia Lenz. ita corrigere voluit: Τὰ μὲν οὖν ἄων τοῦ Ἰλισοῦ προσαγορεύουσιν Ἄγραν Εἰληθυίας. Siebelis hanc proponit emendationem (quam in versione sequuti sumus): Τὰ μὲν οὖν ἄνω τοῦ Ἰλισοῦ πρὸς Ἄγραν εἰ διήλυθας, ἐν τῇ ὄχθῃ ὄρος (sic apographum Ruhn.) τοῦτο, ὃ νῦν Ἄγρα καλεῖται,πάλαι Ἑλικὼν, καὶ ἡ ἐσχ. ... ἄκρου.—Sed in Εἰλήθυια latere videtur Ἑλικώνια, quare fortasse ita scribendum est: Τὰ μὲν οὖν ἀνώτερα τοῦ Ἰλισοῦ προσηγορεύετο Ἑλικώνια, τῷ δ ̓ ὄχθῳ πάλαι ὄνομα τούτῳ, ὃς (sic Bekker.) νῦν etc.</note>
+				</ref>
 			</cit>
 
 			<cit n="2">
-				<bibl>Athen. XIV, 23, p. 660, D:</bibl>
-				<quote>Ἐν τῷ πρώτῳ τῆς Ἀτθίδος Κλείδημος φῦλον ἀποφαίνει μαγείρων ἐχόντων δημιουργικὰς τιμὰς, οἷς καὶ τὸ πλῆθος ἐνεργεῖν ἔργον ἦν.</quote>
-				<note type="translation">Primo libro Atthidis, tribum quamdam, ait Clidemus, coquorum fuisse, qui nomen et jura eorum habuissent, qui δημιουργοὶ vocabantur; illosque hoc curasse ut plebs rite sacrificaret.</note>
-				<note type="commentary">Verbum ἐνεργεῖν corruptum esse videtur; Schweigh. legi vult εὐεργετεῖν: Siebelis οἷς καὶ  ὑπὲρ τοῦ πλήθους ἱερουργεῖν ἔργον ἦν, sive οἷς καὶ τὰ τοῦ πλήθους ἐνεργεῖν ἔργον ἦν.</note>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus:2">
+					<bibl>Athen. XIV, 23, p. 660, D:</bibl>
+					<quote>Ἐν τῷ πρώτῳ τῆς Ἀτθίδος Κλείδημος φῦλον ἀποφαίνει μαγείρων ἐχόντων δημιουργικὰς τιμὰς, οἷς καὶ τὸ πλῆθος ἐνεργεῖν ἔργον ἦν.</quote>
+					<note type="translation">Primo libro Atthidis, tribum quamdam, ait Clidemus, coquorum fuisse, qui nomen et jura eorum habuissent, qui δημιουργοὶ vocabantur; illosque hoc curasse ut plebs rite sacrificaret.</note>
+					<note type="commentary">Verbum ἐνεργεῖν corruptum esse videtur; Schweigh. legi vult εὐεργετεῖν: Siebelis οἷς καὶ  ὑπὲρ τοῦ πλήθους ἱερουργεῖν ἔργον ἦν, sive οἷς καὶ τὰ τοῦ πλήθους ἐνεργεῖν ἔργον ἦν.</note>
+				</ref>
 			</cit>
 
 			<cit n="3">
-				<bibl>Athen. X, 7, p. 425, E:</bibl>
-				<quote>Κλείδημος τοὺς μαγείρους Κήρυκάς φησι καλεῖσθαι.</quote>
-				<note type="translation">Clidemus coquos, ait, præcones vocari.</note>
-				<note type="commentary"/>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus:3">
+					<bibl>Athen. X, 7, p. 425, E:</bibl>
+					<quote>Κλείδημος τοὺς μαγείρους Κήρυκάς φησι καλεῖσθαι.</quote>
+					<note type="translation">Clidemus coquos, ait, præcones vocari.</note>
+					<note type="commentary"/>
+				</ref>
 			</cit>
 
 			<cit n="4">
-				<bibl>Harpocrat.:</bibl>
-				<quote>Μελανίππειον, Λυκοῦργος ἐν τῷ κατὰ Λυκόφρονος. Μελανίππου τοῦ Θησέως ἡρῷόν ἐστι, ὥς φησιν Ἀσκληπιάδης Τραγῳδουμένοις. Κλείδημος δ ̓ ἐν πρώτῃ Ἀτθίδος ἐν Μελίτῃ αὐτὸ εἶναι λεγει.</quote>
-				<note type="translation">Melanippeum est Melanippi, qui Theseum patrem habuit, heroum, ut ait Asclepiades in Tragodumenis. Clidemus libro primo Atthidis id esse dicit in Melite demo.</note>
-				<note type="commentary"/>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus:4">
+					<bibl>Harpocrat.:</bibl>
+					<quote>Μελανίππειον, Λυκοῦργος ἐν τῷ κατὰ Λυκόφρονος. Μελανίππου τοῦ Θησέως ἡρῷόν ἐστι, ὥς φησιν Ἀσκληπιάδης Τραγῳδουμένοις. Κλείδημος δ ̓ ἐν πρώτῃ Ἀτθίδος ἐν Μελίτῃ αὐτὸ εἶναι λεγει.</quote>
+					<note type="translation">Melanippeum est Melanippi, qui Theseum patrem habuit, heroum, ut ait Asclepiades in Tragodumenis. Clidemus libro primo Atthidis id esse dicit in Melite demo.</note>
+					<note type="commentary"/>
+				</ref>
 			</cit>
 
 			<cit n="5">
-				<bibl>Plutarch. Thes. 19, de Cretensi Thesei expeditione loquens, postquam Pherecydis, Demonis et Philochori exposuit sententias, hoc adjungit:</bibl>
-				<quote>Ἰδίως δέ πως καὶ περιττῶς ὁ Κλείδημος ἀπήγγειλε περὶ τούτων, ἄνωθέν ποθεν ἀρξάμενος· ὅτι «δόγμα κοινὸν ἦν Ἑλλήνων, μηδεμίαν ἐκπλεῖν τριήρη μηδαμόθεν ἀνδρῶν πέντε (?) πλείονας δεχομένην· τὸν δὲ ἄρχοντα τῆς Ἀργοῦς Ἰάσονα μόνον περιπλεῖν, ἐξείργοντα τῆς θαλάσσης τὰ λῃστήρια. Δαιδάλου δὲ πλοίῳ φυγόντος εἰς Ἀθήνας, Μίνως, παρὰ τὰ δόγματα μακραῖς ναυσὶ διώκων, ὑπὸ χειμῶνος εἰς Σικελίαν ἀπηνέχθη, κἀκεῖ κατέστρεψε τὸ βίον. Ἐπεὶ δὲ Δευκαλίων ὁ υἱὸς αὐτοῦ, πολεμικῶς ἔχων πρὸς τοὺς Ἀθηναίους, ἔπεμψεν ἐκδιδόναι Δαίδαλον αὐτῷ κελεύων, ἢ τοὺς παῖδας ἀποκτενεῖν ἀπειλῶν, οὓς ἔλαβεν ὁμήρους ὁ Μίνως· τούτῳ μὲν ἀπεκρίνατο πρᾴως ὁ Θησεὺς, παραιτούμενος ἀνεψιὸν ὄντα Δαίδαλον, κἀκείνῳ κατὰ γένος προσήκοντα, μητρὸς ὄντα Μερόπης τῆς Ἐρεχθέως, αὐτὸς δὲ ναυπηγίᾳ ἐπεβάλετο, τῇ μὲν ἐν Θυμαιταδῶν αὐτόθι, μακρὰν τῆς ξενικῆς ὁδοῦ, τῇ δὲ διὰ Πιτθέως ἐν Τροιζῆνι, βουλόμενος λανθάνειν. Γενομένων δὲ ἑτοίμων, ἐξέπλευσε, τόν τε Δαίδαλον ἔχων καὶ φυγάδας ἐκ Κρήτης καθηγεμόνας, οὐδενὸς δὲ προειδότος, ἀλλὰ ναῦς φιλίας οἰομένων τῶν Κρητῶν προσφέρεσθαι, τοῦ λιμένος κρατήσας, καὶ ἀποβὰς ἔφθασεν εἰς τὴν Κνωσσὸν παρελθὼν, καὶ μάχην ἐν πύλαις τοῦ Λαβυρίνθου συνάψας, ἀπέκτεινε τὸν Δευκαλίωνα καὶ τοὺς δορυφόρους. Ἐν δὲ τοῖς πράγμασι τῆς Ἀριάδνης γενομένης, σπεισάμενος πρὸς ἀυτὴν, τούς τε ἠϊθέους ἀνέλαβε, καὶ φιλίαν ἐποιήσατο τοῖς, Ἀθηναίοις πρὸς τοὺς Κρῆτας, ὀμόσαντας ημδέποτε πολέμου κατάρξειν.»</quote>
-				<note type="translation">Diverso modo et diffuse de his Clidemus disseruit, alte repetens, decretum fuisse Græcorum commune, ne quo navigaret triremis ulla, quæ plus quinque (quinquaginta) viris caperet, sed soli navis Argûs duci Iasoni (licuisse majori navi) circum vehi ad latrocinia mari summovenda. Quum Dædalus autem navigio perfugisset Athenas, Minoa, qui præter decreta persequeretur eum longis navibus, in Siciliam tempestate ejectum vitæ ibi finem fecisse. Postquam vero filius ejus Deucalion, infensus Atheniensibus, per legatos dedi sibi depoposcisset Dædalum, alioqui, quos accepisset obsides Minos, pueros interfecturum se denuntians, leniter ei respondisse Thesea, eam afferentem excusationem quod consobrinus suus esset Dædalus et sanguine junctus, cujus esset mater Erechthei filia Merope; sed ædificare instituisse classes, alteram in Thymætadaium demo ibidem procul via publica, alteram per Pitthea Trœzene, quo rem occultam haberet. Omnibus comparatis eum solvisse, Dædalumque et exules Cretenses secum traxisse duces, atque exspectante nemine, sed naves pacatas arbitrantibus advenire Cretensibus, portum occupavisse, et descensione facta contendisse cursu Gnossum, prælioque in porta Labyrinthi conserto, Deucalionem cum satellitibus confecisse. Quum vero regni procurationem suscepisset Ariadna, fœdere cum ea icto, impuberes eum recepisse, amicitiamque cum Atheniensibus Cretenses junxisse, juratos, nunquam se bellum cum iis commissuros esse.</note>
-				<note type="commentary">Reiskius, Leopoldus et Huttenus pro ὄντι ante Μερόπης; scribi voluerunt ὄντα: sed quum κἀκείνῳ ad Theseum referri possit, ut monet Siebelis, ista emendatio non est necessaria.</note>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus:5">
+					<bibl>Plutarch. Thes. 19, de Cretensi Thesei expeditione loquens, postquam Pherecydis, Demonis et Philochori exposuit sententias, hoc adjungit:</bibl>
+					<quote>Ἰδίως δέ πως καὶ περιττῶς ὁ Κλείδημος ἀπήγγειλε περὶ τούτων, ἄνωθέν ποθεν ἀρξάμενος· ὅτι «δόγμα κοινὸν ἦν Ἑλλήνων, μηδεμίαν ἐκπλεῖν τριήρη μηδαμόθεν ἀνδρῶν πέντε (?) πλείονας δεχομένην· τὸν δὲ ἄρχοντα τῆς Ἀργοῦς Ἰάσονα μόνον περιπλεῖν, ἐξείργοντα τῆς θαλάσσης τὰ λῃστήρια. Δαιδάλου δὲ πλοίῳ φυγόντος εἰς Ἀθήνας, Μίνως, παρὰ τὰ δόγματα μακραῖς ναυσὶ διώκων, ὑπὸ χειμῶνος εἰς Σικελίαν ἀπηνέχθη, κἀκεῖ κατέστρεψε τὸ βίον. Ἐπεὶ δὲ Δευκαλίων ὁ υἱὸς αὐτοῦ, πολεμικῶς ἔχων πρὸς τοὺς Ἀθηναίους, ἔπεμψεν ἐκδιδόναι Δαίδαλον αὐτῷ κελεύων, ἢ τοὺς παῖδας ἀποκτενεῖν ἀπειλῶν, οὓς ἔλαβεν ὁμήρους ὁ Μίνως· τούτῳ μὲν ἀπεκρίνατο πρᾴως ὁ Θησεὺς, παραιτούμενος ἀνεψιὸν ὄντα Δαίδαλον, κἀκείνῳ κατὰ γένος προσήκοντα, μητρὸς ὄντα Μερόπης τῆς Ἐρεχθέως, αὐτὸς δὲ ναυπηγίᾳ ἐπεβάλετο, τῇ μὲν ἐν Θυμαιταδῶν αὐτόθι, μακρὰν τῆς ξενικῆς ὁδοῦ, τῇ δὲ διὰ Πιτθέως ἐν Τροιζῆνι, βουλόμενος λανθάνειν. Γενομένων δὲ ἑτοίμων, ἐξέπλευσε, τόν τε Δαίδαλον ἔχων καὶ φυγάδας ἐκ Κρήτης καθηγεμόνας, οὐδενὸς δὲ προειδότος, ἀλλὰ ναῦς φιλίας οἰομένων τῶν Κρητῶν προσφέρεσθαι, τοῦ λιμένος κρατήσας, καὶ ἀποβὰς ἔφθασεν εἰς τὴν Κνωσσὸν παρελθὼν, καὶ μάχην ἐν πύλαις τοῦ Λαβυρίνθου συνάψας, ἀπέκτεινε τὸν Δευκαλίωνα καὶ τοὺς δορυφόρους. Ἐν δὲ τοῖς πράγμασι τῆς Ἀριάδνης γενομένης, σπεισάμενος πρὸς ἀυτὴν, τούς τε ἠϊθέους ἀνέλαβε, καὶ φιλίαν ἐποιήσατο τοῖς, Ἀθηναίοις πρὸς τοὺς Κρῆτας, ὀμόσαντας ημδέποτε πολέμου κατάρξειν.»</quote>
+					<note type="translation">Diverso modo et diffuse de his Clidemus disseruit, alte repetens, decretum fuisse Græcorum commune, ne quo navigaret triremis ulla, quæ plus quinque (quinquaginta) viris caperet, sed soli navis Argûs duci Iasoni (licuisse majori navi) circum vehi ad latrocinia mari summovenda. Quum Dædalus autem navigio perfugisset Athenas, Minoa, qui præter decreta persequeretur eum longis navibus, in Siciliam tempestate ejectum vitæ ibi finem fecisse. Postquam vero filius ejus Deucalion, infensus Atheniensibus, per legatos dedi sibi depoposcisset Dædalum, alioqui, quos accepisset obsides Minos, pueros interfecturum se denuntians, leniter ei respondisse Thesea, eam afferentem excusationem quod consobrinus suus esset Dædalus et sanguine junctus, cujus esset mater Erechthei filia Merope; sed ædificare instituisse classes, alteram in Thymætadaium demo ibidem procul via publica, alteram per Pitthea Trœzene, quo rem occultam haberet. Omnibus comparatis eum solvisse, Dædalumque et exules Cretenses secum traxisse duces, atque exspectante nemine, sed naves pacatas arbitrantibus advenire Cretensibus, portum occupavisse, et descensione facta contendisse cursu Gnossum, prælioque in porta Labyrinthi conserto, Deucalionem cum satellitibus confecisse. Quum vero regni procurationem suscepisset Ariadna, fœdere cum ea icto, impuberes eum recepisse, amicitiamque cum Atheniensibus Cretenses junxisse, juratos, nunquam se bellum cum iis commissuros esse.</note>
+					<note type="commentary">Reiskius, Leopoldus et Huttenus pro ὄντι ante Μερόπης; scribi voluerunt ὄντα: sed quum κἀκείνῳ ad Theseum referri possit, ut monet Siebelis, ista emendatio non est necessaria.</note>
+				</ref>
 			</cit>
 <pb n="359"/>
 
 			<cit n="6">
-				<bibl>Plutarchus Thes. c. 26 Leop., c. 27 Hutt. pergit:</bibl>
-				<quote>Ἱστορεῖ δὲ Κλείδημος, ἐξακριβοῦν τὰ καθ ̓ ἕκαστα βουλόμενος, τὸ μὲν εὐώνυμον τῶν Ἀμαζόνων κέρας ἐπιστρέφειν πρὸς τὸ νῦν καλούμενον Ἀμαζόνειον, τῷ δὲ δεξιῷ πρὸς τὴν Πνύκα κατὰ τὴν Χρύσαν ἥκειν. Μάχεσθαι δὲ πρὸς τοῦτο τοὺς Ἀθηναίους ἀπὸ τοῦ Μουσείου ταῖς Ἀμαζόσι συμπεσόντας· καὶ τάφους τῶν πεσόντων περὶ τὴν πλατεῖαν εἶναι τὴν φέρουσαν ἐπὶ τὰς πύλας παρὰ τὸ Χαλκώδοντος ἡρῷον, ἃς νῦν Πειραϊκὰς ὀνομάζουσι. Καὶ ταύτῃ μὲν ἐκβιασθῆναι μέχρι τῶν Εὐμενίδων, καὶ ὑποχωρῆσαι ταῖς γυναιξίν· ἀπὸ δὲ Παλλαδίου καὶ Ἀρδηττοῦ καὶ Λυκείου προσβαλόντας ὤσασθαι τὸ δεξιὸν αὐτῶν ἄχρι τοῦ στρατοπέδου, καὶ πολλὰς καταβαλεῖν. Τετάρτῳ δὲ μηνὶ συνθήκας γενέσθαι διὰ τῆς Ἱππολύτης· Ἱππολύτην γὰρ οὗτος ὀνομάζει τὴν τῷ Θησεῖ συνοικοῦσαν, οὐκ Ἀντιόπην.</quote>
-				<note type="translation">Scribit Clidemus, singula exsequi ad unguem laborans, sinistrum Amazonum cornu ad Amazonion (ut nunc vocatur) declinasse, dextrum secundum Chrysam ad Pnycem pertinuisse. Conflixisse cum hoc Athenienses, a Museo concurrentes cum Amazonibus. Sepulchra esse cæsorum in platea, quæ fert ad portam secundum Chalcodontis fanum, quam Piraicam nunc nominant. Ibi Athenienses pulsos fuisse usque ad Eumenidum templum, et terga feminis dedisse. A Palladio vero et Ardetto et Lyceo invectos pepulisse dextrum earum cornu usque ad castra multasque stravisse. Quarto mense ictum Hippolyta interprete foedus. Hippolytam enim hic eam, quæ cum Theseo consueverit, non Antiopam appellat.</note>
-				<note type="commentary">Non est cur Reiskii emendationem recipiamus, qui χρυσᾶν Νίκην pro Χρύσαν ἥκειν et ὤσασθαι τὸ δεξιὸν pro ὠσ. τὸ εὐώνυμον; sed recte idem restituisse videtur articulum τάς post ἐπὶ τὰς πύλας.</note>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus:6">
+					<bibl>Plutarchus Thes. c. 26 Leop., c. 27 Hutt. pergit:</bibl>
+					<quote>Ἱστορεῖ δὲ Κλείδημος, ἐξακριβοῦν τὰ καθ ̓ ἕκαστα βουλόμενος, τὸ μὲν εὐώνυμον τῶν Ἀμαζόνων κέρας ἐπιστρέφειν πρὸς τὸ νῦν καλούμενον Ἀμαζόνειον, τῷ δὲ δεξιῷ πρὸς τὴν Πνύκα κατὰ τὴν Χρύσαν ἥκειν. Μάχεσθαι δὲ πρὸς τοῦτο τοὺς Ἀθηναίους ἀπὸ τοῦ Μουσείου ταῖς Ἀμαζόσι συμπεσόντας· καὶ τάφους τῶν πεσόντων περὶ τὴν πλατεῖαν εἶναι τὴν φέρουσαν ἐπὶ τὰς πύλας παρὰ τὸ Χαλκώδοντος ἡρῷον, ἃς νῦν Πειραϊκὰς ὀνομάζουσι. Καὶ ταύτῃ μὲν ἐκβιασθῆναι μέχρι τῶν Εὐμενίδων, καὶ ὑποχωρῆσαι ταῖς γυναιξίν· ἀπὸ δὲ Παλλαδίου καὶ Ἀρδηττοῦ καὶ Λυκείου προσβαλόντας ὤσασθαι τὸ δεξιὸν αὐτῶν ἄχρι τοῦ στρατοπέδου, καὶ πολλὰς καταβαλεῖν. Τετάρτῳ δὲ μηνὶ συνθήκας γενέσθαι διὰ τῆς Ἱππολύτης· Ἱππολύτην γὰρ οὗτος ὀνομάζει τὴν τῷ Θησεῖ συνοικοῦσαν, οὐκ Ἀντιόπην.</quote>
+					<note type="translation">Scribit Clidemus, singula exsequi ad unguem laborans, sinistrum Amazonum cornu ad Amazonion (ut nunc vocatur) declinasse, dextrum secundum Chrysam ad Pnycem pertinuisse. Conflixisse cum hoc Athenienses, a Museo concurrentes cum Amazonibus. Sepulchra esse cæsorum in platea, quæ fert ad portam secundum Chalcodontis fanum, quam Piraicam nunc nominant. Ibi Athenienses pulsos fuisse usque ad Eumenidum templum, et terga feminis dedisse. A Palladio vero et Ardetto et Lyceo invectos pepulisse dextrum earum cornu usque ad castra multasque stravisse. Quarto mense ictum Hippolyta interprete foedus. Hippolytam enim hic eam, quæ cum Theseo consueverit, non Antiopam appellat.</note>
+					<note type="commentary">Non est cur Reiskii emendationem recipiamus, qui χρυσᾶν Νίκην pro Χρύσαν ἥκειν et ὤσασθαι τὸ δεξιὸν pro ὠσ. τὸ εὐώνυμον; sed recte idem restituisse videtur articulum τάς post ἐπὶ τὰς πύλας.</note>
+				</ref>
 			</cit>
 
 			<cit n="7">
-				<bibl>Constantin. Porphyrog. De themat. lib. 2, them. 2, in Scriptor. Byz. vol. 5, p. 17 ed. Veuet. 1729:</bibl>
-				<quote>Λέγεται δὲ καὶ Μακεδονίας μοῖρα Μακετία, ὡς Μαρσύας ἐν πρώτῳ Μακεδονικῶν· ... ἀλλὰ καὶ τὴν ὅλην Μακεδονίαν Μακετίαν οὖδεν ὀνομαζομένην Κλείδημος ἐν πρώτοις Ἀτθίδος· «Καὶ ἐξῳκίσθησαν ὑπὲρ τὸν Αἰγιαλὸν ἄνω τῆς καλουμένης Μακετίας.»</quote>
-				<note type="translation">Appellatur etiam Macedoniæ pars Macetia, ut Marsyas libro primo Macedonicorum. Sed etiam omnem Macedoniam appellare Macetiam consuevit Clidemus in prioribus libris Atthidis: «Atque migrarunt supra Ægialum in superiorem partem Macetiæ.»</note>
-				<note type="commentary">«Fortasse Clidemus scripserat ἐξ. ὑ. τ. A. εἰς τὰ ἄνω etc. et dixerat de illa colonia, quam Pausan. V, 1, 3, Pæonem narrat ex Elide in Macedoniam duxisse, vel de iis, qui ex Argolide cum Carano in Macedoniam migrarunt.» Siebelis.</note>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_primus:7">
+					<bibl>Constantin. Porphyrog. De themat. lib. 2, them. 2, in Scriptor. Byz. vol. 5, p. 17 ed. Veuet. 1729:</bibl>
+					<quote>Λέγεται δὲ καὶ Μακεδονίας μοῖρα Μακετία, ὡς Μαρσύας ἐν πρώτῳ Μακεδονικῶν· ... ἀλλὰ καὶ τὴν ὅλην Μακεδονίαν Μακετίαν οὖδεν ὀνομαζομένην Κλείδημος ἐν πρώτοις Ἀτθίδος· «Καὶ ἐξῳκίσθησαν ὑπὲρ τὸν Αἰγιαλὸν ἄνω τῆς καλουμένης Μακετίας.»</quote>
+					<note type="translation">Appellatur etiam Macedoniæ pars Macetia, ut Marsyas libro primo Macedonicorum. Sed etiam omnem Macedoniam appellare Macetiam consuevit Clidemus in prioribus libris Atthidis: «Atque migrarunt supra Ægialum in superiorem partem Macetiæ.»</note>
+					<note type="commentary">«Fortasse Clidemus scripserat ἐξ. ὑ. τ. A. εἰς τὰ ἄνω etc. et dixerat de illa colonia, quam Pausan. V, 1, 3, Pæonem narrat ex Elide in Macedoniam duxisse, vel de iis, qui ex Argolide cum Carano in Macedoniam migrarunt.» Siebelis.</note>
+				</ref>
 			</cit>
 			</div>
 			<div type="textpart" subtype="book">
-			<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_tertius">LIBER TERTIUS</title></ab>
+			<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_tertius">LIBER TERTIUS</ref></title></ab>
 
 			<cit n="8">
-				<bibl>Photii Lex.:</bibl>
-				<quote>Ναυκραρία· τὸ πρότερον οὕτως ἐκάλουν, Ναυκραρία καὶ Ναύκραρος. Ναυκραρία μὲν ὁποῖόν τι ἡ συμμορία καὶ ὁ δῆμος, ναύκραρος δὲ ὁποῖόν τι ὁ δήμαρχος, Σόλωνος οὕτως ὀνομάσαντος, ὡς καὶ Ἀριστοτέλης φησίν· ἐν τοῖς νόμοις δὲ ἄν τις ναυκραρίας ἀμφισβητῇ καὶ τοὺς ναυκράρους τοὺς κατὰ ναυκραρίαν. Ὕστερον δὲ ἀπὸ Κλεισθένους δῆμοί εἰσι, καὶ δήμαρχοι ἐκλήθησαν ἐκ τῆς Ἀριστοτέλους πολιτείας, ὃν τρόπον διέταξε τὴν πολιτείαν ὁ Σόλων. Φυλαὶ δὲ ἦσαν τέσσαρες, καθάπερ πρότερον, καὶ φυλοβασιλεῖς τέσσαρες· ἐκ δὲ τῆς φυλῆς ἑκάστης ἦσαν νενεμημέναι τριττύες μὲν τρεῖς, ναυκραρίαι δὲ δώδεκα καθ ̓ ἑκάστην. Ὁ Κλείδημος ἐν τῇ τρίτη φησὶν, «ὅτι Κλεισθένους δέκα φυλὰς ποιήσαντος ἀντὶ τῶν τεσσάρων, συνέβη καὶ εἰς πεντήκοντα μέρη διαταγῆναι· αὐτοὺς δὲ ἐκάλουν ναυκραρίας, ὥσπερ νῦν εἰς τὰ ἑκατὸν μέρη διαιρεθέντα καλοῦσι συμμορίας.»</quote>
-				<note type="translation">Naucraria. Prius nomina naucraria et naucrarus in usu erant. Naucraria idem fere quod symmoria et demus; naucrarus idem fere significat, quod demarchus, Solone sic nominante, ut Aristoteles quoque tradit: dubitaveris vero, num in legibus naucrarias et naucraros secundum naucrarias creandos constituerit. Postea a temporibus Clisthenis in usu erant vocabula demi et demarchi (quod docet Aristoteles in Politia), servata ea reipublicæ ratione, quam Solon constituerat. Tribus erant quatuor, ut antea, tribuum reges item quatuor; singulæ tribus in ternas trittyes et duodenas naucrarias divisæ erant. Clidemus libro terlio dicit: «Quum Clisthenes decem tribus substituisset quattuor illis, quæ antea fuerant, factum est, ut in quinquaginta quoque partes Athenienses dividerentur, eosque ita divisos vocabant naucrarias, ut nunc in centum partes distributos vocant symmorias.»</note>
-				<note type="commentary">In postremis Siebelis scribere vult: ἐις τὰ ἑκατὸν μέρη διαιρεθέντας καλοῦσι. Equidem malim αὐτοὺς vocem mutari in ταῦτα. De re cf. C. Hermann. Antiquit. gr. 99, 5 et quos ibi laudat.</note>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_tertius:8">
+					<bibl>Photii Lex.:</bibl>
+					<quote>Ναυκραρία· τὸ πρότερον οὕτως ἐκάλουν, Ναυκραρία καὶ Ναύκραρος. Ναυκραρία μὲν ὁποῖόν τι ἡ συμμορία καὶ ὁ δῆμος, ναύκραρος δὲ ὁποῖόν τι ὁ δήμαρχος, Σόλωνος οὕτως ὀνομάσαντος, ὡς καὶ Ἀριστοτέλης φησίν· ἐν τοῖς νόμοις δὲ ἄν τις ναυκραρίας ἀμφισβητῇ καὶ τοὺς ναυκράρους τοὺς κατὰ ναυκραρίαν. Ὕστερον δὲ ἀπὸ Κλεισθένους δῆμοί εἰσι, καὶ δήμαρχοι ἐκλήθησαν ἐκ τῆς Ἀριστοτέλους πολιτείας, ὃν τρόπον διέταξε τὴν πολιτείαν ὁ Σόλων. Φυλαὶ δὲ ἦσαν τέσσαρες, καθάπερ πρότερον, καὶ φυλοβασιλεῖς τέσσαρες· ἐκ δὲ τῆς φυλῆς ἑκάστης ἦσαν νενεμημέναι τριττύες μὲν τρεῖς, ναυκραρίαι δὲ δώδεκα καθ ̓ ἑκάστην. Ὁ Κλείδημος ἐν τῇ τρίτη φησὶν, «ὅτι Κλεισθένους δέκα φυλὰς ποιήσαντος ἀντὶ τῶν τεσσάρων, συνέβη καὶ εἰς πεντήκοντα μέρη διαταγῆναι· αὐτοὺς δὲ ἐκάλουν ναυκραρίας, ὥσπερ νῦν εἰς τὰ ἑκατὸν μέρη διαιρεθέντα καλοῦσι συμμορίας.»</quote>
+					<note type="translation">Naucraria. Prius nomina naucraria et naucrarus in usu erant. Naucraria idem fere quod symmoria et demus; naucrarus idem fere significat, quod demarchus, Solone sic nominante, ut Aristoteles quoque tradit: dubitaveris vero, num in legibus naucrarias et naucraros secundum naucrarias creandos constituerit. Postea a temporibus Clisthenis in usu erant vocabula demi et demarchi (quod docet Aristoteles in Politia), servata ea reipublicæ ratione, quam Solon constituerat. Tribus erant quatuor, ut antea, tribuum reges item quatuor; singulæ tribus in ternas trittyes et duodenas naucrarias divisæ erant. Clidemus libro terlio dicit: «Quum Clisthenes decem tribus substituisset quattuor illis, quæ antea fuerant, factum est, ut in quinquaginta quoque partes Athenienses dividerentur, eosque ita divisos vocabant naucrarias, ut nunc in centum partes distributos vocant symmorias.»</note>
+					<note type="commentary">In postremis Siebelis scribere vult: ἐις τὰ ἑκατὸν μέρη διαιρεθέντας καλοῦσι. Equidem malim αὐτοὺς vocem mutari in ταῦτα. De re cf. C. Hermann. Antiquit. gr. 99, 5 et quos ibi laudat.</note>
+				</ref>
 			</cit>
 			</div>
 			<div type="textpart" subtype="book">
-			<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_quartus">LIBER QUARTUS</title></ab>
+			<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_quartus">LIBER QUARTUS</ref></title></ab>
 
 			<cit n="">
-				<bibl/>
-				<quote/>
-				<note type="translation"/>
-				<note type="commentary"/>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_quartus:">
+					<bibl/>
+					<quote/>
+					<note type="translation"/>
+					<note type="commentary"/>
+				</ref>
 			</cit>
 			</div>
 			<div type="textpart" subtype="book">
-			<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_duodecimus">LIBER DUODECIMUS</title></ab>
+			<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_duodecimus">LIBER DUODECIMUS</ref></title></ab>
 <pb n="360"/>
 
 			<cit n="9">
-				<bibl>Hesych.:</bibl>
-				<quote>Ἀγαμεμνόνια φρέατα. Ἱστοροῦσι τὸν Ἀγαμέμνονα περὶ τὴν Αὐλίδα καὶ πολλαχοῦ τῆς Ἑλλάδος φρέατα ὀρύξαι, καὶ Δῆμος δὲ ἐν τῇ δωδεκάτῃ τῆς Ἀτθίδος.</quote>
-				<note type="translation">Putei Agamemnonii. Narrant Agamemnonem prope Aulidem et in multis Græciæ locis puteos fodisse, ut Clidemus libro duodecimo Atthidis.</note>
-				<note type="commentary">Phavorinus eadem habet, nisi quod ὡς addit post καὶ Δῆμος δέ. Albertus scribi voluit Δήμων pro Δῆμος, Meursius in Lection. Theophr. in Gronovii Thes. Antiq, Gr. X, p. 647 proposuit Κλείδημος, quod probavit Siebelis: nos quoque hanc scripturam adoptamus, sed deletis καὶ quod ex ελει depravatum est, atque particula δὲ, assumto vero ὡς ex Harpocratione, legendum credimus: ὡς Κλείδημος ἐν κ. τ. λ. Omissa auctoris notitia hanc rem Eustath. ad Il. Δ, p. 461 Rom. paullo plenius exhibet : Ἀγαμεμνόνεια ᾄδονταί τινα φρέατα, ἐπεὶ περὶ Ἀττικὴν, φασὶ, καὶ ἐν Αυλίδι καὶ πολλαχοῦ τῆς Ἑλλάδος ὤρυξεν ὁ Ἀγαμέμνων φρέατα. Ex quo intelligitur, Siebelis ait, cur Clidemus in Atthide rem istam tetigerit: et forsan apud Hesychium inter Ἀγαμέμνονα et περὶ exciderunt hæc: ἐν τῇ Ἀττικῇ καί.</note>
+				<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.atthis.liber_duodecimus:9">
+					<bibl>Hesych.:</bibl>
+					<quote>Ἀγαμεμνόνια φρέατα. Ἱστοροῦσι τὸν Ἀγαμέμνονα περὶ τὴν Αὐλίδα καὶ πολλαχοῦ τῆς Ἑλλάδος φρέατα ὀρύξαι, καὶ Δῆμος δὲ ἐν τῇ δωδεκάτῃ τῆς Ἀτθίδος.</quote>
+					<note type="translation">Putei Agamemnonii. Narrant Agamemnonem prope Aulidem et in multis Græciæ locis puteos fodisse, ut Clidemus libro duodecimo Atthidis.</note>
+					<note type="commentary">Phavorinus eadem habet, nisi quod ὡς addit post καὶ Δῆμος δέ. Albertus scribi voluit Δήμων pro Δῆμος, Meursius in Lection. Theophr. in Gronovii Thes. Antiq, Gr. X, p. 647 proposuit Κλείδημος, quod probavit Siebelis: nos quoque hanc scripturam adoptamus, sed deletis καὶ quod ex ελει depravatum est, atque particula δὲ, assumto vero ὡς ex Harpocratione, legendum credimus: ὡς Κλείδημος ἐν κ. τ. λ. Omissa auctoris notitia hanc rem Eustath. ad Il. Δ, p. 461 Rom. paullo plenius exhibet : Ἀγαμεμνόνεια ᾄδονταί τινα φρέατα, ἐπεὶ περὶ Ἀττικὴν, φασὶ, καὶ ἐν Αυλίδι καὶ πολλαχοῦ τῆς Ἑλλάδος ὤρυξεν ὁ Ἀγαμέμνων φρέατα. Ex quo intelligitur, Siebelis ait, cur Clidemus in Atthide rem istam tetigerit: et forsan apud Hesychium inter Ἀγαμέμνονα et περὶ exciderunt hæc: ἐν τῇ Ἀττικῇ καί.</note>
+				</ref>
 			</cit>
 		</div>
 			</div>
 		<div type="textpart" subtype="work">
-		<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis">FRAGMENTA INCERTAE SEDIS</title></ab>
+		<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis">FRAGMENTA INCERTAE SEDIS</ref></title></ab>
 
 		<cit n="10">
-			<bibl>Schol. Eurip. Med. 19:</bibl>
-			<quote>Περὶ δὲ τῆς Κρέοντος θυγατρὸς οὐχ ὁμοφωνοῦσι τῷ Εὐριπίδῃ οἱ συγγραφεῖς. Κλειτόδημος μὲν γὰρ Κρέουσάν φησι καλεῖσθαι, γήμασθαι δὲ Ξούθῳ, Ἀναξικράτης δὲ Γλαύκην.</quote>
-			<note type="translation">De Creontis (Corinthiorum regis) filia non consentiunt cum Euripide scriptores. Clitodemus ait, eam appellari Creusam, nupsisse autem Xutho; Anaxicrates vero eam dicit Glaucam.</note>
-			<note type="commentary">Num Clitodemus Creontis filiam Xuthi uxorem dixerit, jure dubitabis. Confuderit igitur Scholiasta hanc Corinthiam Creusam cum Atheniensi Erechthei filia.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis:10">
+				<bibl>Schol. Eurip. Med. 19:</bibl>
+				<quote>Περὶ δὲ τῆς Κρέοντος θυγατρὸς οὐχ ὁμοφωνοῦσι τῷ Εὐριπίδῃ οἱ συγγραφεῖς. Κλειτόδημος μὲν γὰρ Κρέουσάν φησι καλεῖσθαι, γήμασθαι δὲ Ξούθῳ, Ἀναξικράτης δὲ Γλαύκην.</quote>
+				<note type="translation">De Creontis (Corinthiorum regis) filia non consentiunt cum Euripide scriptores. Clitodemus ait, eam appellari Creusam, nupsisse autem Xutho; Anaxicrates vero eam dicit Glaucam.</note>
+				<note type="commentary">Num Clitodemus Creontis filiam Xuthi uxorem dixerit, jure dubitabis. Confuderit igitur Scholiasta hanc Corinthiam Creusam cum Atheniensi Erechthei filia.</note>
+			</ref>
 		</cit>
 
 		<cit n="11">
-			<bibl>Athen. VI, 6, p. 235, A:</bibl>
-			<quote>Κλείδημος ἐν τῇ Ἀτθίδι φησί· «Καὶ παράσιτοι δ ̓ ᾑρέθησαν τῷ Ἡρακλεῖ.»</quote>
-			<note type="translation">Clidemus in Atthide dicit: «Et parasiti electi sunt Herculi.»</note>
-			<note type="commentary"/>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis:11">
+				<bibl>Athen. VI, 6, p. 235, A:</bibl>
+				<quote>Κλείδημος ἐν τῇ Ἀτθίδι φησί· «Καὶ παράσιτοι δ ̓ ᾑρέθησαν τῷ Ἡρακλεῖ.»</quote>
+				<note type="translation">Clidemus in Atthide dicit: «Et parasiti electi sunt Herculi.»</note>
+				<note type="commentary"/>
+			</ref>
 		</cit>
 
 		<cit n="12">
-			<bibl>Suidas:</bibl>
-			<quote>Ἐπὶ Παλλαδίῳ. ... Κλειτόδημος δέ φησιν, Ἀγαμέμνονος σὺν τῷ Παλλαδίῳ προσενεχθέντος Ἀθήναις, Δημοφῶντα ἁρπάσαι τὸ Παλλάδιον, καὶ πολλοὺς τῶν διωκόντων ἀνελεῖν. Τοῦ δὲ Ἀγαυέυνονος δυσχεραίνοντος, κρίσιν αὐτοὺς ὑποσχεῖν ἐπὶ ν' Ἀθηναίων καὶ ν' Ἀργείων, οὓς Ἐφέτας κληθῆναι, διὰ τὸ παρ ̓ ἀμφοτέρων ἐφεθῆναι αὐτοῖς τὰ τῆς κρίσεως.</quote>
-			<note type="translation">Clitodemus auctor est, Agamemnone cum Palladio Athenas appellente, Demophontem id rapuisse et persequentium multos interfecisse. Agamemnone autem hoc graviter ferente, judicium ea de re habitura esse a quinquaginta Atheniensibus totidemque Argivis, quos Ephetas appellatos esse aiunt, quod ab utraque parte controversiæ disceptatio eis permissa esset.</note>
-			<note type="commentary">Antecedentia v. in Phanodemi fr. XII. Eadem exstant in Etym. M , apud Eustath. ad Odyss. A, p. 1419, Apostolium VIII, 42. Harpocration et Phavorinus s. v. Ἐπὶ Παλλαδίῳ Clitodemum sequuntur, quamquam nullam ejus faciunt mentionem. Αὐτοὺς ante ὑποσχεῖν Siebelis inseruit; idem ex Harpocrat. et Phavorino τὰ τῆς κρίσεως pro περὶ τῆς κρίσεως scripsit. Eustathius addit post κρίσεως: Καὶ τὸ δικαστήριον ἐπώνυμον τῇ Παλλάδι γενέσθαι.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis:12">
+				<bibl>Suidas:</bibl>
+				<quote>Ἐπὶ Παλλαδίῳ. ... Κλειτόδημος δέ φησιν, Ἀγαμέμνονος σὺν τῷ Παλλαδίῳ προσενεχθέντος Ἀθήναις, Δημοφῶντα ἁρπάσαι τὸ Παλλάδιον, καὶ πολλοὺς τῶν διωκόντων ἀνελεῖν. Τοῦ δὲ Ἀγαυέυνονος δυσχεραίνοντος, κρίσιν αὐτοὺς ὑποσχεῖν ἐπὶ ν' Ἀθηναίων καὶ ν' Ἀργείων, οὓς Ἐφέτας κληθῆναι, διὰ τὸ παρ ̓ ἀμφοτέρων ἐφεθῆναι αὐτοῖς τὰ τῆς κρίσεως.</quote>
+				<note type="translation">Clitodemus auctor est, Agamemnone cum Palladio Athenas appellente, Demophontem id rapuisse et persequentium multos interfecisse. Agamemnone autem hoc graviter ferente, judicium ea de re habitura esse a quinquaginta Atheniensibus totidemque Argivis, quos Ephetas appellatos esse aiunt, quod ab utraque parte controversiæ disceptatio eis permissa esset.</note>
+				<note type="commentary">Antecedentia v. in Phanodemi fr. XII. Eadem exstant in Etym. M , apud Eustath. ad Odyss. A, p. 1419, Apostolium VIII, 42. Harpocration et Phavorinus s. v. Ἐπὶ Παλλαδίῳ Clitodemum sequuntur, quamquam nullam ejus faciunt mentionem. Αὐτοὺς ante ὑποσχεῖν Siebelis inseruit; idem ex Harpocrat. et Phavorino τὰ τῆς κρίσεως pro περὶ τῆς κρίσεως scripsit. Eustathius addit post κρίσεως: Καὶ τὸ δικαστήριον ἐπώνυμον τῇ Παλλάδι γενέσθαι.</note>
+			</ref>
 		</cit>
 <pb n="361"/>
 
 		<cit n="13">
-			<bibl>Plutarch. Themist. c. 10, de pecunia in classem:</bibl>
-			<quote>Κλείδημος δὲ καὶ τοῦτο Θεμιστοκλέους ποιεῖται στρατήγημα· καταβαινόντων γὰρ εἰς Πειραιᾶ τῶν Ἀθηναίων, φησὶν ἀπολέσθαι τὸ Γοργόνειον ἀπὸ τῆς θεοῦ τοῦ ἀγάλματος. Τὸν οὖν Θεμιστοκλέα προσποιούμενον ζητεῖν, καὶ διερευνώμενον ἅπαντα, χρημάτων εὑρίσκειν πλῆθος ἐν ταῖς ἀποσκευαῖς ἀποκεκρυμμένον· ὧν εἰς μέσον κομισθέντων, εὐπορῆσαι τοὺς ἐμβαίνοντας εἰς τὰς ναῦς ἐφοδίων.</quote>
-			<note type="translation">Clidemus Themistoclem narrat pecuniam in classem astu parasse. Descendentibus in Piræeum Atheniensibus in simulacro Minervæ desideratam ait fuisse ægidem. Themistoclem igitur, quum specie quærentis excuteret omnia, immensam vim pecuniæ invenisse in impedimentis abditam: quain medium prolata abundasse classiarios milites viatico.</note>
-			<note type="commentary"/>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis:13">
+				<bibl>Plutarch. Themist. c. 10, de pecunia in classem:</bibl>
+				<quote>Κλείδημος δὲ καὶ τοῦτο Θεμιστοκλέους ποιεῖται στρατήγημα· καταβαινόντων γὰρ εἰς Πειραιᾶ τῶν Ἀθηναίων, φησὶν ἀπολέσθαι τὸ Γοργόνειον ἀπὸ τῆς θεοῦ τοῦ ἀγάλματος. Τὸν οὖν Θεμιστοκλέα προσποιούμενον ζητεῖν, καὶ διερευνώμενον ἅπαντα, χρημάτων εὑρίσκειν πλῆθος ἐν ταῖς ἀποσκευαῖς ἀποκεκρυμμένον· ὧν εἰς μέσον κομισθέντων, εὐπορῆσαι τοὺς ἐμβαίνοντας εἰς τὰς ναῦς ἐφοδίων.</quote>
+				<note type="translation">Clidemus Themistoclem narrat pecuniam in classem astu parasse. Descendentibus in Piræeum Atheniensibus in simulacro Minervæ desideratam ait fuisse ægidem. Themistoclem igitur, quum specie quærentis excuteret omnia, immensam vim pecuniæ invenisse in impedimentis abditam: quain medium prolata abundasse classiarios milites viatico.</note>
+				<note type="commentary"/>
+			</ref>
 		</cit>
 
 		<cit n="14">
-			<bibl>Plutarch. Aristid. cap. 19: Ex iis, qui ad Platæas pro Græcia dimicarunt, non plus MCCCLX desiderati sunt:</bibl>
-			<quote>Τούτων Ἀθηναῖοι μὲν ἦσαν δύο καὶ πεντήκοντα, πάντες ἐκ τῆς Αἰαντίδος φυλῆς, ὥς φησι Κλείδημος, ἀγωνισαμένης ἄριστα· διὸ καὶ ταῖς Σφραγίτισι νύμφαις ἔθυον Αἰαντίδαι τὴν πυθόχρηστον θυσίαν ὑπὲρ τῆς νίκης, ἐκ δημοσίου τὸ ἀνάλωμα λαμβάνοντες.</quote>
-			<note type="translation">In quibus (desideratis) fuerunt Athenienses duo et quinquaginta, omnes ex tribu Æantide, quæ, ut Clidemus ait, pugnavit fortissime. Quamobrem nymphis Sphragitidibus Æantidæ victoriæ caussa, sacra ex Apollinis oraculo præscripta sumptu publico faciebant.</note>
-			<note type="commentary">Cf. Plutarch. Συμποσ. προβλημ. lib. I, problem. 10, Vitam Aristid. 9, Pausan. IX, 3, Müller. Orchom. p. 145.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis:14">
+				<bibl>Plutarch. Aristid. cap. 19: Ex iis, qui ad Platæas pro Græcia dimicarunt, non plus MCCCLX desiderati sunt:</bibl>
+				<quote>Τούτων Ἀθηναῖοι μὲν ἦσαν δύο καὶ πεντήκοντα, πάντες ἐκ τῆς Αἰαντίδος φυλῆς, ὥς φησι Κλείδημος, ἀγωνισαμένης ἄριστα· διὸ καὶ ταῖς Σφραγίτισι νύμφαις ἔθυον Αἰαντίδαι τὴν πυθόχρηστον θυσίαν ὑπὲρ τῆς νίκης, ἐκ δημοσίου τὸ ἀνάλωμα λαμβάνοντες.</quote>
+				<note type="translation">In quibus (desideratis) fuerunt Athenienses duo et quinquaginta, omnes ex tribu Æantide, quæ, ut Clidemus ait, pugnavit fortissime. Quamobrem nymphis Sphragitidibus Æantidæ victoriæ caussa, sacra ex Apollinis oraculo præscripta sumptu publico faciebant.</note>
+				<note type="commentary">Cf. Plutarch. Συμποσ. προβλημ. lib. I, problem. 10, Vitam Aristid. 9, Pausan. IX, 3, Müller. Orchom. p. 145.</note>
+			</ref>
 		</cit>
 
 		<cit n="15">
-			<bibl>Pausanias X, 15, postquam dixit se, quum signum Minervæ, in templo Delphico positum, multis ex partibus auro privatum vidisset, credidisse hoc ab hominibus sacrilegis commissum esse, addit hæc:</bibl>
-			<quote>Κλειτόδημος δὲ ὁπόσοι τὰ Ἀθηναίων ἐπιχώρια ἔγραψαν ὁ ἀρχαιότατος, οὗτος ἐν τῷ λόγῳ φησὶ τῷ Ἀττικῷ, ὅτε Ἀθηναῖοι παρεσκευάζοντο ἐπὶ Σικελίαν τὸν στόλον, ὡς ἔθνος τι ἄπειρον κοράκων κατῆρε τότε ἐς Δελφοὺς, καὶ περιέκοπτόν τε τοῦ ἀγάλματος τούτου, καὶ ἀπέῤῥησσον τοῖς ῥάμφεσιν ἀπ ̓ αὐτοῦ τὸν χρυσόν· λέγει δὲ καὶ ὡς τὸ δόρυ καὶ τὰς γλαῦκας, καὶ ὅσος καρπος ἐπὶ τῷ φοίνικι ἐπεποίητο ἐς μίμησιν τῆς ὀπώρας, κατακλάσαιεν καὶ ταῦτα οἱ κόρακες. Ἀθηναίοις μὲν δὴ καὶ ἄλλα σημεῖα μὴ ἐκπλεῦσαι σφᾶς ἀπαγορεύοντα ἐς Σικελίαν διηγήσατο ὁ Κλειτόδημος.</quote>
-			<note type="translation">Clitodemus, eorum qui literis res Atticas mandarunt vetustissimus auctor, dicit in rerum Atticarum commentario, comparata ab Atheniensibus classe ad Siciliensem expeditionem, magnum corvorum numerum Delphos convolasse, irruentesque in illud signum, aurum rostris avellisse. Additum et ibidem, hastam, noctuas, et caryotas, quæ in palma illa ad palmularum similitudinem ex auro factæ fuerant, eosdem illos corvos abrupisse. Sed et aha prodigia commemorat Clitodemus, quæ ab ea navigatione suscipienda Athenienses deterrere debuerant.</note>
-			<note type="commentary">Cf. Paus. III, 24, 7, Ælian. V. H. IV, 14, Plutarch. Them. 20. Alex. 26.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis:15">
+				<bibl>Pausanias X, 15, postquam dixit se, quum signum Minervæ, in templo Delphico positum, multis ex partibus auro privatum vidisset, credidisse hoc ab hominibus sacrilegis commissum esse, addit hæc:</bibl>
+				<quote>Κλειτόδημος δὲ ὁπόσοι τὰ Ἀθηναίων ἐπιχώρια ἔγραψαν ὁ ἀρχαιότατος, οὗτος ἐν τῷ λόγῳ φησὶ τῷ Ἀττικῷ, ὅτε Ἀθηναῖοι παρεσκευάζοντο ἐπὶ Σικελίαν τὸν στόλον, ὡς ἔθνος τι ἄπειρον κοράκων κατῆρε τότε ἐς Δελφοὺς, καὶ περιέκοπτόν τε τοῦ ἀγάλματος τούτου, καὶ ἀπέῤῥησσον τοῖς ῥάμφεσιν ἀπ ̓ αὐτοῦ τὸν χρυσόν· λέγει δὲ καὶ ὡς τὸ δόρυ καὶ τὰς γλαῦκας, καὶ ὅσος καρπος ἐπὶ τῷ φοίνικι ἐπεποίητο ἐς μίμησιν τῆς ὀπώρας, κατακλάσαιεν καὶ ταῦτα οἱ κόρακες. Ἀθηναίοις μὲν δὴ καὶ ἄλλα σημεῖα μὴ ἐκπλεῦσαι σφᾶς ἀπαγορεύοντα ἐς Σικελίαν διηγήσατο ὁ Κλειτόδημος.</quote>
+				<note type="translation">Clitodemus, eorum qui literis res Atticas mandarunt vetustissimus auctor, dicit in rerum Atticarum commentario, comparata ab Atheniensibus classe ad Siciliensem expeditionem, magnum corvorum numerum Delphos convolasse, irruentesque in illud signum, aurum rostris avellisse. Additum et ibidem, hastam, noctuas, et caryotas, quæ in palma illa ad palmularum similitudinem ex auro factæ fuerant, eosdem illos corvos abrupisse. Sed et aha prodigia commemorat Clitodemus, quæ ab ea navigatione suscipienda Athenienses deterrere debuerant.</note>
+				<note type="commentary">Cf. Paus. III, 24, 7, Ælian. V. H. IV, 14, Plutarch. Them. 20. Alex. 26.</note>
+			</ref>
 		</cit>
 
 		<cit n="16">
-			<bibl>Hesych.:</bibl>
-			<quote>Βοῦς ἕβδομος· μνημονεύει δὲ τοῦ ἑβδόμου βοός· ὅτι δὲ πέμμα ἐστὶ καὶ τῆς Σελήνης ἱερὸν, Κλειτόδημος ἐν Ἀτθίδι φησί.</quote>
-			<note type="translation">Bos septimus; bovem septimum Clitodemus in Atuiide dicit esse placentam Lunæ sacram.</note>
-			<note type="commentary">Probabile est, post βοός nonnulla excidisse, ut putat Heinsius, aut particulam Se post ὅτι expungendam esse. Pergerus locum ita restituere conatus est: Μνημονεύει δὲ τοῦ ἑβδόμου βοὸς Κλειτόδημος ἐν Ἀτθίδι. Φησὶ δὲ, ὅτι πέμμα ἐστὶ καὶ τῆς Σελήνης ἱερόν. Cf. Hesych. v. Ἕβδομος βοῦς: Εἶδος πέμματος, κέρατα ἔχοντος· et v. Βοῦς: Πόπανόν τι τῶν θυομένων οὕτως ἐν ταῖς ἁγιωτάταις Ἀθήνησι θυσίαις· ἦν δὲ βοὶ παραπλήσιον. Intelligenda esse Διάσια, in quo festo, ut Thucydides I, 126 dicit, θύματα ἐπιχώρια (πέμματα εἰς ζῴων μορφὰς τετυπωμένα, schol.) offerri solebant, verisimiliter statuit Siebelis, qui præterea laudat Phavorin. v. Βοῦς p. 384, 24 sqq., V. Ἑβδομευομ. p. 545 et Suidas v. Βοῦς ἕβδομος. Photii Lex.: Σελήνη, πόπανον ὅμοιον τῷ ἀστέρι. Τὸ δὲ αὐτὸ καὶ Σεληνὶς καὶ Ἐπισελήνιον καὶ Ἀρεστὴρ καὶ βοῦς καλεῖται. Eustath. ad Homer. p. 1165 Rom., Erasmi Adag. Chil. I, cent. 10, c. 63.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incertae_sedis:16">
+				<bibl>Hesych.:</bibl>
+				<quote>Βοῦς ἕβδομος· μνημονεύει δὲ τοῦ ἑβδόμου βοός· ὅτι δὲ πέμμα ἐστὶ καὶ τῆς Σελήνης ἱερὸν, Κλειτόδημος ἐν Ἀτθίδι φησί.</quote>
+				<note type="translation">Bos septimus; bovem septimum Clitodemus in Atuiide dicit esse placentam Lunæ sacram.</note>
+				<note type="commentary">Probabile est, post βοός nonnulla excidisse, ut putat Heinsius, aut particulam Se post ὅτι expungendam esse. Pergerus locum ita restituere conatus est: Μνημονεύει δὲ τοῦ ἑβδόμου βοὸς Κλειτόδημος ἐν Ἀτθίδι. Φησὶ δὲ, ὅτι πέμμα ἐστὶ καὶ τῆς Σελήνης ἱερόν. Cf. Hesych. v. Ἕβδομος βοῦς: Εἶδος πέμματος, κέρατα ἔχοντος· et v. Βοῦς: Πόπανόν τι τῶν θυομένων οὕτως ἐν ταῖς ἁγιωτάταις Ἀθήνησι θυσίαις· ἦν δὲ βοὶ παραπλήσιον. Intelligenda esse Διάσια, in quo festo, ut Thucydides I, 126 dicit, θύματα ἐπιχώρια (πέμματα εἰς ζῴων μορφὰς τετυπωμένα, schol.) offerri solebant, verisimiliter statuit Siebelis, qui præterea laudat Phavorin. v. Βοῦς p. 384, 24 sqq., V. Ἑβδομευομ. p. 545 et Suidas v. Βοῦς ἕβδομος. Photii Lex.: Σελήνη, πόπανον ὅμοιον τῷ ἀστέρι. Τὸ δὲ αὐτὸ καὶ Σεληνὶς καὶ Ἐπισελήνιον καὶ Ἀρεστὴρ καὶ βοῦς καλεῖται. Eustath. ad Homer. p. 1165 Rom., Erasmi Adag. Chil. I, cent. 10, c. 63.</note>
+			</ref>
 		</cit>
 		</div>
 		<div type="textpart" subtype="work">
-		<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.protogonia">ΠΡΩΤΟΓΟΝΙΑ</title></ab>
+		<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.protogonia">ΠΡΩΤΟΓΟΝΙΑ</ref></title></ab>
 
 		<cit n="17">
-			<bibl>Athen. XIV, 23, p. 660, A:</bibl>
-			<quote>Ὅτι δὲ σεμνὸν ἦν ἡ μαγειρικὴ, μαθεῖν ἐστιν ἐκ τῶν Ἀθήνησι Κηρύκων· οἵδε γὰρ μαγείρων καὶ βουτύπων ἐπεῖχον τάξιν, ὥς φησι Κλείδημος ἐν Πρωτογονίας πρώτῳ.</quote>
-			<note type="translation">Fuisse in honore coquorum artem, intelligere licet ex Cerycibus apud Athenienses. Hi enim coquorum et poparum victimas mactantium fungebantur munere, ut ait Clidemus libro primo Protogoniæ.</note>
-			<note type="commentary">Schweigh. ex Ms. edidit σεμνὸν ἦν ἡ μαγ. Idem Clidemi esse censet quæ sequuntur apud Athenæum: Ὅμηρός τε τὸ ῥέζειν ἐπὶ τοῦ θύειν τάσσει· τὸ δὲ θύειν ἐπὶ τοῦ ψαιστὰ μεταδόρπια θυμιᾶν. Καὶ οἱ καλαιοὶ τὸ θύειν δρᾶν ὠνόμαζον. Ἔδρων δ ̓ οἱ κήρυκες ἄχρι πολλοῦ βουθυτοῦντες, φησὶ, καὶ σκευάζοντες καὶ μιστύλλοντες, ἔτι δ ̓ οἰνοχοοῦντες. Κήρυκας δ ̓ αὐτοὺς ἀπὸ τοῦ κρείττονος ὠνόμαζον. Ἀναγέγραπταί τε οὐδαμοῦ μαγείρῳ μισθὸς, ἀλλὰ κήρυκι. Si φησί bene habet, vix dubitari potest, quin ad minimum omnia, quæ leguntur post ἔδρων δ ̓ οἱ κήρυκες Clitodemo tribuenda sint: de Cerycibus enim Clitodemus disputaverat: v. fr. 2.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.protogonia:17">
+				<bibl>Athen. XIV, 23, p. 660, A:</bibl>
+				<quote>Ὅτι δὲ σεμνὸν ἦν ἡ μαγειρικὴ, μαθεῖν ἐστιν ἐκ τῶν Ἀθήνησι Κηρύκων· οἵδε γὰρ μαγείρων καὶ βουτύπων ἐπεῖχον τάξιν, ὥς φησι Κλείδημος ἐν Πρωτογονίας πρώτῳ.</quote>
+				<note type="translation">Fuisse in honore coquorum artem, intelligere licet ex Cerycibus apud Athenienses. Hi enim coquorum et poparum victimas mactantium fungebantur munere, ut ait Clidemus libro primo Protogoniæ.</note>
+				<note type="commentary">Schweigh. ex Ms. edidit σεμνὸν ἦν ἡ μαγ. Idem Clidemi esse censet quæ sequuntur apud Athenæum: Ὅμηρός τε τὸ ῥέζειν ἐπὶ τοῦ θύειν τάσσει· τὸ δὲ θύειν ἐπὶ τοῦ ψαιστὰ μεταδόρπια θυμιᾶν. Καὶ οἱ καλαιοὶ τὸ θύειν δρᾶν ὠνόμαζον. Ἔδρων δ ̓ οἱ κήρυκες ἄχρι πολλοῦ βουθυτοῦντες, φησὶ, καὶ σκευάζοντες καὶ μιστύλλοντες, ἔτι δ ̓ οἰνοχοοῦντες. Κήρυκας δ ̓ αὐτοὺς ἀπὸ τοῦ κρείττονος ὠνόμαζον. Ἀναγέγραπταί τε οὐδαμοῦ μαγείρῳ μισθὸς, ἀλλὰ κήρυκι. Si φησί bene habet, vix dubitari potest, quin ad minimum omnia, quæ leguntur post ἔδρων δ ̓ οἱ κήρυκες Clitodemo tribuenda sint: de Cerycibus enim Clitodemus disputaverat: v. fr. 2.</note>
+			</ref>
 		</cit>
 <pb n="362"/>
 
 		<cit n="18">
-			<bibl>Harpocration v. Πνυκί:</bibl>
-			<quote>... Ἡ τῶν Ἀθηναίων ἐκκλησία οὕτως ἐκαλεῖτο. Πολλὴ δ ̓ ἡ μνήμη αὐτῆς παρ ̓ Ἀττικοῖς. Κλείδημος δ ̓ ἐν τρίτῳ Πρωτογονίας, «Συνῄεσαν, φησὶν, εἰς τὴν Πνύκα, ὀνομασθεῖσαν διὰ τὸ τὴν συνοίκησιν πυκνουμένην εἶναι.»</quote>
-			<note type="translation">Pnyx; Atheniensium concio ita appellabatur; sæpe ejus mentio fit apud Atticos. Clidemus libro tertio Protogoniæ: «Conveniebant in Pnycem, ita appellatam propter hominum frequentiam in ea densatara (πυκνήν).</note>
-			<note type="commentary">Suidas et Photius eadem referunt, omittunt tamen verba ἐν τρίτῳ—εἰς τήν. Pro Κλείδημος Suidas exhibet Κλείδιμος, quod corruptum esse apparet.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.protogonia:18">
+				<bibl>Harpocration v. Πνυκί:</bibl>
+				<quote>... Ἡ τῶν Ἀθηναίων ἐκκλησία οὕτως ἐκαλεῖτο. Πολλὴ δ ̓ ἡ μνήμη αὐτῆς παρ ̓ Ἀττικοῖς. Κλείδημος δ ̓ ἐν τρίτῳ Πρωτογονίας, «Συνῄεσαν, φησὶν, εἰς τὴν Πνύκα, ὀνομασθεῖσαν διὰ τὸ τὴν συνοίκησιν πυκνουμένην εἶναι.»</quote>
+				<note type="translation">Pnyx; Atheniensium concio ita appellabatur; sæpe ejus mentio fit apud Atticos. Clidemus libro tertio Protogoniæ: «Conveniebant in Pnycem, ita appellatam propter hominum frequentiam in ea densatara (πυκνήν).</note>
+				<note type="commentary">Suidas et Photius eadem referunt, omittunt tamen verba ἐν τρίτῳ—εἰς τήν. Pro Κλείδημος Suidas exhibet Κλείδιμος, quod corruptum esse apparet.</note>
+			</ref>
 		</cit>
 		</div>
 		<div type="textpart" subtype="work">
-		<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.exegeticum">ΕΞΗΓΗΤΙΚΟΝ</title></ab>
+		<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.exegeticum">ΕΞΗΓΗΤΙΚΟΝ</ref></title></ab>
 
 		<cit n="19">
-			<bibl>Suidas V. Τριτοπάτορες:</bibl>
-			<quote>... Ὁ δὲ τὸ Ἐξηγητικὸν ποιήσας Οὐρανοῦ καὶ Γῆς φησὶν αὐτοὺς εἶναι παῖδας, ὀνόματα δὲ αὐτοῖς Κόττον, Βριάρεων καὶ Γύγην.</quote>
-			<note type="translation">Scriptor Exegetici Tritopatores dicit esse Cœli et Terræ filios, nomina autem eorum, Cottum, Briareum, Gygen.</note>
-			<note type="commentary">Clitodemi Exegeticum intelligendum esse, probabiliter conjecit Casaubonus ad Athen. IX, 18. Quæ apud Suidam præcedunt (cf. Demon. II, Phanod. IV, Philoch. II), Fabricium in Bibl. Gr. I, p. 171 induxerunt ut crederet, Exegeticum illud esse commentarium in Orphei Physicum. Quæ sententia nil habet quo se commendet. Præterea observandum est, in Exegetico non eadem Tritopatorum nomina exhibita esse atque in Orphei Physico, atque omnes fere Atthidum scriptores de Tritopatoribus disputavisse. De Clitodeini opinione v. Welcker. Trilog. p. 152 sq.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.exegeticum:19">
+				<bibl>Suidas V. Τριτοπάτορες:</bibl>
+				<quote>... Ὁ δὲ τὸ Ἐξηγητικὸν ποιήσας Οὐρανοῦ καὶ Γῆς φησὶν αὐτοὺς εἶναι παῖδας, ὀνόματα δὲ αὐτοῖς Κόττον, Βριάρεων καὶ Γύγην.</quote>
+				<note type="translation">Scriptor Exegetici Tritopatores dicit esse Cœli et Terræ filios, nomina autem eorum, Cottum, Briareum, Gygen.</note>
+				<note type="commentary">Clitodemi Exegeticum intelligendum esse, probabiliter conjecit Casaubonus ad Athen. IX, 18. Quæ apud Suidam præcedunt (cf. Demon. II, Phanod. IV, Philoch. II), Fabricium in Bibl. Gr. I, p. 171 induxerunt ut crederet, Exegeticum illud esse commentarium in Orphei Physicum. Quæ sententia nil habet quo se commendet. Præterea observandum est, in Exegetico non eadem Tritopatorum nomina exhibita esse atque in Orphei Physico, atque omnes fere Atthidum scriptores de Tritopatoribus disputavisse. De Clitodeini opinione v. Welcker. Trilog. p. 152 sq.</note>
+			</ref>
 		</cit>
 
 		<cit n="20">
-			<bibl>Athen. IX, 18, p. 409, F.:</bibl>
-			<quote>Ἰδίως δὲ καλεῖται παρ ̓ Ἀθηναίοις ἀπόνιμμα ἐπὶ τῶν εἰς τιμὴν τοῖς νεκροὶς γινομένων καὶ ἐπὶ τῶν τοὺς ἐναγεῖς καθαιρόντων, ὡς καὶ Κλείδημος ἐν τῷ ἐπιγραφομένῳ Ἐξηγητικῷ. Προθεὶς γὰρ περὶ ἐναγισμῶν γράφει τάδε· «Ὀρύξαι βόθυνον πρὸς ἑσπέραν τοῦ σήματος· ἔπειτα παρὰ τὸν βόθυνον πρὸς ἑσπέραν βλέπε, ὕδωρ κατάχεε, λέγων τάδε· Ὑμῖν ἀπόνιμμ ̓, οἷς χρὴ καὶ οἷς θέμις· ἔπειτ ̓ αὖθις μύρον κατάχεε.»</quote>
-			<note type="translation">Sigillatim apud Athenienses ἀπόνιμμα dicitur lustralis aqua, quæ vel in honorem mortuorum adhibetur, vel ad lustrandos homines piaculo quodam obstrictos: quemadmodum et Clidemus, in libro qui Exegeticus inscribitur. Nam sub titulo de inferiis scribit hæc: «Scrobem fodere oportet ab occidente sepulcri; deinde ad scrobem versus occidentem respiciens, aquam effunde, hæc verba pronuncians: Vobis lavacrum, quibus oportet et quibus fas est. Deinde rursus unguentum infunde.</note>
-			<note type="commentary">Casaubonus et Schweighæuserus Clitodemi verba in trimetrorum formam redigere studuerunt; sed Siebelis jure dubitat hiulcos et claudicantes eorum trimetros approbare. Nam ejusmodi versus possis deprehendere in quavis oratione pedestri.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.exegeticum:20">
+				<bibl>Athen. IX, 18, p. 409, F.:</bibl>
+				<quote>Ἰδίως δὲ καλεῖται παρ ̓ Ἀθηναίοις ἀπόνιμμα ἐπὶ τῶν εἰς τιμὴν τοῖς νεκροὶς γινομένων καὶ ἐπὶ τῶν τοὺς ἐναγεῖς καθαιρόντων, ὡς καὶ Κλείδημος ἐν τῷ ἐπιγραφομένῳ Ἐξηγητικῷ. Προθεὶς γὰρ περὶ ἐναγισμῶν γράφει τάδε· «Ὀρύξαι βόθυνον πρὸς ἑσπέραν τοῦ σήματος· ἔπειτα παρὰ τὸν βόθυνον πρὸς ἑσπέραν βλέπε, ὕδωρ κατάχεε, λέγων τάδε· Ὑμῖν ἀπόνιμμ ̓, οἷς χρὴ καὶ οἷς θέμις· ἔπειτ ̓ αὖθις μύρον κατάχεε.»</quote>
+				<note type="translation">Sigillatim apud Athenienses ἀπόνιμμα dicitur lustralis aqua, quæ vel in honorem mortuorum adhibetur, vel ad lustrandos homines piaculo quodam obstrictos: quemadmodum et Clidemus, in libro qui Exegeticus inscribitur. Nam sub titulo de inferiis scribit hæc: «Scrobem fodere oportet ab occidente sepulcri; deinde ad scrobem versus occidentem respiciens, aquam effunde, hæc verba pronuncians: Vobis lavacrum, quibus oportet et quibus fas est. Deinde rursus unguentum infunde.</note>
+				<note type="commentary">Casaubonus et Schweighæuserus Clitodemi verba in trimetrorum formam redigere studuerunt; sed Siebelis jure dubitat hiulcos et claudicantes eorum trimetros approbare. Nam ejusmodi versus possis deprehendere in quavis oratione pedestri.</note>
+			</ref>
 		</cit>
 
 		<cit n="21">
-			<bibl>Suidas et Photius:</bibl>
-			<quote>Ὕης, ἐπίθετον Διονύσου, ὡς Κλείδημος· «Ἐπειδὴ, φησὶν, ἐπιτελοῦμεν θυσίας αὐτῷ καθ ̓ ὃν ὁ θεὸς ὕει χρόνον.»</quote>
-			<note type="translation">Hyes. Epithetum Bacchi, quemadmodum ait Clidemus: «Quoniam ipsi sacrificia facimus eo tempore, quo deus pluit.»</note>
-			<note type="commentary">Etym. M. auctor et Phavorinus eadem referunt, sed non exhibent φησὶν et ante θυσίας ponunt τὰς. Neque in hoc fragmento, quod ex Exegetico haud dubie sumtum est,justos trimetros deprehendimus.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.exegeticum:21">
+				<bibl>Suidas et Photius:</bibl>
+				<quote>Ὕης, ἐπίθετον Διονύσου, ὡς Κλείδημος· «Ἐπειδὴ, φησὶν, ἐπιτελοῦμεν θυσίας αὐτῷ καθ ̓ ὃν ὁ θεὸς ὕει χρόνον.»</quote>
+				<note type="translation">Hyes. Epithetum Bacchi, quemadmodum ait Clidemus: «Quoniam ipsi sacrificia facimus eo tempore, quo deus pluit.»</note>
+				<note type="commentary">Etym. M. auctor et Phavorinus eadem referunt, sed non exhibent φησὶν et ante θυσίας ponunt τὰς. Neque in hoc fragmento, quod ex Exegetico haud dubie sumtum est,justos trimetros deprehendimus.</note>
+			</ref>
 		</cit>
 
 		<cit n="22">
-			<bibl>Suidas v. Ἄπεδα et Ἠπέδιζον:</bibl>
-			<quote>Ἄπεδα, τὰ ἰσόπεδα. Κλείδημος· «Καὶ ἠπέδιζον τὴν ἀκρόπολιν, περιέβαλλον δὲ ἐννεάπυλον τὸ Πελασγικόν.»</quote>
-			<note type="translation">Plana. Clidemus: «Et arcem complanarunt, et Pelasgico muro novem portas habente cinxerunt.»</note>
-			<note type="commentary">Eundem locum servavit scriptor συναγωγῆς λέξεων χρησίμων ap. Bekker. Anecd. p. 419, 28. Siebelis putat, hoc fragmentum ex Exegetico depromptum esse, sed nobis probatum est, pertinere id ad Atthidem, in qua et alii Atthidum scriptores de Pelasgis disputaverunt. Cf. Philoch. VII.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.exegeticum:22">
+				<bibl>Suidas v. Ἄπεδα et Ἠπέδιζον:</bibl>
+				<quote>Ἄπεδα, τὰ ἰσόπεδα. Κλείδημος· «Καὶ ἠπέδιζον τὴν ἀκρόπολιν, περιέβαλλον δὲ ἐννεάπυλον τὸ Πελασγικόν.»</quote>
+				<note type="translation">Plana. Clidemus: «Et arcem complanarunt, et Pelasgico muro novem portas habente cinxerunt.»</note>
+				<note type="commentary">Eundem locum servavit scriptor συναγωγῆς λέξεων χρησίμων ap. Bekker. Anecd. p. 419, 28. Siebelis putat, hoc fragmentum ex Exegetico depromptum esse, sed nobis probatum est, pertinere id ad Atthidem, in qua et alii Atthidum scriptores de Pelasgis disputaverunt. Cf. Philoch. VII.</note>
+			</ref>
 		</cit>
 
 		<cit n="23">
-			<bibl>Hesych.:</bibl>
-			<quote>Προηρόσια· τὰ πρὸ τοῦ ἀρότου θύματα. Καὶ ὁ Κλείδημος δὲ αὐτὰ Προακτούρια καλεῖ.</quote>
-			<note type="translation">Proerosia, sacra quæ fiunt ante arationem. Clitodemus ea vocat Proacturia</note>
-			<note type="commentary">Alberti ad h. l. et Ruhnken, ad Tim. p. 159 mutarunt vulg. καὶ ὁ Δῆμος in καὶ ὁ Κλείδημος; sed καὶ ὁ ex Κλειτο. in Κλειτόδημος ortum esse videtur.—Pro Προακτούρια Pergerus scribi voluit Προαρκτούρια, quod ipsum in codice (p. 663 Schow.) legitur. Hoc fragmentum ad Exegeticum pertinere admodum probabile est.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.exegeticum:23">
+				<bibl>Hesych.:</bibl>
+				<quote>Προηρόσια· τὰ πρὸ τοῦ ἀρότου θύματα. Καὶ ὁ Κλείδημος δὲ αὐτὰ Προακτούρια καλεῖ.</quote>
+				<note type="translation">Proerosia, sacra quæ fiunt ante arationem. Clitodemus ea vocat Proacturia</note>
+				<note type="commentary">Alberti ad h. l. et Ruhnken, ad Tim. p. 159 mutarunt vulg. καὶ ὁ Δῆμος in καὶ ὁ Κλείδημος; sed καὶ ὁ ex Κλειτο. in Κλειτόδημος ortum esse videtur.—Pro Προακτούρια Pergerus scribi voluit Προαρκτούρια, quod ipsum in codice (p. 663 Schow.) legitur. Hoc fragmentum ad Exegeticum pertinere admodum probabile est.</note>
+			</ref>
 		</cit>
 		</div>
 		<div type="textpart" subtype="work">
-		<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.reditus">ΝΟΣΤΟΙ</title></ab>
+		<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.reditus">ΝΟΣΤΟΙ</ref></title></ab>
 <pb n="363"/>
 
 		<cit n="24">
-			<bibl>Athenæus XIII, p. 609, C, de Phya et de Pisistrati filiis:</bibl>
-			<quote>Στεφανόπωλις δὲ ἦν, καὶ αὐτὴν ἐξέδωκε πρὸς γάμου κοινωνίαν ὁ Πεισίστρατος Ἱππάρχῳ τῷ υἱῷ, ὡς Κλείδημος ἱστορεῖ ἐν ὀγδόῳ Νόστων· «Ἐξέδωκε δὲ καὶ Ἱππάρχῳ τῷ υἱεῖ τὴν παραιβατήσασαν αὐτῷ γυναῖκα Φύην, τὴν Σωκράτους θυγατέρα· καὶ Χάρμου τοῦ πολεμαρχήσαντος θυγατέρα ἔλαβεν Ἱππίᾳ, Περικαλλεστάτην οὖσαν, τῷ μετ ̓ αὐτὸν τυραννεύσαντι.» Συνέβη δὲ, ὥς φησι, τὸν Χάρμον ἐραστὴν τοῦ Ἱππίου γενέσθαι καὶ τὸν πρὸς Ἀκαδημίᾳ Ἔρωτα ἱδρύσασθαι πρῶτον, ἐφ ̓ οὗ ἐπιγέγραπται· Ποικιλομήχαν ̓ Ἔρως, σοὶ τόνδ ̓ ἱδρύσατο βωμὸν Χάρμος ἐπὶ σκιεροῖς τέρμασι γυμνασίου.</quote>
-			<note type="translation">Fuerat Phya illa corollarum venditrix; eamque in matrimonium dedit Pisistratus Hipparcho filio, ut Clidemus narrat octavo libro Nostorum. «Dedit vero (inquit) etiam Hipparcho filio in matrimonium mulierem illam, quæ curru urbem cum ipso invecta erat, Phyam Socratis filiam; et Charmi, qui polemarchus fuerat, filiam forma præstantissimam Hippiæ dedit uxorem; is post ipsum tyrannidem occupavit.» Fuerat autem, ut ait, Charmus ille amator Hippiæ, et Cupidinem illum apud Academiam primus posuit, qui hos versiculos inscriptos habet: Vafer Amor, tibi hanc aram erexit Charmus ad umbrosum limitem gymnasii.</note>
-			<note type="commentary">Ita Schweigh. codicum ope hunc locum correxit: vulgo legebatur: Θυγατέρα (καὶ Χάρμου ... Ἱππίας περικαλλεστάτην οὖσαν) τῷ etc. Fortasse scribendum: τὸν πρὸς Ἀκαδημίᾳ Ἔρωτος βωμὸν, quod Siebelis proposuit. Cf. Pausan. I, 30.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.reditus:24">
+				<bibl>Athenæus XIII, p. 609, C, de Phya et de Pisistrati filiis:</bibl>
+				<quote>Στεφανόπωλις δὲ ἦν, καὶ αὐτὴν ἐξέδωκε πρὸς γάμου κοινωνίαν ὁ Πεισίστρατος Ἱππάρχῳ τῷ υἱῷ, ὡς Κλείδημος ἱστορεῖ ἐν ὀγδόῳ Νόστων· «Ἐξέδωκε δὲ καὶ Ἱππάρχῳ τῷ υἱεῖ τὴν παραιβατήσασαν αὐτῷ γυναῖκα Φύην, τὴν Σωκράτους θυγατέρα· καὶ Χάρμου τοῦ πολεμαρχήσαντος θυγατέρα ἔλαβεν Ἱππίᾳ, Περικαλλεστάτην οὖσαν, τῷ μετ ̓ αὐτὸν τυραννεύσαντι.» Συνέβη δὲ, ὥς φησι, τὸν Χάρμον ἐραστὴν τοῦ Ἱππίου γενέσθαι καὶ τὸν πρὸς Ἀκαδημίᾳ Ἔρωτα ἱδρύσασθαι πρῶτον, ἐφ ̓ οὗ ἐπιγέγραπται· Ποικιλομήχαν ̓ Ἔρως, σοὶ τόνδ ̓ ἱδρύσατο βωμὸν Χάρμος ἐπὶ σκιεροῖς τέρμασι γυμνασίου.</quote>
+				<note type="translation">Fuerat Phya illa corollarum venditrix; eamque in matrimonium dedit Pisistratus Hipparcho filio, ut Clidemus narrat octavo libro Nostorum. «Dedit vero (inquit) etiam Hipparcho filio in matrimonium mulierem illam, quæ curru urbem cum ipso invecta erat, Phyam Socratis filiam; et Charmi, qui polemarchus fuerat, filiam forma præstantissimam Hippiæ dedit uxorem; is post ipsum tyrannidem occupavit.» Fuerat autem, ut ait, Charmus ille amator Hippiæ, et Cupidinem illum apud Academiam primus posuit, qui hos versiculos inscriptos habet: Vafer Amor, tibi hanc aram erexit Charmus ad umbrosum limitem gymnasii.</note>
+				<note type="commentary">Ita Schweigh. codicum ope hunc locum correxit: vulgo legebatur: Θυγατέρα (καὶ Χάρμου ... Ἱππίας περικαλλεστάτην οὖσαν) τῷ etc. Fortasse scribendum: τὸν πρὸς Ἀκαδημίᾳ Ἔρωτος βωμὸν, quod Siebelis proposuit. Cf. Pausan. I, 30.</note>
+			</ref>
 		</cit>
 		</div>
 		<div type="textpart" subtype="work">
-		<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmentum_incertae_sedis">FRAGMENTUM INCERTAE SEDIS</title></ab>
+		<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmentum_incertae_sedis">FRAGMENTUM INCERTAE SEDIS</ref></title></ab>
 
 		<cit n="25">
-			<bibl>Hesych.:</bibl>
-			<quote>Προοικίαι. Παρὰ Κλειτοδήμῳ, ἐν ἴσῳ τῷ δήμῳ.</quote>
-			<note type="translation">Προοικίαι apud Clitodemum: idem cum Demo.</note>
-			<note type="commentary">Phavorinus h. v. Hesychii verba repetivit. Ultima ista ἐν ἴσῳ τῷ δήμῳ haud dubie corrupta sunt, eaque Meursius in Bibl. Gr. s. v. Clitodemus ita corrigere voluit: ἐν Οἴῳ τῷ δήμῳ: quum crederet, Atthidis Clitodemi partem fuisse περὶ τῶν δήμων τῆς Ἀττικῆς. Bruno et Is. Vossius proposuerunt: ἐν γείσῳ τοῦ δήμου. Siebelis, si vox γεῖσον recipienda sit, mavult: παρὰ Κλειτοδήμῳ γεῖσα τῶν δήμων. Idem has profert conjecturas, παρὰ Κλειτοδήμῳ εἰσὶν οἱ πρόδομοι, ... παρὰ Κλειτοδήμῳ ἐν ἴσῳ τοῖς προδόμοις. Sed melius et facilius hæc verba emendare nobis videmur scribentes ἐν ἴσῳ τῷ Δήμῳ, quæ glossema esse putamus ad nomen Κλειτοδήμῳ pertinens. Quum enim apud Hesychium in duobus locis (IX, XXIV) corrupte scriptum esset Δῆμος pro Κλειτόδημος, in hoc vero loco et s. V. Βοῦς ἕβδομος (XVII) Clitodemi nomen recte exhibitum esset, suspicatus fuerit aliquis, in omnibus istis locis eundem auctorem esse intelligendum, quare hic adnotaverit: ἐν ἴσῳ τῷ Δήμῳ, idem ac Demus. Id eo probabilius nobis videtur, quod ab hoc loco non multum distat alter illorum locorum, quibus Clitodemi nomen depravatum est (v. Προηρόσια).</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmentum_incertae_sedis:25">
+				<bibl>Hesych.:</bibl>
+				<quote>Προοικίαι. Παρὰ Κλειτοδήμῳ, ἐν ἴσῳ τῷ δήμῳ.</quote>
+				<note type="translation">Προοικίαι apud Clitodemum: idem cum Demo.</note>
+				<note type="commentary">Phavorinus h. v. Hesychii verba repetivit. Ultima ista ἐν ἴσῳ τῷ δήμῳ haud dubie corrupta sunt, eaque Meursius in Bibl. Gr. s. v. Clitodemus ita corrigere voluit: ἐν Οἴῳ τῷ δήμῳ: quum crederet, Atthidis Clitodemi partem fuisse περὶ τῶν δήμων τῆς Ἀττικῆς. Bruno et Is. Vossius proposuerunt: ἐν γείσῳ τοῦ δήμου. Siebelis, si vox γεῖσον recipienda sit, mavult: παρὰ Κλειτοδήμῳ γεῖσα τῶν δήμων. Idem has profert conjecturas, παρὰ Κλειτοδήμῳ εἰσὶν οἱ πρόδομοι, ... παρὰ Κλειτοδήμῳ ἐν ἴσῳ τοῖς προδόμοις. Sed melius et facilius hæc verba emendare nobis videmur scribentes ἐν ἴσῳ τῷ Δήμῳ, quæ glossema esse putamus ad nomen Κλειτοδήμῳ pertinens. Quum enim apud Hesychium in duobus locis (IX, XXIV) corrupte scriptum esset Δῆμος pro Κλειτόδημος, in hoc vero loco et s. V. Βοῦς ἕβδομος (XVII) Clitodemi nomen recte exhibitum esset, suspicatus fuerit aliquis, in omnibus istis locis eundem auctorem esse intelligendum, quare hic adnotaverit: ἐν ἴσῳ τῷ Δήμῳ, idem ac Demus. Id eo probabilius nobis videtur, quod ab hoc loco non multum distat alter illorum locorum, quibus Clitodemi nomen depravatum est (v. Προηρόσια).</note>
+			</ref>
 		</cit>
 		</div>
 		<div type="textpart" subtype="work">
-		<ab><title ref="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incerta">FRAGMENTA INCERTA</title></ab>
+		<ab><title><ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incerta">FRAGMENTA INCERTA</ref></title></ab>
 
 		<cit n="26">
-			<bibl>Theophrast. Histor. Plant. III, 2:</bibl>
-			<quote>Κλείδημος δὲ συνεστάναι μὲν ἐκ τῶν αὐτῶν τοῖς ζῴοις τὰ φυτά· ὅσῳ δὲ θολερωτέρων καὶ ψυχροτέρων, τοσοῦτον ἀπέχειν τοῦ ζῷα εἶναι.</quote>
-			<note type="translation">Clidemus ex iisdem quidem elementis animalia et plantas constare putavit, sed impurioribus et minus calidis: itaque tanto naturam earum ab animali distare.</note>
-			<note type="commentary">Κλείδημος a Meursio in Lectt. Theophr. in Gronov. Thes. X, p. 647, pro Κλεόδημος restitutum est.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incerta:26">
+				<bibl>Theophrast. Histor. Plant. III, 2:</bibl>
+				<quote>Κλείδημος δὲ συνεστάναι μὲν ἐκ τῶν αὐτῶν τοῖς ζῴοις τὰ φυτά· ὅσῳ δὲ θολερωτέρων καὶ ψυχροτέρων, τοσοῦτον ἀπέχειν τοῦ ζῷα εἶναι.</quote>
+				<note type="translation">Clidemus ex iisdem quidem elementis animalia et plantas constare putavit, sed impurioribus et minus calidis: itaque tanto naturam earum ab animali distare.</note>
+				<note type="commentary">Κλείδημος a Meursio in Lectt. Theophr. in Gronov. Thes. X, p. 647, pro Κλεόδημος restitutum est.</note>
+			</ref>
 		</cit>
 
 		<cit n="27">
-			<bibl>Theophr. De causs. plant. I, 10:</bibl>
-			<quote>Τὰ μὲν ψυχρὰ τοῦ θέρους, τὰ δὲ θερμὰ τοῦ χειμῶνος βλαστάνειν, ὥστε ἑκατέραν τὴν φύσιν σύμμετρον εἶναι πρὸς ἑκατέραν τῶν ὡρῶν· οὕτω γὰρ οἴεται καὶ Κλείδημος, οὑ κακῶς μέν.</quote>
-			<note type="translation">Frigida æstate, calida hieme geminare existimant, ut utraque natura attemperata utrique tempori sit. Ita enim et Clidemus censet. Quæ quidem opinio fortasse haud falsa est.</note>
-			<note type="commentary"/>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incerta:27">
+				<bibl>Theophr. De causs. plant. I, 10:</bibl>
+				<quote>Τὰ μὲν ψυχρὰ τοῦ θέρους, τὰ δὲ θερμὰ τοῦ χειμῶνος βλαστάνειν, ὥστε ἑκατέραν τὴν φύσιν σύμμετρον εἶναι πρὸς ἑκατέραν τῶν ὡρῶν· οὕτω γὰρ οἴεται καὶ Κλείδημος, οὑ κακῶς μέν.</quote>
+				<note type="translation">Frigida æstate, calida hieme geminare existimant, ut utraque natura attemperata utrique tempori sit. Ita enim et Clidemus censet. Quæ quidem opinio fortasse haud falsa est.</note>
+				<note type="commentary"/>
+			</ref>
 		</cit>
 
 		<cit n="28">
-			<bibl>Theophr. De causs. plant. 3, 28:</bibl>
-			<quote>Ἐπιῤῥεῖν κελεύουσιν οἱ μὲν Πλειάδος· ξηρὰν γὰρ ἄνικμόν τε οὖσαν διαφυλάττειν τὸ σπέρμα τὴν γῆν· οἱ δ ̓ ἅμα Πλειάσι δυομέναις, ὥσπερ καὶ Κλείδημος· ἐπιγίνεσθαι γὰρ ὕδατα καὶ πολλὰ τῇ ἑβδόμῃ μετὰ τὴν δύσιν.</quote>
-			<note type="translation">Serere jubent alii vergiliis orieutibus; tunc enim semina servari in terra sicca, et sine ullo humore: alii occidentibus, ut etiam Clidemus, quod imbres die septimo ab occasu insequantur.</note>
-			<note type="commentary">Pro ἐπιῤῥεῖν scribendum esse σπείρειν monet Siebelis.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incerta:28">
+				<bibl>Theophr. De causs. plant. 3, 28:</bibl>
+				<quote>Ἐπιῤῥεῖν κελεύουσιν οἱ μὲν Πλειάδος· ξηρὰν γὰρ ἄνικμόν τε οὖσαν διαφυλάττειν τὸ σπέρμα τὴν γῆν· οἱ δ ̓ ἅμα Πλειάσι δυομέναις, ὥσπερ καὶ Κλείδημος· ἐπιγίνεσθαι γὰρ ὕδατα καὶ πολλὰ τῇ ἑβδόμῃ μετὰ τὴν δύσιν.</quote>
+				<note type="translation">Serere jubent alii vergiliis orieutibus; tunc enim semina servari in terra sicca, et sine ullo humore: alii occidentibus, ut etiam Clidemus, quod imbres die septimo ab occasu insequantur.</note>
+				<note type="commentary">Pro ἐπιῤῥεῖν scribendum esse σπείρειν monet Siebelis.</note>
+			</ref>
 		</cit>
 <pb n="364"/>
 
 		<cit n="29">
-			<bibl>Theophrast. De caus. plant. 5, 12:</bibl>
-			<quote>Ὡς ἐπὶ πολὺ δ ̓ ἐκ τῶν τοιούτων συμβαίνει συκῇ μὲν ψωριᾷν, ἐλαίᾳ δὲ λειχηνιᾷν, ἀμπέλῳ δὲ ῥεῖν, ὥσπερ καὶ Κλείδημός φησι.</quote>
-			<note type="translation">Ex hujusmodi causa plerumque ficus scabiem, olea lichenem, vitis fluorem patitur, ut Clidemus quoque auctor est.</note>
-			<note type="commentary"/>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incerta:29">
+				<bibl>Theophrast. De caus. plant. 5, 12:</bibl>
+				<quote>Ὡς ἐπὶ πολὺ δ ̓ ἐκ τῶν τοιούτων συμβαίνει συκῇ μὲν ψωριᾷν, ἐλαίᾳ δὲ λειχηνιᾷν, ἀμπέλῳ δὲ ῥεῖν, ὥσπερ καὶ Κλείδημός φησι.</quote>
+				<note type="translation">Ex hujusmodi causa plerumque ficus scabiem, olea lichenem, vitis fluorem patitur, ut Clidemus quoque auctor est.</note>
+				<note type="commentary"/>
+			</ref>
 		</cit>
 
 		<cit n="30">
-			<bibl>Aristotel. Meteorol. 2, 9:</bibl>
-			<quote>Εἰσὶ δέ τινες, οἳ τὴν ἀστραπὴν, ὥσπερ καὶ Κλείδημος, οὐκ εἶναί φασιν, ἀλλὰ φαίνεσθαι, παρεικάζοντες ὡς τὸ πάθος ὅμοιον ὂν, καὶ ὅταν τὴν θάλαττάν τις ῥάβδῳ τύπτῃ· φαίνεται γὰρ τὸ ὕδωρ ἀποστίλβον τῆς νυκτός· οὕτως ἐν τῇ νεφέλῃ, ῥαπιζομένου τοῦ ὑγροῦ, τὴν φαντασίαν τῆς λαμπρότητος εἶναι τὴν ἀστραπήν.</quote>
-			<note type="translation">Sunt qui fulgur, quemadmodum et Clidemus, haud esse dicant, sed apparere, comparantes ut similem affectionem, si mare virga percutiatur (aqua enim noctu resplendere videtur); sic, quum humor in nebula percutiatur, splendoris apparentiam esse fulgur.</note>
-			<note type="commentary">Eadem exstant in Alexandri Aphrodis. Hypomn. Εἰς δευτ. Τῶν Μετεωρ. Ἀριστοτελ. p. 112, a, b. Venet. 1527.</note>
+			<ref target="http://www.dfhg-project.org/DFHG/#urn:cite:lofts:fhg.clidemus.clitodemi_fragmenta.fragmenta_incerta:30">
+				<bibl>Aristotel. Meteorol. 2, 9:</bibl>
+				<quote>Εἰσὶ δέ τινες, οἳ τὴν ἀστραπὴν, ὥσπερ καὶ Κλείδημος, οὐκ εἶναί φασιν, ἀλλὰ φαίνεσθαι, παρεικάζοντες ὡς τὸ πάθος ὅμοιον ὂν, καὶ ὅταν τὴν θάλαττάν τις ῥάβδῳ τύπτῃ· φαίνεται γὰρ τὸ ὕδωρ ἀποστίλβον τῆς νυκτός· οὕτως ἐν τῇ νεφέλῃ, ῥαπιζομένου τοῦ ὑγροῦ, τὴν φαντασίαν τῆς λαμπρότητος εἶναι τὴν ἀστραπήν.</quote>
+				<note type="translation">Sunt qui fulgur, quemadmodum et Clidemus, haud esse dicant, sed apparere, comparantes ut similem affectionem, si mare virga percutiatur (aqua enim noctu resplendere videtur); sic, quum humor in nebula percutiatur, splendoris apparentiam esse fulgur.</note>
+				<note type="commentary">Eadem exstant in Alexandri Aphrodis. Hypomn. Εἰς δευτ. Τῶν Μετεωρ. Ἀριστοτελ. p. 112, a, b. Venet. 1527.</note>
+			</ref>
 		</cit>
 		</div>
 	</div>
