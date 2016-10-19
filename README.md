@@ -6,6 +6,7 @@ This repository contains data exported from the [DFHG project](http://www.dfhg-p
 * [CSV files](https://github.com/DFHG-project/volume_1/tree/master/csv_files) of FHG authors (see also [http://www.dfhg-project.org/DFHG/export_csv.php](http://www.dfhg-project.org/DFHG/export_csv.php))
 * [XML files](https://github.com/DFHG-project/volume_1/tree/master/xml_files) of FHG authors (see also [http://www.dfhg-project.org/DFHG/export_xml.php](http://www.dfhg-project.org/DFHG/export_xml.php))
 * [Index Nominum et Rerum](https://github.com/DFHG-project/volume_1/blob/master/index_nominum_rerum.csv) of FHG vol. 1
+* [Concordance table of DFHG and CITE urns of fragments published in FGH vol. 1](https://github.com/DFHG-project/volume_1/blob/master/dfhg_cite_urns.csv)
 
 `csv` and `xml` files have been automatically generated from data stored in the DFHG database. `xml` files are encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.
 
