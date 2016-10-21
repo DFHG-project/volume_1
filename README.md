@@ -34,10 +34,10 @@ FHG vol. 1 includes the following authors:
 
 ***
 The following table includes links to different collections for every author published in FHG vol. 1:
-* 1) [*Digital Fragmenta Historicorum Graecorum* (DFHG)](http://www.dfhg-project.org/);
-* 2) [*Die Fragmente der Griechischen Historiker* Part I-III (FGrHist)](http://referenceworks.brillonline.com/browse/die-fragmente-der-griechischen-historiker-i-iii);
-* 3) [*Brill's New Jacoby* (BNJ)](http://referenceworks.brillonline.com/browse/brill-s-new-jacoby);
-* 4) [Perseus Catalog](http://catalog.perseus.org/).
+* [*Digital Fragmenta Historicorum Graecorum* (DFHG)](http://www.dfhg-project.org/);
+* [*Die Fragmente der Griechischen Historiker* Part I-III (FGrHist)](http://referenceworks.brillonline.com/browse/die-fragmente-der-griechischen-historiker-i-iii);
+* [*Brill's New Jacoby* (BNJ)](http://referenceworks.brillonline.com/browse/brill-s-new-jacoby);
+* [Perseus Catalog](http://catalog.perseus.org/).
 
 Multiple entries in the same collection mean that the author has been published in different parts of that specific collection. Missing entries mean that the author has not been published yet. Access to the *FGrHist* and the *BNJ* is not free, but has to be purchased through [Brill](http://referenceworks.brillonline.com/) or can be obtained through an institution offering the service.
 
