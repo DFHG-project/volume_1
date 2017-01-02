@@ -1,10 +1,10 @@
 ## DFHG volume 1
 
-This repository contains data exported from the [DFHG project](http://www.dfhg-project.org/) - vol. 1:
+This page contains links to data from the [DFHG project](http://www.dfhg-project.org/) - vol. 1:
 
 * [Praefatio](http://www.dfhg-project.org/DFHG/praefatio_volumen_primum.php) of FHG vol. 1
-* CSV files of FHG authors: see [http://www.dfhg-project.org/DFHG/export_csv.php](http://www.dfhg-project.org/DFHG/export_csv.php))
-* XML files of FHG authors: see [http://www.dfhg-project.org/DFHG/export_xml.php](http://www.dfhg-project.org/DFHG/export_xml.php))
+* [CSV files of FHG authors](http://www.dfhg-project.org/DFHG/export_csv.php)
+* [XML files of FHG authors](http://www.dfhg-project.org/DFHG/export_xml.php)
 * [Index Nominum et Rerum](http://www.dfhg-project.org/DFHG/index_nominum_rerum_volumen_primum.php) of FHG vol. 1
 * [Concordance table of DFHG and CITE urns] (https://github.com/DFHG-project/volume_1/blob/master/dfhg_cite_urns.csv) of fragments published in FHG vol. 1. `dfhg urns` represent the structure of Karl Müller's edition for each author and each fragment, while `cite urns` are developed according to the [CITE Architecture](http://cite-architecture.github.io/) and identify each fragment in the FHG collection.
 
