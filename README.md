@@ -2,7 +2,7 @@
 
 This page contains links to data from the [DFHG project](http://www.dfhg-project.org/) - vol. 1:
 
-* [Praefatio](http://www.dfhg-project.org/DFHG/praefatio_volumen_primum.php) of FHG vol. 1
+* [Praefatio](http://www.dfhg-project.org/DFHG/static_viewer.php?file=praefatio_volumen_primum.html) of FHG vol. 1
 * [CSV files](http://www.dfhg-project.org/DFHG/export_csv.php) of FHG authors vol. 1
 * [XML files](http://www.dfhg-project.org/DFHG/export_xml.php) of FHG authors vol. 1
 * [Index Nominum et Rerum](http://www.dfhg-project.org/DFHG/index_nominum_rerum_volumen_primum.php) of FHG vol. 1
