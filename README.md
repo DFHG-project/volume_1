@@ -1,4 +1,4 @@
-## DFHG volume 1
+## DFHG Volumen Primum
 
 This page contains links to data from the [DFHG project](http://www.dfhg-project.org/) - vol. 1:
 
