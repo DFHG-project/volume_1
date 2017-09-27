@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/66556618.svg)](https://zenodo.org/badge/latestdoi/66556618)
+
 ## DFHG Volumen Primum
 
 This repository stores data from the [DFHG project](http://www.dfhg-project.org/) - [Volumen Primum](http://www.dfhg-project.org/DFHG/index.php?volume=Volumen%20primum#volumen_primum).
