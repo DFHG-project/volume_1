@@ -6,7 +6,10 @@ This repository stores data from the [DFHG project](http://www.dfhg-project.org/
 
 The volume contains 20 authors dating from the 6th century through the 2nd century BC, including Apollodorus of Athens (with fragments of the <i>Bibliotheca</i>), historians of Sicily (Antiochus of Syracuse, Philistus of Syracuse, Timaeus of Tauromenius), the Atthidographers (Clidemus, Phanodemus, Androtio, Demo, Philochorus, and Ister), Hecataeus of Miletus, Charon of Lampsacus, Xanthus of Lydia, Hellanicus of Lesbos, Pherecydes, Acusilaus of Argos, Ephorus, Theopompus and Phylarchus. An appendix includes also the <i>Marmor Parium</i> and the Greek text of the <i>Marmor Rosettanum</i>.
 
-`xml` files have been automatically generated from data stored in the DFHG database and are encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.
+`xml` files have been automatically generated from data stored in the DFHG database and are encoded in accordance with the CTS/CITE Architecture.
+The repository contains two kinds of files arranged by DFHG authors:
+* Epidoc `xml` files that are encoded in accordance with EpiDoc standards and represent the structure of the edition of the FHG.
+* Well formed `xml` files that collect information about fragments and extant texts collected in the FHG.
 
 #### License
 
